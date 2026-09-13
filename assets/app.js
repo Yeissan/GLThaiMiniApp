@@ -194,9 +194,7 @@ function renderSeries(id) {
 
 
   if (!s) {
-
     renderCatalog();
-
     return;
   }
 
@@ -208,8 +206,7 @@ function renderSeries(id) {
   const disponibles = eps.length;
 
 
-  // Total de capítulos de la serie.
-  // Acepta varios nombres por si cambia el generador.
+  // Total de capítulos
   const total =
     Number(
       s.total_episodes ??
@@ -218,12 +215,6 @@ function renderSeries(id) {
       s.totalEpisodes ??
       disponibles
     ) || disponibles;
-
-
-  const telegramURL =
-    s.telegram_url ||
-    s.topic_url ||
-    '';
 
 
   app.innerHTML = `
@@ -280,24 +271,17 @@ function renderSeries(id) {
       ${
         [
           s.country,
-
           s.year,
-
           s.rating
             ? `⭐ ${s.rating}`
             : null,
-
           ...(s.display_genres || s.genres || [])
-
         ]
-
         .filter(Boolean)
-
         .map(
           x =>
             `<span class="chip">${esc(x)}</span>`
         )
-
         .join('')
       }
 
@@ -351,7 +335,6 @@ function renderSeries(id) {
             ${
               s.cast
                 .slice(0, 12)
-
                 .map(a => `
 
                   <span>
@@ -367,7 +350,6 @@ function renderSeries(id) {
                   </span>
 
                 `)
-
                 .join('')
             }
 
@@ -379,47 +361,24 @@ function renderSeries(id) {
     }
 
 
-    ${
-      telegramURL
+    <button
+      class="chapter-link"
+      id="open-chapters"
+    >
 
-        ? `
+      <span class="chapter-name">
+        ▶ Ver capítulos
+      </span>
 
-          <button
-            class="chapter-link"
-            data-tg="${esc(telegramURL)}"
-          >
-            <span class="chapter-name">
-              Capítulos ver
-            </span>
+      <span class="chapter-count">
+        ${disponibles}/${total}
+      </span>
 
-            <span class="chapter-count">
-              ${disponibles}/${total}
-            </span>
+      <span class="chapter-arrow">
+        →
+      </span>
 
-            <span class="chapter-arrow">
-              →
-            </span>
-
-          </button>
-
-        `
-
-        : `
-
-          <div class="chapter-link disabled">
-
-            <span class="chapter-name">
-              ▶ Ver capítulos
-            </span>
-
-            <span class="chapter-count">
-              ${disponibles}/${total}
-            </span>
-
-          </div>
-
-        `
-    }
+    </button>
 
 
     <div
@@ -438,11 +397,9 @@ function renderSeries(id) {
               .join('')
 
           : `
-
             <div class="empty">
               Todavía no hay capítulos registrados.
             </div>
-
           `
       }
 
@@ -461,21 +418,41 @@ function renderSeries(id) {
     );
 
 
-  // ABRIR TELEGRAM
+  // BOTÓN VER CAPÍTULOS
 
-  app
-    .querySelectorAll('[data-tg]')
-    .forEach(b => {
+  const chaptersButton =
+    document.getElementById('open-chapters');
 
-      b.addEventListener(
-        'click',
-        () =>
-          openTelegram(
-            b.dataset.tg
-          )
-      );
 
-    });
+  if (chaptersButton) {
+
+    chaptersButton.addEventListener(
+      'click',
+      () => {
+
+        const url =
+          s.telegram_url ||
+          s.topic_url ||
+          eps.find(e => e.topic_url)?.topic_url ||
+          eps.find(e => e.telegram_url)?.telegram_url ||
+          '';
+
+        if (url) {
+
+          openTelegram(url);
+
+        } else {
+
+          alert(
+            'Todavía no hay un enlace de Telegram para esta serie.'
+          );
+
+        }
+
+      }
+    );
+
+  }
 
 }
 
@@ -625,6 +602,10 @@ fetch(
 });
 
 
+window.addEventListener(
+  'hashchange',
+  route
+);
 window.addEventListener(
   'hashchange',
   route
