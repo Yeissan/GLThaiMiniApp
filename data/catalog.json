@@ -28,13 +28,10 @@
       ],
       "poster": "series/23.5/folder.jpg",
       "banner": "series/23.5/banner.jpg",
-      "country": "Tailandia",
-      "display_genres": [
-        "Romance",
-        "Escolar",
-        "GL"
-      ],
-      "topic_url": "",
+      "country": "",
+      "display_genres": [],
+      "topic_url": "https://t.me/c/3974971985/4/14",
+      "total_episodes": 12,
       "cast": [
         {
           "name": "AJ Chayapol Jutamas",
@@ -81,13 +78,7 @@
           "role": "Luna"
         }
       ],
-      "episodes": [
-        {
-          "number": 1,
-          "title": "Episodio 1",
-          "description": "Añade aquí una descripción si no existe un NFO del episodio."
-        }
-      ]
+      "episodes": []
     }
   ]
 }
