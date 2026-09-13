@@ -386,7 +386,7 @@ function renderSeries(id) {
 
           <button
             class="chapter-link"
-            data-tg="${esc(telegramURL)}"
+            onclick="openTelegram('${esc(telegramURL)}')"
           >
 
             <span class="chapter-name">
