@@ -1,0 +1,93 @@
+{
+  "series": [
+    {
+      "id": "23-5",
+      "title": "23.5",
+      "originaltitle": "23.5 องศาที่โลกเอียง",
+      "year": "2024",
+      "rating": "8.324",
+      "plot": "Ongsa está secretamente enamorada de Sun, una chica popular y adorada por toda la escuela porque es como un rayo de sol. Ellas se hacen amigas vía online, donde Ongsa usa el apodo de \"Earth\", y comparten tanto en común que Sun empieza a enamorarse de la persona detrás de esos mensajes sin saber que es una chica. ¿Qué pasará cuando se encuentren frente a frente?\n\nMientras tanto, North y Night son dos alumnos del club de ciencias que quieren acercarse poco a poco pero no saben cómo empezar.",
+      "description": "",
+      "runtime": "51",
+      "premiered": "2024-03-08",
+      "status": "Ended",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "studios": [
+        "GMM 25",
+        "GMM25"
+      ],
+      "tags": [
+        "based on novel or book",
+        "girls' love (gl)",
+        "hidden identity",
+        "high school",
+        "lgbt"
+      ],
+      "poster": "series/23.5/folder.jpg",
+      "banner": "series/23.5/banner.jpg",
+      "country": "Tailandia",
+      "display_genres": [
+        "Romance",
+        "Escolar",
+        "GL"
+      ],
+      "topic_url": "",
+      "cast": [
+        {
+          "name": "AJ Chayapol Jutamas",
+          "role": "Ton"
+        },
+        {
+          "name": "Ciize Rutricha Phapakithi",
+          "role": "Alpha"
+        },
+        {
+          "name": "Earn Preeyaphat Lawsuwansiri",
+          "role": "Charoen"
+        },
+        {
+          "name": "Euro Thanaset Suriyapornchaikul",
+          "role": "Mawin"
+        },
+        {
+          "name": "Ford Allan Asawasuebsakul",
+          "role": "Tin"
+        },
+        {
+          "name": "Godji Tachakorn Boonlupyanun",
+          "role": "Nida"
+        },
+        {
+          "name": "Golf Kittipat Chalaragse",
+          "role": "Bambam"
+        },
+        {
+          "name": "Love Pattranite Limpatiyakorn",
+          "role": "Sun"
+        },
+        {
+          "name": "Milk Pansa Vosbein",
+          "role": "Ongsa / Earth"
+        },
+        {
+          "name": "View Benyapa Jeenprasom",
+          "role": "Aylin"
+        },
+        {
+          "name": "June Wanwimol Jaenasavamethee",
+          "role": "Luna"
+        }
+      ],
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Episodio 1",
+          "description": "Añade aquí una descripción si no existe un NFO del episodio."
+        }
+      ]
+    }
+  ]
+}
