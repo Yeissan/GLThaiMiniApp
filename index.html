@@ -7,6 +7,15 @@
   <title>GL Thai</title>
   <link rel="stylesheet" href="assets/styles.css">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+  function abrirTelegram(url) {
+    if (window.Telegram && Telegram.WebApp) {
+        Telegram.WebApp.openTelegramLink(url);
+    } else {
+        window.location.href = url;
+    }
+}
+</script>
 </head>
 <body>
   <main id="app" class="app" aria-live="polite">
