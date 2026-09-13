@@ -386,11 +386,10 @@ function renderSeries(id) {
 
           <button
             class="chapter-link"
-            onclick="openTelegram('${esc(telegramURL)}')"
+            data-tg="${esc(telegramURL)}"
           >
-
             <span class="chapter-name">
-              Capítulos
+              Capítulos ver
             </span>
 
             <span class="chapter-count">
