@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>Ongsa está secretamente enamorada de Sun, una chica popular y adorada por toda la escuela porque es como un rayo de sol. Ellas se hacen amigas vía online, donde Ongsa usa el apodo de "Earth", y comparten tanto en común que Sun empieza a enamorarse de la persona detrás de esos mensajes sin saber que es una chica. ¿Qué pasará cuando se encuentren frente a frente?
+
+Mientras tanto, North y Night son dos alumnos del club de ciencias que quieren acercarse poco a poco pero no saben cómo empezar.</plot>
+  <outline>Ongsa está secretamente enamorada de Sun, una chica popular y adorada por toda la escuela porque es como un rayo de sol. Ellas se hacen amigas vía online, donde Ongsa usa el apodo de "Earth", y comparten tanto en común que Sun empieza a enamorarse de la persona detrás de esos mensajes sin saber que es una chica. ¿Qué pasará cuando se encuentren frente a frente?
+
+Mientras tanto, North y Night son dos alumnos del club de ciencias que quieren acercarse poco a poco pero no saben cómo empezar.</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2026-01-29 18:21:12</dateadded>
+  <title>23.5</title>
+  <originaltitle>23.5 องศาที่โลกเอียง</originaltitle>
+  <rating>8.324</rating>
+  <year>2024</year>
+  <mpaa>R21</mpaa>
+  <collectionnumber>214942</collectionnumber>
+  <imdb_id>tt24657706</imdb_id>
+  <tmdbid>214942</tmdbid>
+  <premiered>2024-03-08</premiered>
+  <releasedate>2024-03-08</releasedate>
+  <enddate>2024-01-24</enddate>
+  <runtime>51</runtime>
+  <genre>Comedy</genre>
+  <genre>Romance</genre>
+  <studio>GMM 25</studio>
+  <studio>GMM25</studio>
+  <tag>based on novel or book</tag>
+  <tag>girls' love (gl)</tag>
+  <tag>hidden identity</tag>
+  <tag>high school</tag>
+  <tag>lgbt</tag>
+  <myanimelistid>36474</myanimelistid>
+  <tvdbid>427501</tvdbid>
+  <tvdbslugid>twenty-three-five</tvdbslugid>
+  <art>
+    <poster>D:\GL\23.5 Degree The World Incline\folder.jpg</poster>
+    <fanart>D:\GL\23.5 Degree The World Incline\backdrop.jpg</fanart>
+  </art>
+  <actor>
+    <name>AJ Chayapol Jutamas</name>
+    <role>Ton</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\A\AJ Chayapol Jutamas\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Ciize Rutricha Phapakithi</name>
+    <role>Alpha</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\C\Ciize Rutricha Phapakithi\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Earn Preeyaphat Lawsuwansiri</name>
+    <role>Charoen</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\E\Earn Preeyaphat Lawsuwansiri\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Euro Thanaset Suriyapornchaikul</name>
+    <role>Mawin</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\E\Euro Thanaset Suriyapornchaikul\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Ford Allan Asawasuebsakul</name>
+    <role>Tin</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\F\Ford Allan Asawasuebsakul\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Godji Tachakorn Boonlupyanun</name>
+    <role>Nida</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\G\Godji Tachakorn Boonlupyanun\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Golf Kittipat Chalaragse</name>
+    <role>Bambam</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\G\Golf Kittipat Chalaragse\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Love Pattranite Limpatiyakorn</name>
+    <role>Sun</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\L\Love Pattranite Limpatiyakorn\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Milk Pansa Vosbein</name>
+    <role>Ongsa / Earth</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\M\Milk Pansa Vosbein\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>View Benyapa Jeenprasom</name>
+    <role>Aylin</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\V\View Benyapa Jeenprasom\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>June Wanwimol Jaenasavamethee</name>
+    <role>Luna</role>
+    <type>Actor</type>
+    <sortorder>3</sortorder>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\J\June Wanwimol Jaenasavamethee\folder.jpg</thumb>
+  </actor>
+  <id>427501</id>
+  <episodeguide>
+    <url cache="427501.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/427501/all/es.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Ended</status>
+</tvshow>
