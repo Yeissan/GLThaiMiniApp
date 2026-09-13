@@ -410,7 +410,7 @@ function renderSeries(id) {
           <div class="chapter-link disabled">
 
             <span class="chapter-name">
-              Capítulos222
+              ▶ Ver capítulos
             </span>
 
             <span class="chapter-count">
