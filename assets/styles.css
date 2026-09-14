@@ -68,3 +68,22 @@
   font-size:13px;
   line-height:1.35;
 }
+.episode-clickable{
+  cursor:pointer;
+  transition:border-color .15s ease, transform .15s ease;
+}
+
+.episode-clickable:hover{
+  border-color:var(--pink);
+}
+
+.episode-clickable:active{
+  transform:scale(.99);
+}
+
+.episode-open{
+  margin-top:8px;
+  font-size:13px;
+  font-weight:700;
+  color:var(--pink);
+}
