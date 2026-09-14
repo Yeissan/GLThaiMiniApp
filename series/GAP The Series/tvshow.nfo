@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>Mon ha admirado a Sam desde que esta la rescató cuando era niña. Ahora, Mon consigue un trabajo con su ídola. Pero Sam ya no es la persona cariñosa que Mon recuerda; ahora es fría y distante. Además, pertenecen a mundos diferentes y Sam es ocho años mayor que ella. ¿Podrá Mon seguir admirando a Sam, o la verdadera Sam lo cambiará todo?</plot>
+  <outline>Mon ha admirado a Sam desde que esta la rescató cuando era niña. Ahora, Mon consigue un trabajo con su ídola. Pero Sam ya no es la persona cariñosa que Mon recuerda; ahora es fría y distante. Además, pertenecen a mundos diferentes y Sam es ocho años mayor que ella. ¿Podrá Mon seguir admirando a Sam, o la verdadera Sam lo cambiará todo?</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2026-02-02 09:55:56</dateadded>
+  <title>GAP The Series</title>
+  <originaltitle>ทฤษฎีสีชมพู</originaltitle>
+  <rating>9.1</rating>
+  <year>2022</year>
+  <mpaa>น 13+</mpaa>
+  <collectionnumber>155513</collectionnumber>
+  <imdb_id>tt23725386</imdb_id>
+  <tmdbid>155513</tmdbid>
+  <premiered>2022-11-19</premiered>
+  <releasedate>2022-11-19</releasedate>
+  <enddate>2023-01-11</enddate>
+  <runtime>64</runtime>
+  <genre>Comedy</genre>
+  <genre>Drama</genre>
+  <genre>Romance</genre>
+  <studio>Channel 3</studio>
+  <studio>YouTube</studio>
+  <tag>based on novel or book</tag>
+  <tag>cheerful</tag>
+  <tag>comforting</tag>
+  <tag>family pressure</tag>
+  <tag>freenbecky</tag>
+  <tag>gentle</tag>
+  <tag>girls' love (gl)</tag>
+  <tag>joyful</tag>
+  <tag>lgbt</tag>
+  <tag>office romance</tag>
+  <tvdbid>409223</tvdbid>
+  <tvdbslugid>gap-the-series</tvdbslugid>
+  <art>
+    <poster>D:\GL\GAP the series\folder.jpg</poster>
+    <fanart>D:\GL\GAP the series\backdrop.jpg</fanart>
+  </art>
+  <actor>
+    <name>Baitoey Punnisa Sirisang</name>
+    <role>Kade</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Becky Armstrong</name>
+    <role>Mon</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\B\Becky Armstrong\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Freen Sarocha Chankimha</name>
+    <role>Sam</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\F\Freen Sarocha Chankimha\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Heng Asavarid Pinitkanjanapun</name>
+    <role>Kirk</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\H\Heng Asavarid Pinitkanjanapun\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Irin Urassaya Malaiwong</name>
+    <role>Yuki</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\I\Irin Urassaya Malaiwong\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Jirawat Wachirasarunpat</name>
+    <role>On (Mon's Stepfather)</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Orntara Poolsak</name>
+    <role>Jim</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\O\Orntara Poolsak\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Tassawan Seneewong Na Ayuttaya</name>
+    <role>[Sam's grandmother]</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Natnicha Vorrakittikun</name>
+    <role>Tee</role>
+    <type>Actor</type>
+    <sortorder>4</sortorder>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\N\Natnicha Vorrakittikun\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Non Ratchanon Kanpiang</name>
+    <role>Nop</role>
+    <type>Actor</type>
+    <sortorder>7</sortorder>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\N\Non Ratchanon Kanpiang\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Amata Piyavanich</name>
+    <role>Phone (Mon's Mother)</role>
+    <type>Actor</type>
+    <sortorder>12</sortorder>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\A\Amata Piyavanich\folder.jpg</thumb>
+  </actor>
+  <id>409223</id>
+  <episodeguide>
+    <url cache="409223.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/409223/all/es.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Ended</status>
+</tvshow>
