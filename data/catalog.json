@@ -180,6 +180,114 @@
         }
       ],
       "episodes": []
+    },
+    {
+      "id": "gap-the-series",
+      "title": "GAP The Series",
+      "originaltitle": "ทฤษฎีสีชมพู",
+      "year": "2022",
+      "rating": "9.1",
+      "plot": "Mon ha admirado a Sam desde que esta la rescató cuando era niña. Ahora, Mon consigue un trabajo con su ídola. Pero Sam ya no es la persona cariñosa que Mon recuerda; ahora es fría y distante. Además, pertenecen a mundos diferentes y Sam es ocho años mayor que ella. ¿Podrá Mon seguir admirando a Sam, o la verdadera Sam lo cambiará todo?",
+      "description": "",
+      "runtime": "64",
+      "premiered": "2022-11-19",
+      "status": "Ended",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "studios": [
+        "Channel 3",
+        "YouTube"
+      ],
+      "tags": [
+        "based on novel or book",
+        "cheerful",
+        "comforting",
+        "family pressure",
+        "freenbecky",
+        "gentle",
+        "girls' love (gl)",
+        "joyful",
+        "lgbt",
+        "office romance"
+      ],
+      "poster": "series/GAP The Series/folder.jpg",
+      "banner": "series/GAP The Series/banner.jpg",
+      "country": "",
+      "display_genres": [],
+      "topic_url": "",
+      "total_episodes": 3,
+      "cast": [
+        {
+          "name": "Baitoey Punnisa Sirisang",
+          "role": "Kade"
+        },
+        {
+          "name": "Becky Armstrong",
+          "role": "Mon"
+        },
+        {
+          "name": "Freen Sarocha Chankimha",
+          "role": "Sam"
+        },
+        {
+          "name": "Heng Asavarid Pinitkanjanapun",
+          "role": "Kirk"
+        },
+        {
+          "name": "Irin Urassaya Malaiwong",
+          "role": "Yuki"
+        },
+        {
+          "name": "Jirawat Wachirasarunpat",
+          "role": "On (Mon's Stepfather)"
+        },
+        {
+          "name": "Orntara Poolsak",
+          "role": "Jim"
+        },
+        {
+          "name": "Tassawan Seneewong Na Ayuttaya",
+          "role": "[Sam's grandmother]"
+        },
+        {
+          "name": "Natnicha Vorrakittikun",
+          "role": "Tee"
+        },
+        {
+          "name": "Non Ratchanon Kanpiang",
+          "role": "Nop"
+        },
+        {
+          "name": "Amata Piyavanich",
+          "role": "Phone (Mon's Mother)"
+        }
+      ],
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "title": "🇹🇭 Serie: GAP The Series",
+          "description": "⏱️ Duración: 1:16.10 min 🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/33/37"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "title": "🇹🇭 Serie: GAP The Series",
+          "description": "⏱️ Duración: 1:08.14 min 🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/33/38"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "title": "🇹🇭 Serie: GAP The Series",
+          "description": "⏱️ Duración: 1:16.10 min 🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/33/39"
+        }
+      ]
     }
   ]
 }
