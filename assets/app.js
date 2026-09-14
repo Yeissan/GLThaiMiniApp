@@ -453,8 +453,27 @@ function renderSeries(id) {
     );
 
   }
+// CAPÍTULOS INDIVIDUALES
+
+app
+  .querySelectorAll('[data-episode-tg]')
+  .forEach(card => {
+
+    card.addEventListener(
+      'click',
+      () => {
+
+        openTelegram(
+          card.dataset.episodeTg
+        );
+
+      }
+    );
+
+  });
 
 }
+
 
 
 // ===============================
@@ -615,7 +634,4 @@ window.addEventListener(
   'hashchange',
   route
 );
-window.addEventListener(
-  'hashchange',
-  route
-);
+
