@@ -467,32 +467,34 @@ function chapterHTML(e, i, s) {
     e.number ??
     i + 1;
 
-
   const img =
     e.image ||
     s.banner ||
     s.poster;
 
-
   const title =
     e.title ||
     `Capítulo ${num}`;
-
 
   const description =
     e.description ||
     'Descripción pendiente.';
 
+  const telegramURL =
+    e.telegram_url ||
+    '';
 
   return `
 
-    <article class="episode">
+    <article
+      class="episode ${telegramURL ? 'episode-clickable' : ''}"
+      ${telegramURL ? `data-episode-tg="${esc(telegramURL)}"` : ''}
+    >
 
       <img
         src="${esc(abs(img))}"
         alt="Capítulo ${esc(num)}"
       >
-
 
       <div class="episode-content">
 
@@ -500,19 +502,26 @@ function chapterHTML(e, i, s) {
           ${esc(title)}
         </h4>
 
-
         <p>
           ${esc(description)}
         </p>
+
+        ${
+          telegramURL
+            ? `
+              <div class="episode-open">
+                ▶ Ver capítulo en Telegram
+              </div>
+            `
+            : ''
+        }
 
       </div>
 
     </article>
 
   `;
-
 }
-
 
 // ===============================
 // RUTAS
