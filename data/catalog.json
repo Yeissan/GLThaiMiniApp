@@ -328,6 +328,130 @@
           "telegram_url": "https://t.me/c/3974971985/33/65"
         }
       ]
+    },
+    {
+      "id": "girl-rules",
+      "title": "Girl Rules",
+      "originaltitle": "Girl Rules กฎหลัก...ห้ามรักเธอ",
+      "year": "2026",
+      "rating": "8.8",
+      "plot": "Las vidas amorosas de seis jóvenes se enredan gracias a un rodaje publicitario que vuelve a reunir a antiguos amores.",
+      "description": "",
+      "runtime": "50",
+      "premiered": "2026-03-09",
+      "status": "Continuing",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "studios": [
+        "GMM25",
+        "GMMTV",
+        "iQIYI International"
+      ],
+      "tags": [
+        "bartender",
+        "fashion industry",
+        "girls' love (gl)",
+        "lesbian relationship",
+        "model",
+        "photographer",
+        "producer",
+        "romance",
+        "stylist",
+        "thai gl",
+        "wlw"
+      ],
+      "poster": "series/Girl Rules/folder.jpg",
+      "banner": "series/Girl Rules/backdrop.jpg",
+      "country": "",
+      "display_genres": [],
+      "topic_url": "",
+      "total_episodes": 8,
+      "cast": [
+        {
+          "name": "Film Rachanun Mahawan",
+          "role": "Bambi"
+        },
+        {
+          "name": "Love Pattranite Limpatiyakorn",
+          "role": "Gorya"
+        },
+        {
+          "name": "Milk Pansa Vosbein",
+          "role": "Shasha"
+        },
+        {
+          "name": "Mim Rattanawadee Wongthong",
+          "role": "Praew"
+        },
+        {
+          "name": "Namtan Tipnaree Weerawatnodom",
+          "role": "Prim"
+        },
+        {
+          "name": "View Benyapa Jeenprasom",
+          "role": "Min"
+        }
+      ],
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/78"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/79"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/80"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/81"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/82"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/83"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/84"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "title": "⏱️ Duración: 43.37 min",
+          "description": "🌸 Género: Romance · GL",
+          "telegram_url": "https://t.me/c/3974971985/71/85"
+        }
+      ]
     }
   ]
 }
