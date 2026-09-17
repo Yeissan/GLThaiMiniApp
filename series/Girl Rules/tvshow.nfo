@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>Las vidas amorosas de seis jóvenes se enredan gracias a un rodaje publicitario que vuelve a reunir a antiguos amores.</plot>
+  <outline>Las vidas amorosas de seis jóvenes se enredan gracias a un rodaje publicitario que vuelve a reunir a antiguos amores.</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2026-03-12 21:02:38</dateadded>
+  <title>Girl Rules</title>
+  <originaltitle>Girl Rules กฎหลัก...ห้ามรักเธอ</originaltitle>
+  <rating>8.8</rating>
+  <year>2026</year>
+  <mpaa>น 13+</mpaa>
+  <collectionnumber>278174</collectionnumber>
+  <imdb_id>tt35006947</imdb_id>
+  <tmdbid>278174</tmdbid>
+  <premiered>2026-03-09</premiered>
+  <releasedate>2026-03-09</releasedate>
+  <enddate>2026-03-09</enddate>
+  <runtime>50</runtime>
+  <genre>Drama</genre>
+  <genre>Romance</genre>
+  <studio>GMM25</studio>
+  <studio>GMMTV</studio>
+  <studio>iQIYI International</studio>
+  <tag>bartender</tag>
+  <tag>fashion industry</tag>
+  <tag>girls' love (gl)</tag>
+  <tag>lesbian relationship</tag>
+  <tag>model</tag>
+  <tag>photographer</tag>
+  <tag>producer</tag>
+  <tag>romance</tag>
+  <tag>stylist</tag>
+  <tag>thai gl</tag>
+  <tag>wlw</tag>
+  <tvdbid>457154</tvdbid>
+  <tvdbslugid>girl-rules-kdhlak-haamraketh</tvdbslugid>
+  <art>
+    <poster>D:\GL\Girl Rules\folder.jpg</poster>
+    <fanart>D:\GL\Girl Rules\backdrop.jpg</fanart>
+  </art>
+  <actor>
+    <name>Film Rachanun Mahawan</name>
+    <role>Bambi</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\F\Film Rachanun Mahawan\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Love Pattranite Limpatiyakorn</name>
+    <role>Gorya</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\L\Love Pattranite Limpatiyakorn\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Milk Pansa Vosbein</name>
+    <role>Shasha</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\M\Milk Pansa Vosbein\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Mim Rattanawadee Wongthong</name>
+    <role>Praew</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\M\Mim Rattanawadee Wongthong\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Namtan Tipnaree Weerawatnodom</name>
+    <role>Prim</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\N\Namtan Tipnaree Weerawatnodom\folder.jpg</thumb>
+  </actor>
+  <actor>
+    <name>View Benyapa Jeenprasom</name>
+    <role>Min</role>
+    <type>Actor</type>
+    <thumb>C:\ProgramData\Jellyfin\Server\metadata\People\V\View Benyapa Jeenprasom\folder.jpg</thumb>
+  </actor>
+  <id>457154</id>
+  <episodeguide>
+    <url cache="457154.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/457154/all/es.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Continuing</status>
+</tvshow>
