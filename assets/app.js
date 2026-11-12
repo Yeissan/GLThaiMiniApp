@@ -1,637 +1,146 @@
-const app = document.getElementById('app');
-
-let catalog = [];
-
+// Catálogo GL Thai · página "Series" del bot
 const tg = window.Telegram?.WebApp;
-
 if (tg) {
   tg.ready();
   tg.expand();
+  try { tg.setHeaderColor('#0a0612'); tg.setBackgroundColor('#0a0612'); } catch (e) {}
 }
 
+const $ = id => document.getElementById(id);
+const shelf = $('shelf'), detail = $('detail'), q = $('q');
+let catalog = [];
+let current = null;
 
-// ===============================
-// UTILIDADES
-// ===============================
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
+  ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const norm = s => String(s ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '');
 
-const esc = s =>
-  String(s ?? '').replace(
-    /[&<>"']/g,
-    c => ({
-      '&': '&amp;',
-      '<': '&lt;',
-      '>': '&gt;',
-      '"': '&quot;',
-      "'": '&#39;'
-    }[c])
-  );
-
-
-function abs(rel) {
-  return rel || '';
+function toast(msg) {
+  const t = $('toast');
+  t.textContent = msg;
+  t.hidden = false;
+  clearTimeout(toast.timer);
+  toast.timer = setTimeout(() => { t.hidden = true; }, 2800);
 }
-
 
 function openTelegram(url) {
   if (!url) return;
-
-  if (tg?.openTelegramLink) {
-    tg.openTelegramLink(url);
-  } else {
-    location.href = url;
-  }
+  if (tg?.openTelegramLink && /^https:\/\/t\.me\//.test(url)) tg.openTelegramLink(url);
+  else window.open(url, '_blank');
 }
 
+// ---------- estante de pósters
 
-function setHash(v) {
-  location.hash = v;
+function paintShelf() {
+  const x = q.value.trim().toLowerCase();
+  const rows = catalog.filter(s =>
+    [s.title, s.title_en, s.originaltitle, (s.genres || []).join(' ')].join(' ').toLowerCase().includes(x));
+  shelf.innerHTML = rows.length
+    ? rows.map(s => `
+      <button class="card" type="button" data-id="${esc(s.id)}" aria-pressed="${s.id === current}">
+        <div class="pic">${s.poster ? `<img src="${esc(s.poster)}" alt="" loading="lazy">` : ''}</div>
+        <div class="t">${esc(s.title)}</div>
+      </button>`).join('')
+    : '<div class="empty">No encontré ninguna serie con ese nombre.</div>';
 }
 
+// ---------- ficha
 
-// ===============================
-// CATÁLOGO
-// ===============================
+function show(id, scroll) {
+  const s = catalog.find(x => x.id === id) || catalog[0];
+  if (!s) return;
+  current = s.id;
+  shelf.querySelectorAll('.card').forEach(b => b.setAttribute('aria-pressed', b.dataset.id === s.id));
+  if (scroll) shelf.querySelector(`[data-id="${CSS.escape(s.id)}"]`)?.scrollIntoView({ inline: 'center', block: 'nearest' });
+  if (location.hash !== '#serie=' + encodeURIComponent(s.id)) history.replaceState(null, '', '#serie=' + encodeURIComponent(s.id));
 
-function renderCatalog() {
-
-  app.innerHTML = `
-    <div class="topbar">
-      <div>
-        <div class="brand">GL Thai 💕</div>
-        <div class="sub">Selecciona una serie</div>
-      </div>
-    </div>
-
-    <input
-      id="q"
-      class="search"
-      placeholder="Buscar serie…"
-      autocomplete="off"
-    >
-
-    <div id="grid" class="grid"></div>
-
-    <div class="footer-note">
-      Catálogo actualizado automáticamente desde las carpetas del repositorio.
-    </div>
-  `;
-
-
-  const q = document.getElementById('q');
-  const grid = document.getElementById('grid');
-
-
-  const paint = () => {
-
-    const x = q.value.trim().toLowerCase();
-
-
-    const rows = catalog.filter(s =>
-      [
-        s.title,
-        s.originaltitle,
-        s.country,
-        (s.genres || []).join(' ')
-      ]
-        .join(' ')
-        .toLowerCase()
-        .includes(x)
-    );
-
-
-    grid.innerHTML = rows.length
-
-      ? rows.map(s => `
-          <button
-            class="card"
-            data-id="${esc(s.id)}"
-          >
-
-            <img
-              src="${esc(abs(s.poster))}"
-              alt="Portada de ${esc(s.title)}"
-            >
-
-            <div class="meta">
-
-              <h3>
-                ${esc(s.title)}
-              </h3>
-
-              <p>
-                ${esc(s.year || '')}
-                ${s.country ? ' • ' + esc(s.country) : ''}
-              </p>
-
-            </div>
-
-          </button>
-        `).join('')
-
-      : `
-          <div class="empty">
-            No encontré series.
-          </div>
-        `;
-
-
-    grid
-      .querySelectorAll('.card')
-      .forEach(b => {
-
-        b.addEventListener('click', () => {
-
-          setHash(
-            'serie=' +
-            encodeURIComponent(b.dataset.id)
-          );
-
-        });
-
-      });
-
-  };
-
-
-  q.addEventListener('input', paint);
-
-  paint();
-}
-
-
-// ===============================
-// BLOQUE DE INFORMACIÓN
-// ===============================
-
-function info(label, val) {
-
-  return val
-    ? `
-      <div class="info-item">
-
-        <b>
-          ${esc(label)}
-        </b>
-
-        ${esc(val)}
-
-      </div>
-    `
-    : '';
-
-}
-
-
-// ===============================
-// FICHA DE SERIE
-// ===============================
-
-function renderSeries(id) {
-
-  const s = catalog.find(
-    x => x.id === id
-  );
-
-
-  if (!s) {
-    renderCatalog();
-    return;
-  }
-
+  detail.style.setProperty('--bk', s.banner ? `url("${s.banner}")` : 'none');
 
   const eps = s.episodes || [];
-
-
-  // Capítulos actualmente registrados
-  const disponibles = eps.length;
-
-
-  // Total de capítulos
-  const total =
-    Number(
-      s.total_episodes ??
-      s.episodes_total ??
-      s.episode_count ??
-      s.totalEpisodes ??
-      disponibles
-    ) || disponibles;
-
-
-  app.innerHTML = `
-
-    <div class="topbar">
-
-      <button
-        class="back"
-        id="back"
-      >
-        ← Series
-      </button>
-
-      <div>
-
-        <div class="brand">
-          ${esc(s.title)}
-        </div>
-
-        <div class="sub">
-          Ficha de la serie
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <img
-      class="hero"
-      src="${esc(abs(s.banner || s.poster))}"
-      alt="Banner de ${esc(s.title)}"
-    >
-
-
-    <h1 class="title">
-      ${esc(s.title)}
-    </h1>
-
-
-    ${
-      s.originaltitle
-        ? `
-          <div class="original">
-            ${esc(s.originaltitle)}
-          </div>
-        `
-        : ''
+  const seasons = [...new Set(eps.map(e => e.season || 1))].sort((a, b) => a - b);
+  if (!seasons.length) seasons.push(1);
+  const multi = seasons.length > 1;
+  const byKey = new Map(eps.map(e => [`${e.season || 1}-${e.number}`, e]));
+  const total = Number(s.total_episodes) || 0;
+  let chips = '', shown = 0, linked = 0;
+  for (const t of seasons) {
+    const nums = eps.filter(e => (e.season || 1) === t).map(e => e.number);
+    const top = Math.max(0, ...nums, multi ? 0 : total);
+    for (let n = 1; n <= top; n++) {
+      const e = byKey.get(`${t}-${n}`);
+      const url = e?.telegram_url || '';
+      shown++;
+      if (url) linked++;
+      chips += url
+        ? `<button class="ep" type="button" data-url="${esc(url)}" title="Ver capítulo ${n}"><small>${multi ? 'T' + t : 'Cap'}</small>${String(n).padStart(2, '0')}</button>`
+        : `<div class="ep miss" title="Todavía no está en Telegram"><small>${multi ? 'T' + t : 'Cap'}</small>${String(n).padStart(2, '0')}</div>`;
     }
-
-
-    <div class="chips">
-
-      ${
-        [
-          s.country,
-          s.year,
-          s.rating
-            ? `⭐ ${s.rating}`
-            : null,
-          ...(s.display_genres || s.genres || [])
-        ]
-        .filter(Boolean)
-        .map(
-          x =>
-            `<span class="chip">${esc(x)}</span>`
-        )
-        .join('')
-      }
-
-    </div>
-
-
-    <p class="plot">
-      ${esc(s.description || s.plot || '')}
-    </p>
-
-
-    <div class="info-grid">
-
-      ${info(
-        'Estado',
-        s.status
-      )}
-
-      ${info(
-        'Duración',
-        s.runtime
-          ? `${s.runtime} min`
-          : ''
-      )}
-
-      ${info(
-        'Estreno',
-        s.premiered
-      )}
-
-      ${info(
-        'Estudio',
-        (s.studios || []).join(', ')
-      )}
-
-    </div>
-
-
-    ${
-      (s.cast || []).length
-
-        ? `
-
-          <h2 class="section-title">
-            Reparto
-          </h2>
-
-
-          <div class="cast">
-
-            ${
-              s.cast
-                .slice(0, 12)
-                .map(a => `
-
-                  <span>
-
-                    ${esc(a.name)}
-
-                    ${
-                      a.role
-                        ? ' · ' + esc(a.role)
-                        : ''
-                    }
-
-                  </span>
-
-                `)
-                .join('')
-            }
-
-          </div>
-
-        `
-
-        : ''
-    }
-
-
-    <button
-      class="chapter-link"
-      id="open-chapters"
-    >
-
-      <span class="chapter-name">
-        ▶ Ver capítulos
-      </span>
-
-      <span class="chapter-count">
-        ${disponibles}/${total}
-      </span>
-
-      <span class="chapter-arrow">
-        →
-      </span>
-
-    </button>
-
-
-    <div
-      id="episodes"
-      class="episodes"
-    >
-
-      ${
-        eps.length
-
-          ? eps
-              .map(
-                (e, i) =>
-                  chapterHTML(e, i, s)
-              )
-              .join('')
-
-          : `
-            <div class="empty">
-              Todavía no hay capítulos registrados.
-            </div>
-          `
-      }
-
-    </div>
-
-  `;
-
-
-  // VOLVER AL CATÁLOGO
-
-  document
-    .getElementById('back')
-    .addEventListener(
-      'click',
-      () => setHash('')
-    );
-
-
-  // BOTÓN VER CAPÍTULOS
-
-  const chaptersButton =
-    document.getElementById('open-chapters');
-
-
-  if (chaptersButton) {
-
-    chaptersButton.addEventListener(
-      'click',
-      () => {
-
-        const url =
-          s.telegram_url ||
-          s.topic_url ||
-          eps.find(e => e.topic_url)?.topic_url ||
-          eps.find(e => e.telegram_url)?.telegram_url ||
-          '';
-
-        if (url) {
-
-          openTelegram(url);
-
-        } else {
-
-          alert(
-            'Todavía no hay un enlace de Telegram para esta serie.'
-          );
-
-        }
-
-      }
-    );
-
   }
-// CAPÍTULOS INDIVIDUALES
+  const pct = shown ? Math.round(linked / shown * 100) : 0;
+  const rating = Number(s.rating);
+  const showEn = s.title_en && norm(s.title_en) !== norm(s.title);
+  const showOrig = s.originaltitle && norm(s.originaltitle) !== norm(s.title);
+  const plot = (s.description || s.plot || '').trim();
 
-app
-  .querySelectorAll('[data-episode-tg]')
-  .forEach(card => {
-
-    card.addEventListener(
-      'click',
-      () => {
-
-        openTelegram(
-          card.dataset.episodeTg
-        );
-
-      }
-    );
-
-  });
-
-}
-
-
-
-// ===============================
-// CAPÍTULO
-// ===============================
-
-function chapterHTML(e, i, s) {
-
-  const num =
-    e.number ??
-    i + 1;
-
-  const img =
-    e.image ||
-    s.banner ||
-    s.poster;
-
-  const title =
-    e.title ||
-    `Capítulo ${num}`;
-
-  const description =
-    e.description ||
-    'Descripción pendiente.';
-
-  const telegramURL =
-    e.telegram_url ||
-    '';
-
-  return `
-
-    <article
-      class="episode ${telegramURL ? 'episode-clickable' : ''}"
-      ${telegramURL ? `data-episode-tg="${esc(telegramURL)}"` : ''}
-    >
-
-      <img
-        src="${esc(abs(img))}"
-        alt="Capítulo ${esc(num)}"
-      >
-
-      <div class="episode-content">
-
-        <h4>
-          ${esc(title)}
-        </h4>
-
-        <p>
-          ${esc(description)}
-        </p>
-
-        ${
-          telegramURL
-            ? `
-              <div class="episode-open">
-                ▶ Ver capítulo en Telegram
-              </div>
-            `
-            : ''
-        }
-
+  detail.innerHTML = `
+    <div class="poster">${s.poster ? `<img src="${esc(s.poster)}" alt="Póster de ${esc(s.title)}">` : ''}</div>
+    <div class="info">
+      <div class="top">
+        ${showOrig ? `<div class="orig">${esc(s.originaltitle)}</div>` : ''}
+        <h2>${esc(s.title)}</h2>
+        ${showEn ? `<div class="en"><span>EN</span>${esc(s.title_en)}</div>` : ''}
+        <div class="meta">
+          ${rating ? `<span class="chip star">★ ${rating.toFixed(1)}</span>` : ''}
+          ${s.year ? `<span class="chip">${esc(s.year)}</span>` : ''}
+          ${s.status ? `<span class="chip ${s.status === 'En emisión' ? 'live' : ''}">${esc(s.status)}</span>` : ''}
+          ${s.runtime ? `<span class="chip">${esc(s.runtime)} min</span>` : ''}
+          ${(s.genres || []).map(g => `<span class="chip">${esc(g)}</span>`).join('')}
+        </div>
       </div>
+      <div class="rest">
+        ${plot ? `<p class="plot">${esc(plot)}</p>` : ''}
+        ${(s.cast || []).length ? `<p class="cast">Reparto: <b>${s.cast.slice(0, 6).map(a => esc(a.name)).join(' · ')}</b></p>` : ''}
+        <button class="go" type="button" id="go" ${s.topic_url ? '' : 'disabled'}>
+          ${s.topic_url ? '💬 Abrir el tema en Telegram' : 'Tema en Telegram · próximamente'}
+        </button>
+        <div class="eps-head"><h3>Capítulos</h3><p>${linked} de ${shown} en Telegram${multi ? ' · ' + seasons.length + ' temporadas' : ''}</p></div>
+        <div class="bar"><i style="width:${pct}%"></i></div>
+        <div class="eps">${chips || '<div class="empty">Los capítulos aparecerán aquí.</div>'}</div>
+      </div>
+    </div>`;
 
-    </article>
-
-  `;
+  $('go').addEventListener('click', () => openTelegram(s.topic_url));
+  detail.querySelectorAll('.ep[data-url]').forEach(b =>
+    b.addEventListener('click', () => openTelegram(b.dataset.url)));
+  detail.querySelectorAll('.ep.miss').forEach(b =>
+    b.addEventListener('click', () => toast('Este capítulo todavía no está en Telegram.')));
 }
 
-// ===============================
-// RUTAS
-// ===============================
+// ---------- arranque
 
-function route() {
-
-  const m =
-    location.hash.match(
-      /^#serie=(.+)$/
-    );
-
-
-  if (m) {
-
-    renderSeries(
-      decodeURIComponent(
-        m[1]
-      )
-    );
-
-  } else {
-
-    renderCatalog();
-
-  }
-
+function wanted() {
+  const m = location.hash.match(/^#serie=(.+)$/);
+  if (m) return decodeURIComponent(m[1]);
+  return tg?.initDataUnsafe?.start_param || new URLSearchParams(location.search).get('serie') || '';
 }
 
-
-// ===============================
-// CARGAR CATÁLOGO
-// ===============================
-
-fetch(
-  'data/catalog.json',
-  {
-    cache: 'no-store'
-  }
-)
-
-.then(r => {
-
-  if (!r.ok) {
-
-    throw new Error(
-      'No se pudo cargar data/catalog.json'
-    );
-
-  }
-
-  return r.json();
-
-})
-
-.then(d => {
-
-  catalog =
-    d.series || [];
-
-  route();
-
-})
-
-.catch(err => {
-
-  app.innerHTML = `
-
-    <div class="error">
-
-      <b>
-        No pude cargar el catálogo.
-      </b>
-
-      <br>
-
-      ${esc(err.message)}
-
-      <br><br>
-
-      Ejecuta el generador o espera a que termine GitHub Actions.
-
-    </div>
-
-  `;
-
+shelf.addEventListener('click', e => {
+  const b = e.target.closest('.card');
+  if (b) show(b.dataset.id);
 });
+q.addEventListener('input', paintShelf);
+window.addEventListener('hashchange', () => { const id = wanted(); if (id && id !== current) show(id, true); });
 
-
-window.addEventListener(
-  'hashchange',
-  route
-);
-
+fetch('data/catalog.json', { cache: 'no-store' })
+  .then(r => { if (!r.ok) throw new Error('No se pudo cargar el catálogo.'); return r.json(); })
+  .then(d => {
+    catalog = d.series || [];
+    const eps = catalog.reduce((a, s) => a + (s.episodes || []).filter(e => e.telegram_url).length, 0);
+    $('count').innerHTML = `<b>${catalog.length}</b> series · <b>${eps}</b> caps`;
+    paintShelf();
+    if (catalog.length) show(wanted(), true);
+    else detail.innerHTML = '<div class="loading">Todavía no hay series en el catálogo.</div>';
+  })
+  .catch(err => {
+    detail.innerHTML = `<div class="loading">No pude cargar el catálogo.<br>${esc(err.message)}</div>`;
+  });

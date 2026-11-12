@@ -3,35 +3,22 @@
     {
       "id": "23-5",
       "title": "23.5",
+      "title_en": "23.5",
       "originaltitle": "23.5 องศาที่โลกเอียง",
       "year": "2024",
       "rating": "8.324",
       "plot": "Ongsa está secretamente enamorada de Sun, una chica popular y adorada por toda la escuela porque es como un rayo de sol. Ellas se hacen amigas vía online, donde Ongsa usa el apodo de \"Earth\", y comparten tanto en común que Sun empieza a enamorarse de la persona detrás de esos mensajes sin saber que es una chica. ¿Qué pasará cuando se encuentren frente a frente?\n\nMientras tanto, North y Night son dos alumnos del club de ciencias que quieren acercarse poco a poco pero no saben cómo empezar.",
-      "description": "",
       "runtime": "51",
-      "premiered": "2024-03-08",
-      "status": "Ended",
+      "status": "Finalizada",
       "genres": [
-        "Comedy",
-        "Romance"
+        "Comedia",
+        "Romance",
+        "GL"
       ],
       "studios": [
         "GMM 25",
         "GMM25"
       ],
-      "tags": [
-        "based on novel or book",
-        "girls' love (gl)",
-        "hidden identity",
-        "high school",
-        "lgbt"
-      ],
-      "poster": "series/23.5/folder.jpg",
-      "banner": "series/23.5/banner.jpg",
-      "country": "",
-      "display_genres": [],
-      "topic_url": "https://t.me/c/3974971985/4/14",
-      "total_episodes": 12,
       "cast": [
         {
           "name": "AJ Chayapol Jutamas",
@@ -78,131 +65,94 @@
           "role": "Luna"
         }
       ],
+      "poster": "series/23.5/folder.jpg",
+      "banner": "series/23.5/backdrop.jpg",
+      "topic_url": "https://t.me/c/3974971985/4/14",
+      "total_episodes": 12,
       "episodes": [
         {
           "season": 1,
           "number": 1,
-          "title": "🇹🇭 Serie: 23.5",
-          "description": "⏱️ Duración: 45.27 min 🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/24"
         },
         {
           "season": 1,
           "number": 2,
-          "title": "⏱️ Duración: 47.08 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/46"
         },
         {
           "season": 1,
           "number": 3,
-          "title": "⏱️ Duración: 55.05 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/47"
         },
         {
           "season": 1,
           "number": 4,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/48"
         },
         {
           "season": 1,
           "number": 5,
-          "title": "⏱️ Duración: 52.24 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/49"
         },
         {
           "season": 1,
           "number": 6,
-          "title": "⏱️ Duración: 55.32 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/50"
         },
         {
           "season": 1,
           "number": 7,
-          "title": "⏱️ Duración: 54.00 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/51"
         },
         {
           "season": 1,
           "number": 8,
-          "title": "⏱️ Duración: 48.59 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/52"
         },
         {
           "season": 1,
           "number": 9,
-          "title": "⏱️ Duración: 47.51 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/53"
         },
         {
           "season": 1,
           "number": 10,
-          "title": "⏱️ Duración: 59.53 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/54"
         },
         {
           "season": 1,
           "number": 11,
-          "title": "⏱️ Duración: 59.05 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/55"
         },
         {
           "season": 1,
           "number": 12,
-          "title": "⏱️ Duración: 51.24 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/4/56"
         }
-      ]
+      ],
+      "thread_id": 4
     },
     {
       "id": "gap-the-series",
       "title": "GAP The Series",
+      "title_en": "GAP The Series",
       "originaltitle": "ทฤษฎีสีชมพู",
       "year": "2022",
       "rating": "9.1",
       "plot": "Mon ha admirado a Sam desde que esta la rescató cuando era niña. Ahora, Mon consigue un trabajo con su ídola. Pero Sam ya no es la persona cariñosa que Mon recuerda; ahora es fría y distante. Además, pertenecen a mundos diferentes y Sam es ocho años mayor que ella. ¿Podrá Mon seguir admirando a Sam, o la verdadera Sam lo cambiará todo?",
-      "description": "",
       "runtime": "64",
-      "premiered": "2022-11-19",
-      "status": "Ended",
+      "status": "Finalizada",
       "genres": [
-        "Comedy",
+        "Comedia",
         "Drama",
-        "Romance"
+        "Romance",
+        "GL"
       ],
       "studios": [
         "Channel 3",
         "YouTube"
       ],
-      "tags": [
-        "based on novel or book",
-        "cheerful",
-        "comforting",
-        "family pressure",
-        "freenbecky",
-        "gentle",
-        "girls' love (gl)",
-        "joyful",
-        "lgbt",
-        "office romance"
-      ],
-      "poster": "series/GAP The Series/folder.jpg",
-      "banner": "series/GAP The Series/banner.jpg",
-      "country": "",
-      "display_genres": [],
-      "topic_url": "https://t.me/c/3974971985/33/34",
-      "total_episodes": 12,
       "cast": [
         {
           "name": "Baitoey Punnisa Sirisang",
@@ -249,125 +199,89 @@
           "role": "Phone (Mon's Mother)"
         }
       ],
+      "poster": "series/GAP The Series/folder.jpg",
+      "banner": "series/GAP The Series/backdrop.jpg",
+      "topic_url": "https://t.me/c/3974971985/33/34",
+      "total_episodes": 12,
       "episodes": [
         {
           "season": 1,
           "number": 1,
-          "title": "CAPITULO 01",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/33/37"
         },
         {
           "season": 1,
           "number": 2,
-          "title": "⏱️ Duración: 1:08.14 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/33/38"
         },
         {
           "season": 1,
           "number": 3,
-          "title": "⏱️ Duración: 1:16.10 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/33/39"
         },
         {
           "season": 1,
           "number": 4,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/57"
         },
         {
           "season": 1,
           "number": 5,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/58"
         },
         {
           "season": 1,
           "number": 6,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/59"
         },
         {
           "season": 1,
           "number": 7,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/60"
         },
         {
           "season": 1,
           "number": 8,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/61"
         },
         {
           "season": 1,
           "number": 9,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/62"
         },
         {
           "season": 1,
           "number": 11,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/64"
         },
         {
           "season": 1,
           "number": 12,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · Escolar · GL",
           "telegram_url": "https://t.me/c/3974971985/33/65"
         }
-      ]
+      ],
+      "thread_id": 33
     },
     {
       "id": "girl-rules",
       "title": "Girl Rules",
+      "title_en": "Girl Rules",
       "originaltitle": "Girl Rules กฎหลัก...ห้ามรักเธอ",
       "year": "2026",
       "rating": "8.8",
       "plot": "Las vidas amorosas de seis jóvenes se enredan gracias a un rodaje publicitario que vuelve a reunir a antiguos amores.",
-      "description": "",
       "runtime": "50",
-      "premiered": "2026-03-09",
-      "status": "Continuing",
+      "status": "En emisión",
       "genres": [
         "Drama",
-        "Romance"
+        "Romance",
+        "GL"
       ],
       "studios": [
         "GMM25",
         "GMMTV",
         "iQIYI International"
       ],
-      "tags": [
-        "bartender",
-        "fashion industry",
-        "girls' love (gl)",
-        "lesbian relationship",
-        "model",
-        "photographer",
-        "producer",
-        "romance",
-        "stylist",
-        "thai gl",
-        "wlw"
-      ],
-      "poster": "series/Girl Rules/folder.jpg",
-      "banner": "series/Girl Rules/backdrop.jpg",
-      "country": "",
-      "display_genres": [],
-      "topic_url": "https://t.me/c/3974971985/71/72",
-      "total_episodes": 12,
       "cast": [
         {
           "name": "Film Rachanun Mahawan",
@@ -394,86 +308,73 @@
           "role": "Min"
         }
       ],
+      "poster": "series/Girl Rules/folder.jpg",
+      "banner": "series/Girl Rules/backdrop.jpg",
+      "topic_url": "https://t.me/c/3974971985/71/72",
+      "total_episodes": 12,
       "episodes": [
         {
           "season": 1,
           "number": 1,
-          "title": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/78"
         },
         {
           "season": 1,
           "number": 2,
-          "title": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/79"
         },
         {
           "season": 1,
           "number": 3,
-          "title": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/80"
         },
         {
           "season": 1,
           "number": 4,
-          "title": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/81"
         },
         {
           "season": 1,
           "number": 5,
-          "title": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/82"
         },
         {
           "season": 1,
           "number": 6,
-          "title": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/83"
         },
         {
           "season": 1,
           "number": 7,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/84"
         },
         {
           "season": 1,
           "number": 8,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/85"
         },
         {
           "season": 1,
           "number": 9,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/86"
         },
         {
           "season": 1,
           "number": 10,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/87"
         },
         {
           "season": 1,
           "number": 11,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/88"
         },
         {
           "season": 1,
           "number": 12,
-          "title": "⏱️ Duración: 43.37 min",
-          "description": "🌸 Género: Romance · GL",
           "telegram_url": "https://t.me/c/3974971985/71/89"
         }
-      ]
+      ],
+      "thread_id": 71
     }
   ]
 }

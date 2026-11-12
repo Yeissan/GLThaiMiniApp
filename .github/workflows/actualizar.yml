@@ -1,0 +1,56 @@
+name: Actualizar catálogo y temas de Telegram
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'series/**'
+      - 'pc/**'
+      - 'scripts/**'
+      - '.github/workflows/actualizar.yml'
+  schedule:
+    - cron: '17 */3 * * *'   # cada 3 horas: lee los capítulos nuevos del grupo
+  workflow_dispatch:          # botón "Run workflow" para hacerlo al momento
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-catalogo
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preparar
+        run: pip install --quiet pillow
+      - name: Generar catálogo
+        run: python scripts/build_catalog.py
+      - name: Crear temas y actualizar listas de capítulos
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ vars.TG_CHAT_ID }}
+          MINIAPP_LINK: ${{ vars.MINIAPP_LINK }}
+          MAX_NEW: ${{ vars.MAX_NEW }}
+        run: python scripts/telegram_sync.py
+      - name: Volver a generar el catálogo con los enlaces
+        if: always()
+        run: python scripts/build_catalog.py
+      - name: Guardar cambios
+        if: always()
+        run: |
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Actualizar catálogo y temas"
+            git pull --rebase --quiet origin main
+            git push
+          fi

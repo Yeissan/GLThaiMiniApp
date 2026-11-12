@@ -1,543 +1,253 @@
 #!/usr/bin/env python3
+"""Genera data/catalog.json juntando tres fuentes:
 
+1. series/<NOMBRE>/   carpetas con tvshow.nfo, imágenes, serie.json y episodes.json
+2. pc/series.json     lista exportada desde el PC (programa "Crear catalogo") + pc/img/
+3. data/telegram.json temas y capítulos detectados en el grupo de Telegram
+
+Las series se unen por su identificador (nombre sin tailandés, en minúsculas).
+"""
 from pathlib import Path
 import json
 import re
 import xml.etree.ElementTree as ET
 
-
 ROOT = Path(__file__).resolve().parents[1]
 SERIES = ROOT / 'series'
+PC = ROOT / 'pc' / 'series.json'
+TG = ROOT / 'data' / 'telegram.json'
 OUT = ROOT / 'data' / 'catalog.json'
 
-
-def txt(node, name, default=''):
-    x = node.find(name)
-
-    return (
-        (x.text or '').strip()
-        if x is not None and x.text
-        else default
-    )
-
-
-def texts(node, name):
-    return [
-        (x.text or '').strip()
-        for x in node.findall(name)
-        if x.text
-    ]
+THAI = re.compile(r'[฀-๿]+')
+GENRES = {
+    'comedy': 'Comedia', 'romance': 'Romance', 'drama': 'Drama', 'mystery': 'Misterio',
+    'fantasy': 'Fantasía', 'action': 'Acción', 'thriller': 'Suspense', 'family': 'Familia',
+    'crime': 'Crimen', 'sci-fi & fantasy': 'Fantasía', 'action & adventure': 'Acción',
+    'horror': 'Terror', 'music': 'Música', 'documentary': 'Documental', 'war': 'Bélica',
+    'history': 'Historia', 'animation': 'Animación', 'kids': 'Infantil', 'reality': 'Reality',
+}
+STATUS = {'continuing': 'En emisión', 'returning series': 'En emisión', 'ended': 'Finalizada',
+          'canceled': 'Cancelada', 'cancelled': 'Cancelada'}
 
 
-def safe_json(path, default):
+def no_thai(t):
+    """Quita el tailandés. Si no queda nada legible, devuelve ''."""
+    t = (t or '').strip()
+    if not THAI.search(t):
+        return t
+    t = re.sub(r'\s{2,}', ' ', THAI.sub(' ', t)).strip(' -–—:|·.,_()[]')
+    return t if re.search(r'[A-Za-zÀ-ÿ]{2,}', t) else ''
+
+
+def strip_year(t):
+    return re.sub(r'\s*[\(\[]\d{4}[\)\]]\s*$', '', t or '').strip()
+
+
+def make_id(t):
+    return re.sub(r'[^a-z0-9]+', '-', (t or '').lower()).strip('-')
+
+
+def load_json(path, default):
     try:
         if path.exists():
-            return json.loads(
-                path.read_text(
-                    encoding='utf-8-sig'
-                )
-            )
-
-        return default
-
+            return json.loads(path.read_text(encoding='utf-8-sig'))
     except Exception as e:
-        print(f'WARN {path}: {e}')
-        return default
+        print(f'AVISO {path}: {e}')
+    return default
 
 
 def rel(path):
     return path.relative_to(ROOT).as_posix()
 
 
-def image_for(folder, names):
-
+def first_image(folder, names):
     for n in names:
-
         p = folder / n
-
         if p.exists():
             return rel(p)
-
     return ''
 
 
-# ==========================================
-# LEER NFO DE CAPÍTULO
-# ==========================================
-
-def nfo_episode(path):
-
-    root = ET.parse(path).getroot()
-
-    num = (
-        txt(root, 'episode')
-        or txt(root, 'displayepisode')
-    )
-
-    try:
-        num = int(float(num))
-    except:
-        num = 0
+def txt(node, name):
+    x = node.find(name) if node is not None else None
+    return (x.text or '').strip() if x is not None and x.text else ''
 
 
-    season = txt(root, 'season')
-
-    try:
-        season = int(float(season))
-    except:
-        season = 1
+def texts(node, name):
+    return [(x.text or '').strip() for x in node.findall(name) if x.text] if node is not None else []
 
 
-    stem = path.stem
+def genres_es(lst):
+    out = []
+    for g in lst:
+        g = GENRES.get(g.strip().lower(), g.strip())
+        if g and g not in out:
+            out.append(g)
+    if 'GL' not in out:
+        out.append('GL')
+    return out
 
 
-    image = image_for(
-        path.parent,
-        [
-            stem + '.jpg',
-            stem + '.jpeg',
-            stem + '.png',
-            stem + '-thumb.jpg'
-        ]
-    )
+def thread_of(url):
+    m = re.search(r't\.me/c/\d+/(\d+)', url or '')
+    return int(m.group(1)) if m else None
 
 
-    telegram = (
-        txt(root, 'telegram_url')
-        or txt(root, 'telegram')
-    )
+# ---------------------------------------------------------------- fuentes
 
-
-    return {
-
-        'number':
-            num,
-
-        'season':
-            season,
-
-        'title':
-            txt(root, 'title')
-            or f'Capítulo {num}',
-
-        'description':
-            txt(root, 'plot')
-            or txt(root, 'outline'),
-
-        'image':
-            image,
-
-        'telegram_url':
-            telegram
-
-    }
-
-
-# ==========================================
-# CONSTRUIR UNA SERIE
-# ==========================================
-
-def build_series(folder):
-
+def from_folder(folder):
     nfo = folder / 'tvshow.nfo'
-
     if not nfo.exists():
         return None
-
-
     root = ET.parse(nfo).getroot()
+    serie = load_json(folder / 'serie.json', {})
+    title = (serie.get('title_es') or no_thai(txt(root, 'title'))
+             or no_thai(strip_year(folder.name)) or folder.name)
+    en = serie.get('title_en') or no_thai(strip_year(folder.name))
 
-
-    # Datos manuales de la serie
-    serie = safe_json(
-        folder / 'serie.json',
-        {}
-    )
-
-
-    title = txt(
-        root,
-        'title',
-        folder.name
-    )
-
-
-    sid = (
-        serie.get('id')
-        or re.sub(
-            r'[^a-z0-9]+',
-            '-',
-            title.lower()
-        ).strip('-')
-    )
-
-
-    # ======================================
-    # CAPÍTULOS
-    # ======================================
-
-    eps = []
-
-
-    # Detecta automáticamente NFO de capítulos
-    for p in sorted(
-        folder.rglob('*.nfo')
-    ):
-
+    eps = {}
+    for p in sorted(folder.rglob('*.nfo')):
         if p.name.lower() == 'tvshow.nfo':
             continue
-
         try:
-            eps.append(
-                nfo_episode(p)
-            )
-
+            r = ET.parse(p).getroot()
+            n = int(float(txt(r, 'episode') or 0))
+            s = int(float(txt(r, 'season') or 1))
+            if n:
+                eps[(s, n)] = {'season': s, 'number': n,
+                               'telegram_url': txt(r, 'telegram_url') or txt(r, 'telegram')}
         except Exception as e:
-            print(
-                f'WARN episode {p}: {e}'
-            )
+            print(f'AVISO capítulo {p}: {e}')
+    for m in load_json(folder / 'episodes.json', []):
+        key = (int(m.get('season', 1) or 1), int(m.get('number', 0) or 0))
+        if key[1]:
+            eps.setdefault(key, {'season': key[0], 'number': key[1]})
+            if m.get('telegram_url'):
+                eps[key]['telegram_url'] = m['telegram_url']
 
-
-    # ======================================
-    # episodes.json opcional
-    # ======================================
-
-    manual = safe_json(
-        folder / 'episodes.json',
-        []
-    )
-
-
-    bynum = {
-
-        (
-            e.get('season', 1),
-            e.get('number', 0)
-        ):
-        e
-
-        for e in eps
+    poster = first_image(folder, ['folder.jpg', 'poster.jpg', 'folder.png', 'poster.png',
+                                  'folder.webp', 'poster.webp', 'cover.jpg'])
+    banner = first_image(folder, ['backdrop.jpg', 'fanart.jpg', 'banner.jpg', 'backdrop.png',
+                                  'fanart.png', 'backdrop.webp', 'fanart.webp']) or poster
+    return {
+        'id': serie.get('id') or make_id(title),
+        'title': title,
+        'title_en': en,
+        'originaltitle': txt(root, 'originaltitle'),
+        'year': txt(root, 'year'),
+        'rating': txt(root, 'rating'),
+        'plot': serie.get('description') or txt(root, 'plot') or txt(root, 'outline'),
+        'runtime': txt(root, 'runtime'),
+        'status': txt(root, 'status'),
+        'genres': texts(root, 'genre'),
+        'studios': texts(root, 'studio'),
+        'cast': [{'name': txt(a, 'name'), 'role': txt(a, 'role')} for a in root.findall('actor')],
+        'poster': poster,
+        'banner': banner,
+        'topic_url': serie.get('topic_url') or serie.get('telegram_url') or '',
+        'total_episodes': int(serie.get('total_episodes') or 0),
+        'episodes': list(eps.values()),
     }
 
 
-    for m in manual:
-
-        key = (
-            m.get('season', 1),
-            m.get('number', 0)
-        )
-
-
-        base = bynum.get(
-            key,
-            {}
-        )
-
-
-        merged = {
-
-            **base,
-
-            **{
-                k: v
-                for k, v in m.items()
-                if v not in ('', None)
-            }
-
-        }
-
-
-        bynum[key] = merged
-
-
-    eps = sorted(
-
-        bynum.values(),
-
-        key=lambda e: (
-            e.get('season', 1),
-            e.get('number', 0)
-        )
-
-    )
-
-
-    # ======================================
-    # IMÁGENES
-    # ======================================
-
-    poster = image_for(
-
-        folder,
-
-        [
-            'folder.jpg',
-            'poster.jpg',
-            'folder.png',
-            'poster.png'
-        ]
-
-    )
-
-
-    banner = (
-
-        image_for(
-
-            folder,
-
-            [
-                'banner.jpg',
-                'backdrop.jpg',
-                'fanart.jpg',
-                'banner.png',
-                'backdrop.png'
-            ]
-
-        )
-
-        or poster
-
-    )
-
-
-    # ======================================
-    # TOTAL DE CAPÍTULOS
-    # ======================================
-
-    total_episodes = (
-
-        serie.get('total_episodes')
-        or serie.get('episodes_total')
-        or serie.get('episode_count')
-        or len(eps)
-
-    )
-
-
-    # ======================================
-    # ENLACE TELEGRAM
-    # ======================================
-
-    topic_url = (
-
-        serie.get('topic_url')
-        or serie.get('telegram_url')
-        or ''
-
-    )
-
-
-    # ======================================
-    # DATOS FINALES
-    # ======================================
-
-    d = {
-
-        'id':
-            sid,
-
-        'title':
-            title,
-
-        'originaltitle':
-            txt(
-                root,
-                'originaltitle'
-            ),
-
-        'year':
-            txt(
-                root,
-                'year'
-            ),
-
-        'rating':
-            txt(
-                root,
-                'rating'
-            ),
-
-        'plot':
-            txt(
-                root,
-                'plot'
-            )
-            or txt(
-                root,
-                'outline'
-            ),
-
-        'description':
-            serie.get('description')
-            or '',
-
-        'runtime':
-            txt(
-                root,
-                'runtime'
-            ),
-
-        'premiered':
-            txt(
-                root,
-                'premiered'
-            ),
-
-        'status':
-            txt(
-                root,
-                'status'
-            ),
-
-        'genres':
-            texts(
-                root,
-                'genre'
-            ),
-
-        'studios':
-            texts(
-                root,
-                'studio'
-            ),
-
-        'tags':
-            texts(
-                root,
-                'tag'
-            ),
-
-        'poster':
-            poster,
-
-        'banner':
-            banner,
-
-        'country':
-            serie.get(
-                'country',
-                ''
-            ),
-
-        'display_genres':
-            serie.get(
-                'display_genres',
-                []
-            ),
-
-        # Telegram
-        'topic_url':
-            topic_url,
-
-        # Total real
-        'total_episodes':
-            total_episodes,
-
-        'cast': [
-
-            {
-
-                'name':
-                    txt(
-                        a,
-                        'name'
-                    ),
-
-                'role':
-                    txt(
-                        a,
-                        'role'
-                    )
-
-            }
-
-            for a in root.findall(
-                'actor'
-            )
-
-        ],
-
-        'episodes':
-            eps
-
+def from_pc(item):
+    title = (item.get('title_es') or no_thai(item.get('title'))
+             or no_thai(strip_year(item.get('folder'))) or item.get('folder') or '')
+    eps = []
+    total = 0
+    for t in item.get('seasons') or []:
+        for n in t.get('have') or []:
+            eps.append({'season': int(t.get('n') or 1), 'number': int(n)})
+        total += int(t.get('total') or 0)
+    def img(p):
+        return ('pc/' + p) if p and (ROOT / 'pc' / p).exists() else ''
+    return {
+        'id': make_id(title),
+        'title': title,
+        'title_en': item.get('title_en') or no_thai(strip_year(item.get('folder'))),
+        'originaltitle': item.get('orig') or '',
+        'year': item.get('year') or '',
+        'rating': item.get('rating') or '',
+        'plot': item.get('plot') or '',
+        'runtime': item.get('runtime') or '',
+        'status': item.get('status') or '',
+        'genres': item.get('genres') or [],
+        'studios': item.get('studios') or [],
+        'cast': item.get('cast') or [],
+        'poster': img(item.get('poster')),
+        'banner': img(item.get('back')) or img(item.get('poster')),
+        'topic_url': '',
+        'total_episodes': total,
+        'episodes': eps,
     }
 
 
-    return d
+def merge(a, b):
+    """Completa la serie a con los datos de b sin borrar lo que ya tiene."""
+    for k, v in b.items():
+        if k == 'episodes':
+            have = {(e['season'], e['number']): e for e in a['episodes']}
+            for e in v:
+                key = (e['season'], e['number'])
+                if key not in have:
+                    have[key] = dict(e)
+                elif e.get('telegram_url') and not have[key].get('telegram_url'):
+                    have[key]['telegram_url'] = e['telegram_url']
+            a['episodes'] = list(have.values())
+        elif k == 'total_episodes':
+            a[k] = max(a.get(k) or 0, v or 0)
+        elif not a.get(k) and v:
+            a[k] = v
+    return a
 
-
-# ==========================================
-# GENERAR CATÁLOGO
-# ==========================================
 
 def main():
+    items = {}
 
-    items = []
+    def add(s):
+        if not s or not s['id']:
+            return
+        items[s['id']] = merge(items[s['id']], s) if s['id'] in items else s
 
+    if SERIES.exists():
+        for folder in sorted(p for p in SERIES.iterdir() if p.is_dir()):
+            try:
+                add(from_folder(folder))
+            except Exception as e:
+                print(f'ERROR {folder}: {e}')
 
-    if not SERIES.exists():
-
-        print(
-            f'ERROR: no existe {SERIES}'
-        )
-
-        return
-
-
-    for folder in sorted(
-        [
-            p
-            for p in SERIES.iterdir()
-            if p.is_dir()
-        ]
-    ):
-
+    pc = load_json(PC, {})
+    for item in (pc.get('series', []) if isinstance(pc, dict) else pc):
         try:
-
-            x = build_series(
-                folder
-            )
-
-            if x:
-                items.append(x)
-
+            add(from_pc(item))
         except Exception as e:
+            print(f'ERROR pc {item.get("folder")}: {e}')
 
-            print(
-                f'ERROR {folder}: {e}'
-            )
+    # Telegram: temas creados y capítulos detectados
+    tg = load_json(TG, {}).get('series', {})
+    for sid, t in tg.items():
+        if sid not in items:
+            continue
+        s = items[sid]
+        if t.get('topic_url'):
+            s['topic_url'] = t['topic_url']
+        merge(s, {'episodes': [
+            {'season': e['season'], 'number': e['number'], 'telegram_url': e['url']}
+            for e in t.get('episodes', [])]})
 
+    out = []
+    for s in sorted(items.values(), key=lambda x: x['title'].lower()):
+        s['genres'] = genres_es(s['genres'])
+        s['status'] = STATUS.get((s['status'] or '').lower(), s['status'] or '')
+        s['episodes'].sort(key=lambda e: (e['season'], e['number']))
+        if not s['total_episodes']:
+            s['total_episodes'] = len(s['episodes'])
+        s['thread_id'] = thread_of(s['topic_url'])
+        out.append(s)
 
-    OUT.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-
-    OUT.write_text(
-
-        json.dumps(
-
-            {
-                'series':
-                    items
-            },
-
-            ensure_ascii=False,
-
-            indent=2
-
-        ),
-
-        encoding='utf-8'
-
-    )
-
-
-    print(
-        f'Generated {OUT} with {len(items)} series'
-    )
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps({'series': out}, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f'Catálogo generado: {len(out)} series')
 
 
 if __name__ == '__main__':
