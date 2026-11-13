@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'series/**'
+      - 'data/oficial.json'
       - 'pc/**'
       - 'scripts/**'
       - '.github/workflows/actualizar.yml'

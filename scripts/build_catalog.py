@@ -17,6 +17,7 @@ SERIES = ROOT / 'series'
 PC = ROOT / 'pc' / 'series.json'
 TG = ROOT / 'data' / 'telegram.json'
 OUT = ROOT / 'data' / 'catalog.json'
+OFICIAL = ROOT / 'data' / 'oficial.json'   # enlaces exactos puestos a mano (tienen prioridad)
 
 THAI = re.compile(r'[฀-๿]+')
 GENRES = {
@@ -86,6 +87,33 @@ def genres_es(lst):
     if 'GL' not in out:
         out.append('GL')
     return out
+
+
+def q(t):
+    from urllib.parse import quote_plus
+    return quote_plus(t)
+
+
+def official(s, manual):
+    """Dónde verla oficialmente. Primero lo gratis, luego lo de pago."""
+    if s['id'] in manual:
+        return manual[s['id']]
+    st = ' '.join(s.get('studios') or []).lower()
+    t = s.get('title_en') or s['title']
+    rules = [
+        (('gmm25', 'gmm 25', 'gmmtv'), 'YouTube GMMTV', f'https://www.youtube.com/@gmmtv/search?query={q(t)}', True),
+        (('one 31', 'one31', 'oned', 'one grand'), 'YouTube one31', f'https://www.youtube.com/@one31official/search?query={q(t)}', True),
+        (('channel 3', '3plus', 'ch3'), 'YouTube Ch3Thailand', f'https://www.youtube.com/@ch3thailand/search?query={q(t)}', True),
+        (('youtube',), 'Buscar en YouTube', f'https://www.youtube.com/results?search_query={q(t + " EP1")}', True),
+        (('iqiyi',), 'iQIYI', f'https://www.iq.com/search?query={q(t)}', True),
+        (('wetv',), 'WeTV', 'https://wetv.vip/', True),
+        (('gagaoolala',), 'GagaOOLala', 'https://www.gagaoolala.com/', False),
+        (('netflix',), 'Netflix', f'https://www.netflix.com/search?q={q(t)}', False),
+    ]
+    for keys, name, url, free in rules:
+        if any(k in st for k in keys):
+            return {'name': name, 'url': url, 'gratis': free}
+    return None
 
 
 def thread_of(url):
@@ -235,6 +263,7 @@ def main():
             {'season': e['season'], 'number': e['number'], 'telegram_url': e['url']}
             for e in t.get('episodes', [])]})
 
+    manual = load_json(OFICIAL, {})
     out = []
     for s in sorted(items.values(), key=lambda x: x['title'].lower()):
         s['genres'] = genres_es(s['genres'])
@@ -243,6 +272,7 @@ def main():
         if not s['total_episodes']:
             s['total_episodes'] = len(s['episodes'])
         s['thread_id'] = thread_of(s['topic_url'])
+        s['oficial'] = official(s, manual)
         out.append(s)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

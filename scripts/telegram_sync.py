@@ -248,6 +248,10 @@ def chapter_list(s, st):
             lines.append('')
     if len(lines) <= 2:
         lines.append('⏳ Los capítulos aparecerán aquí cuando se suban.')
+    of = s.get('oficial')
+    if of and of.get('url'):
+        tag = 'gratis' if of.get('gratis') else 'de pago'
+        lines += ['', f'📺 Ver oficial ({tag}): <a href="{esc(of["url"])}">{esc(of["name"])}</a>']
     lines += ['', '<i>Toca un capítulo para verlo. Esta lista se actualiza sola.</i>']
     text = '\n'.join(lines)
     if len(text) > 4000:

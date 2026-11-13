@@ -64,6 +64,10 @@ header{display:flex;align-items:center;gap:12px}
 .go:hover{filter:brightness(1.08)}
 .go:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
 .go[disabled]{background:var(--line);color:var(--muted);box-shadow:none;cursor:default}
+.oficial{display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid #4ef3ff88;border-radius:18px;padding:10px 16px;max-width:420px;
+  color:var(--cyan);text-decoration:none;font-family:var(--display);font-weight:600;font-size:14px;background:#4ef3ff10}
+.oficial:hover{background:#4ef3ff22;box-shadow:0 0 16px #4ef3ff44}
+.oficial span{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#12061e;background:var(--cyan);border-radius:999px;padding:2px 8px}
 .eps-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-top:auto}
 .eps-head h3{font-family:var(--display);font-size:14px;letter-spacing:.14em;text-transform:uppercase;margin:0;color:var(--pink)}
 .eps-head p{margin:0;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
@@ -92,6 +96,6 @@ header{display:flex;align-items:center;gap:12px}
   .rest{grid-column:1/-1}
   .plot{font-size:14px;max-height:7.5em}
   .cast{display:none}
-  .go{max-width:none}
+  .go,.oficial{max-width:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}

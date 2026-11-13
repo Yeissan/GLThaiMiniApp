@@ -131,7 +131,12 @@
           "telegram_url": "https://t.me/c/3974971985/4/56"
         }
       ],
-      "thread_id": 4
+      "thread_id": 4,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=23.5",
+        "gratis": true
+      }
     },
     {
       "id": "24-horus-love",
@@ -210,7 +215,8 @@
           "number": 24
         }
       ],
-      "thread_id": 92
+      "thread_id": 92,
+      "oficial": null
     },
     {
       "id": "affair",
@@ -302,7 +308,12 @@
           "number": 8
         }
       ],
-      "thread_id": 96
+      "thread_id": 96,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=AFFAIR+THE+SERIES",
+        "gratis": true
+      }
     },
     {
       "id": "ai-girl-series",
@@ -371,7 +382,12 @@
           "number": 7
         }
       ],
-      "thread_id": 100
+      "thread_id": 100,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=AI+Girl",
+        "gratis": true
+      }
     },
     {
       "id": "apple-my-love",
@@ -565,7 +581,12 @@
           "number": 33
         }
       ],
-      "thread_id": 104
+      "thread_id": 104,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Apple+My+Love+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "b-friend",
@@ -663,7 +684,12 @@
           "number": 12
         }
       ],
-      "thread_id": 108
+      "thread_id": 108,
+      "oficial": {
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
+        "gratis": true
+      }
     },
     {
       "id": "be-my-angel",
@@ -735,7 +761,12 @@
           "number": 8
         }
       ],
-      "thread_id": 112
+      "thread_id": 112,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=Be+My+Angel",
+        "gratis": true
+      }
     },
     {
       "id": "blank-the-series",
@@ -820,7 +851,12 @@
           "number": 6
         }
       ],
-      "thread_id": 116
+      "thread_id": 116,
+      "oficial": {
+        "name": "YouTube NineStarStudios",
+        "url": "https://www.youtube.com/results?search_query=Blank+The+Series+NineStarStudios",
+        "gratis": true
+      }
     },
     {
       "id": "broken-of-love",
@@ -889,7 +925,12 @@
           "number": 8
         }
       ],
-      "thread_id": 120
+      "thread_id": 120,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Broken+of+Love+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "built-in-love-series",
@@ -925,7 +966,12 @@
           "number": 2
         }
       ],
-      "thread_id": 124
+      "thread_id": 124,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Built+in+love",
+        "gratis": true
+      }
     },
     {
       "id": "candy",
@@ -968,7 +1014,12 @@
       "topic_url": "https://t.me/c/3974971985/128",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 128
+      "thread_id": 128,
+      "oficial": {
+        "name": "GagaOOLala",
+        "url": "https://www.gagaoolala.com/",
+        "gratis": false
+      }
     },
     {
       "id": "chaser-game-w1",
@@ -1107,7 +1158,8 @@
           "number": 8
         }
       ],
-      "thread_id": 132
+      "thread_id": 132,
+      "oficial": null
     },
     {
       "id": "chasing-love",
@@ -1174,7 +1226,12 @@
           "number": 8
         }
       ],
-      "thread_id": 136
+      "thread_id": 136,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Chasing+Love",
+        "gratis": true
+      }
     },
     {
       "id": "clairebell",
@@ -1283,7 +1340,12 @@
           "number": 8
         }
       ],
-      "thread_id": 140
+      "thread_id": 140,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=ClaireBell",
+        "gratis": true
+      }
     },
     {
       "id": "club-friday-17-the-theory-of-love",
@@ -1325,7 +1387,12 @@
           "number": 4
         }
       ],
-      "thread_id": 144
+      "thread_id": 144,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Club+Friday+Theory+of+Love+Merit+Wins+the+Soul",
+        "gratis": true
+      }
     },
     {
       "id": "denied-love",
@@ -1413,7 +1480,12 @@
           "number": 10
         }
       ],
-      "thread_id": 148
+      "thread_id": 148,
+      "oficial": {
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
+        "gratis": true
+      }
     },
     {
       "id": "el-otro-yo",
@@ -1505,7 +1577,8 @@
           "number": 4
         }
       ],
-      "thread_id": 152
+      "thread_id": 152,
+      "oficial": null
     },
     {
       "id": "enemies-with-benefits",
@@ -1623,7 +1696,12 @@
           "number": 10
         }
       ],
-      "thread_id": 156
+      "thread_id": 156,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Enemies+With+Benefits",
+        "gratis": true
+      }
     },
     {
       "id": "fairway-del-amor",
@@ -1685,7 +1763,12 @@
           "number": 8
         }
       ],
-      "thread_id": 160
+      "thread_id": 160,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Fairway+of+Love",
+        "gratis": true
+      }
     },
     {
       "id": "falling-for-my-hater",
@@ -1719,7 +1802,12 @@
       "topic_url": "https://t.me/c/3974971985/164",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 164
+      "thread_id": 164,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=Falling+for+My+Hater",
+        "gratis": true
+      }
     },
     {
       "id": "frozen-valentine",
@@ -1799,7 +1887,12 @@
           "number": 10
         }
       ],
-      "thread_id": 168
+      "thread_id": 168,
+      "oficial": {
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
+        "gratis": true
+      }
     },
     {
       "id": "fulfill",
@@ -1881,7 +1974,12 @@
           "number": 8
         }
       ],
-      "thread_id": 172
+      "thread_id": 172,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Fulfill",
+        "gratis": true
+      }
     },
     {
       "id": "gap-the-series",
@@ -2014,7 +2112,12 @@
           "telegram_url": "https://t.me/c/3974971985/33/65"
         }
       ],
-      "thread_id": 33
+      "thread_id": 33,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=GAP+The+Series",
+        "gratis": true
+      }
     },
     {
       "id": "girl-rules",
@@ -2128,7 +2231,12 @@
           "telegram_url": "https://t.me/c/3974971985/71/89"
         }
       ],
-      "thread_id": 71
+      "thread_id": 71,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Girl+Rules",
+        "gratis": true
+      }
     },
     {
       "id": "harmony-secret",
@@ -2217,7 +2325,12 @@
           "number": 8
         }
       ],
-      "thread_id": 180
+      "thread_id": 180,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=HARMONY+SECRET",
+        "gratis": true
+      }
     },
     {
       "id": "hate-you-love-you",
@@ -2261,7 +2374,12 @@
       "topic_url": "https://t.me/c/3974971985/184",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 184
+      "thread_id": 184,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hate+You+Love+You+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "heart-code",
@@ -2330,7 +2448,8 @@
           "number": 7
         }
       ],
-      "thread_id": 188
+      "thread_id": 188,
+      "oficial": null
     },
     {
       "id": "hello-is-this-luck",
@@ -2396,7 +2515,8 @@
           "number": 4
         }
       ],
-      "thread_id": 192
+      "thread_id": 192,
+      "oficial": null
     },
     {
       "id": "hidden-half",
@@ -2460,7 +2580,12 @@
           "number": 6
         }
       ],
-      "thread_id": 253
+      "thread_id": 253,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Hidden+Half+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "hometown-romance",
@@ -2527,7 +2652,12 @@
           "number": 8
         }
       ],
-      "thread_id": 257
+      "thread_id": 257,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Hometown+Romance",
+        "gratis": true
+      }
     },
     {
       "id": "how-do-we-relationship",
@@ -2599,7 +2729,8 @@
           "number": 2
         }
       ],
-      "thread_id": 261
+      "thread_id": 261,
+      "oficial": null
     },
     {
       "id": "i-am-devil-2",
@@ -2638,7 +2769,8 @@
           "number": 4
         }
       ],
-      "thread_id": 265
+      "thread_id": 265,
+      "oficial": null
     },
     {
       "id": "i-wanna-be-sup-tar",
@@ -2717,7 +2849,12 @@
           "number": 8
         }
       ],
-      "thread_id": 269
+      "thread_id": 269,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=I+Wanna+Be+Sup%C2%B4tar",
+        "gratis": true
+      }
     },
     {
       "id": "i-m-your-moon",
@@ -2793,7 +2930,8 @@
           "number": 8
         }
       ],
-      "thread_id": 273
+      "thread_id": 273,
+      "oficial": null
     },
     {
       "id": "ice-break-heart-me-melt",
@@ -2870,7 +3008,8 @@
           "number": 8
         }
       ],
-      "thread_id": 277
+      "thread_id": 277,
+      "oficial": null
     },
     {
       "id": "in-love-forever",
@@ -2962,7 +3101,12 @@
           "number": 10
         }
       ],
-      "thread_id": 281
+      "thread_id": 281,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=In+Love+Forever",
+        "gratis": true
+      }
     },
     {
       "id": "juliet-juliet",
@@ -3038,7 +3182,12 @@
           "number": 8
         }
       ],
-      "thread_id": 285
+      "thread_id": 285,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Juliet+%26+Juliet",
+        "gratis": true
+      }
     },
     {
       "id": "khom-khlang-the-series",
@@ -3105,7 +3254,12 @@
           "number": 10
         }
       ],
-      "thread_id": 289
+      "thread_id": 289,
+      "oficial": {
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
+        "gratis": true
+      }
     },
     {
       "id": "la-fragancia-del-primer-amor",
@@ -3214,7 +3368,12 @@
           "number": 12
         }
       ],
-      "thread_id": 293
+      "thread_id": 293,
+      "oficial": {
+        "name": "GagaOOLala",
+        "url": "https://www.gagaoolala.com/",
+        "gratis": false
+      }
     },
     {
       "id": "like-a-palette",
@@ -3286,7 +3445,12 @@
           "number": 8
         }
       ],
-      "thread_id": 297
+      "thread_id": 297,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Like+A+Palette",
+        "gratis": true
+      }
     },
     {
       "id": "love-beyond-dreams",
@@ -3361,7 +3525,12 @@
           "number": 7
         }
       ],
-      "thread_id": 301
+      "thread_id": 301,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Love+Beyond+Dreams+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "love-bully",
@@ -3414,7 +3583,12 @@
           "number": 4
         }
       ],
-      "thread_id": 305
+      "thread_id": 305,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Love+Bully",
+        "gratis": true
+      }
     },
     {
       "id": "love-design",
@@ -3519,7 +3693,12 @@
           "number": 10
         }
       ],
-      "thread_id": 309
+      "thread_id": 309,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Love+Design",
+        "gratis": true
+      }
     },
     {
       "id": "love-me-to-hurt-me",
@@ -3549,7 +3728,12 @@
           "number": 1
         }
       ],
-      "thread_id": 313
+      "thread_id": 313,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Love+Me+to+Hurt+Me",
+        "gratis": true
+      }
     },
     {
       "id": "love-moment",
@@ -3654,7 +3838,12 @@
           "number": 8
         }
       ],
-      "thread_id": 317
+      "thread_id": 317,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Love+Moment",
+        "gratis": true
+      }
     },
     {
       "id": "love-on-hire",
@@ -3697,7 +3886,12 @@
           "number": 4
         }
       ],
-      "thread_id": 321
+      "thread_id": 321,
+      "oficial": {
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
+        "gratis": true
+      }
     },
     {
       "id": "love-senior-the-series",
@@ -3815,7 +4009,12 @@
           "number": 10
         }
       ],
-      "thread_id": 325
+      "thread_id": 325,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Love+Senior+The+Series",
+        "gratis": true
+      }
     },
     {
       "id": "lucky-my-love",
@@ -3872,7 +4071,12 @@
           "number": 5
         }
       ],
-      "thread_id": 329
+      "thread_id": 329,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Lucky+My+Love+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "mate",
@@ -3972,7 +4176,8 @@
           "number": 12
         }
       ],
-      "thread_id": 333
+      "thread_id": 333,
+      "oficial": null
     },
     {
       "id": "midsummer-love",
@@ -4018,7 +4223,8 @@
       "topic_url": "https://t.me/c/3974971985/337",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 337
+      "thread_id": 337,
+      "oficial": null
     },
     {
       "id": "mission-love-or-lies",
@@ -4076,7 +4282,12 @@
           "number": 4
         }
       ],
-      "thread_id": 341
+      "thread_id": 341,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=LOVE+OR+LIES+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "moonshadow",
@@ -4169,7 +4380,12 @@
           "number": 10
         }
       ],
-      "thread_id": 345
+      "thread_id": 345,
+      "oficial": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/search?q=Moonshadow",
+        "gratis": false
+      }
     },
     {
       "id": "music-story-losing-control",
@@ -4234,7 +4450,12 @@
           "number": 6
         }
       ],
-      "thread_id": 349
+      "thread_id": 349,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Losing+Control+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "my-lady-s-bodyguard",
@@ -4313,7 +4534,12 @@
           "number": 11
         }
       ],
-      "thread_id": 353
+      "thread_id": 353,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=My+Lady%E2%80%99s+Bodyguard+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "my-marvellous-dream-is-you",
@@ -4437,7 +4663,12 @@
           "number": 12
         }
       ],
-      "thread_id": 357
+      "thread_id": 357,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=My+Marvellous+Dream+Is+You",
+        "gratis": true
+      }
     },
     {
       "id": "my-only-sunshine-the-series",
@@ -4517,7 +4748,12 @@
           "number": 8
         }
       ],
-      "thread_id": 361
+      "thread_id": 361,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=My+Only+Sunshine",
+        "gratis": true
+      }
     },
     {
       "id": "my-safe-zone",
@@ -4610,7 +4846,12 @@
           "number": 8
         }
       ],
-      "thread_id": 365
+      "thread_id": 365,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=MY+SAFE+ZONE",
+        "gratis": true
+      }
     },
     {
       "id": "my-secret-tutor",
@@ -4644,7 +4885,12 @@
       "topic_url": "https://t.me/c/3974971985/370",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 370
+      "thread_id": 370,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=My+Secret+Tutor+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "my-wednesday",
@@ -4687,7 +4933,12 @@
       "topic_url": "https://t.me/c/3974971985/374",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 374
+      "thread_id": 374,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=My+Wednesday+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "now-it-s-my-turn",
@@ -4758,7 +5009,12 @@
           "number": 9
         }
       ],
-      "thread_id": 378
+      "thread_id": 378,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Now+It%E2%80%99s+My+Turn+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "only-you",
@@ -4891,7 +5147,12 @@
           "number": 14
         }
       ],
-      "thread_id": 382
+      "thread_id": 382,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=ONLY+YOU+THE+SERIES",
+        "gratis": true
+      }
     },
     {
       "id": "oxytoxin",
@@ -4924,7 +5185,12 @@
           "number": 1
         }
       ],
-      "thread_id": 386
+      "thread_id": 386,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Oxytoxin",
+        "gratis": true
+      }
     },
     {
       "id": "petrichor-the-series",
@@ -5043,7 +5309,12 @@
           "number": 10
         }
       ],
-      "thread_id": 390
+      "thread_id": 390,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Petrichor+The+Series",
+        "gratis": true
+      }
     },
     {
       "id": "play-park-series",
@@ -5111,7 +5382,12 @@
           "number": 8
         }
       ],
-      "thread_id": 394
+      "thread_id": 394,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Play+Park",
+        "gratis": true
+      }
     },
     {
       "id": "pls-love",
@@ -5169,7 +5445,12 @@
           "number": 8
         }
       ],
-      "thread_id": 398
+      "thread_id": 398,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Pls+Love",
+        "gratis": true
+      }
     },
     {
       "id": "pluto",
@@ -5286,7 +5567,12 @@
           "number": 12
         }
       ],
-      "thread_id": 402
+      "thread_id": 402,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Pluto",
+        "gratis": true
+      }
     },
     {
       "id": "poisonous-love-the-series",
@@ -5387,7 +5673,12 @@
           "number": 10
         }
       ],
-      "thread_id": 406
+      "thread_id": 406,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Poisonous+Love",
+        "gratis": true
+      }
     },
     {
       "id": "por-m-s-que-pase-el-tiempo",
@@ -5507,7 +5798,8 @@
           "number": 12
         }
       ],
-      "thread_id": 410
+      "thread_id": 410,
+      "oficial": null
     },
     {
       "id": "put-our-heart-on-the-paper",
@@ -5535,7 +5827,8 @@
       "topic_url": "https://t.me/c/3974971985/414",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 414
+      "thread_id": 414,
+      "oficial": null
     },
     {
       "id": "queendom",
@@ -5648,7 +5941,12 @@
           "number": 12
         }
       ],
-      "thread_id": 418
+      "thread_id": 418,
+      "oficial": {
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
+        "gratis": true
+      }
     },
     {
       "id": "remind",
@@ -5682,7 +5980,12 @@
       "topic_url": "https://t.me/c/3974971985/422",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": 422
+      "thread_id": 422,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Remind+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "rental-love-lab",
@@ -5725,7 +6028,12 @@
           "number": 1
         }
       ],
-      "thread_id": 426
+      "thread_id": 426,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Rental+Love+lab+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "reset-to-remember",
@@ -5790,7 +6098,12 @@
           "number": 7
         }
       ],
-      "thread_id": 430
+      "thread_id": 430,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=RESET+TO+REMEMBER+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "reverse-with-me-the-series",
@@ -5894,7 +6207,12 @@
           "number": 8
         }
       ],
-      "thread_id": 434
+      "thread_id": 434,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Reverse+With+Me",
+        "gratis": true
+      }
     },
     {
       "id": "rivalidad-amistosa",
@@ -6020,7 +6338,8 @@
           "number": 16
         }
       ],
-      "thread_id": 438
+      "thread_id": 438,
+      "oficial": null
     },
     {
       "id": "roller-coaster-the-series",
@@ -6104,7 +6423,12 @@
           "number": 8
         }
       ],
-      "thread_id": 442
+      "thread_id": 442,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=ROLLER+COASTER",
+        "gratis": true
+      }
     },
     {
       "id": "runaway-the-series",
@@ -6184,7 +6508,12 @@
           "number": 8
         }
       ],
-      "thread_id": 446
+      "thread_id": 446,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=RUNAWAY",
+        "gratis": true
+      }
     },
     {
       "id": "sassy-season",
@@ -6243,7 +6572,12 @@
           "number": 6
         }
       ],
-      "thread_id": 450
+      "thread_id": 450,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sassy+Season+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "scandal-love",
@@ -6316,7 +6650,12 @@
           "number": 10
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Scandal+Love+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "sea-you-soon",
@@ -6350,7 +6689,12 @@
       "topic_url": "",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Sea+You+Soon+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "shades",
@@ -6423,7 +6767,8 @@
           "number": 6
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": null
     },
     {
       "id": "shadow-of-love",
@@ -6556,7 +6901,12 @@
           "number": 24
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Shadow+of+love+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "show-me-love",
@@ -6637,7 +6987,12 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Show+Me+Love+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "somewhere-somehow",
@@ -6761,7 +7116,12 @@
           "number": 13
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Somewhere+Somehow+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "susurros-del-destino",
@@ -6797,7 +7157,12 @@
       "topic_url": "",
       "total_episodes": 0,
       "episodes": [],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Fates+Whisper+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "the-air",
@@ -6898,7 +7263,12 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=The+Air",
+        "gratis": true
+      }
     },
     {
       "id": "the-earth",
@@ -6983,7 +7353,12 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=The+Earth",
+        "gratis": true
+      }
     },
     {
       "id": "the-end",
@@ -7060,7 +7435,8 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": null
     },
     {
       "id": "the-fire",
@@ -7152,7 +7528,8 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": null
     },
     {
       "id": "the-loyal-pin",
@@ -7294,7 +7671,12 @@
           "number": 16
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=The+Loyal+Pin+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "the-player",
@@ -7392,7 +7774,8 @@
           "number": 12
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": null
     },
     {
       "id": "the-secret-of-girls",
@@ -7488,7 +7871,12 @@
           "number": 16
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "GagaOOLala",
+        "url": "https://www.gagaoolala.com/",
+        "gratis": false
+      }
     },
     {
       "id": "the-secret-of-us",
@@ -7597,7 +7985,12 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/search?q=The%20Secret%20of%20Us",
+        "gratis": false
+      }
     },
     {
       "id": "the-water",
@@ -7702,7 +8095,12 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=The+Water",
+        "gratis": true
+      }
     },
     {
       "id": "the-way-back-to-you",
@@ -7764,7 +8162,12 @@
           "number": 6
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=The+Way+Back+to+you",
+        "gratis": true
+      }
     },
     {
       "id": "third-person",
@@ -7833,7 +8236,12 @@
           "number": 7
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Third+Person",
+        "gratis": true
+      }
     },
     {
       "id": "under-her-rules",
@@ -7865,7 +8273,12 @@
           "number": 1
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=Under+Her+Rules",
+        "gratis": true
+      }
     },
     {
       "id": "unlimited-love",
@@ -7977,7 +8390,12 @@
           "number": 10
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "YouTube one31",
+        "url": "https://www.youtube.com/@one31official/search?query=Unlimited+Love",
+        "gratis": true
+      }
     },
     {
       "id": "us",
@@ -8086,7 +8504,12 @@
           "number": 12
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Us+The+Series",
+        "gratis": true
+      }
     },
     {
       "id": "visi-n-de-amor",
@@ -8178,7 +8601,12 @@
           "number": 8
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "YouTube Ch3Thailand",
+        "url": "https://www.youtube.com/@ch3thailand/search?query=Reverse+4+you",
+        "gratis": true
+      }
     },
     {
       "id": "whale-store-xoxo",
@@ -8275,7 +8703,12 @@
           "number": 10
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "YouTube GMMTV",
+        "url": "https://www.youtube.com/@gmmtv/search?query=Whale+Store+XOXO",
+        "gratis": true
+      }
     },
     {
       "id": "you-are-my-star",
@@ -8322,7 +8755,12 @@
           "number": 33
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=You+are+my+star+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "you-are-the-cream-in-my-coffee",
@@ -8382,7 +8820,12 @@
           "number": 7
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": {
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=You+Are+The+Cream+In+My+Coffee+EP1",
+        "gratis": true
+      }
     },
     {
       "id": "ayaka-est-enamorada-de-hiroko",
@@ -8515,7 +8958,8 @@
           "number": 6
         }
       ],
-      "thread_id": null
+      "thread_id": null,
+      "oficial": null
     }
   ]
 }
