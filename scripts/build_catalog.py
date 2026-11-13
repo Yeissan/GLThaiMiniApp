@@ -18,7 +18,8 @@ PC = ROOT / 'pc' / 'series.json'
 TG = ROOT / 'data' / 'telegram.json'
 OUT = ROOT / 'data' / 'catalog.json'
 OFICIAL = ROOT / 'data' / 'oficial.json'   # enlaces exactos puestos a mano (tienen prioridad)
-PLAYLISTS = ROOT / 'data' / 'playlists.json'   # playlists oficiales encontradas en YouTube
+PLAYLISTS = ROOT / 'data' / 'playlists.json'
+ESTADO = ROOT / 'data' / 'estado.json'   # estado puesto a mano: {"id-serie": "Finalizada"}   # playlists oficiales encontradas en YouTube
 
 THAI = re.compile(r'[฀-๿]+')
 GENRES = {
@@ -28,7 +29,8 @@ GENRES = {
     'horror': 'Terror', 'music': 'Música', 'documentary': 'Documental', 'war': 'Bélica',
     'history': 'Historia', 'animation': 'Animación', 'kids': 'Infantil', 'reality': 'Reality',
 }
-STATUS = {'continuing': 'En emisión', 'returning series': 'En emisión', 'ended': 'Finalizada',
+STATUS = {'en emision': 'En emisión', 'en emisión': 'En emisión', 'finalizada': 'Finalizada', 'terminada': 'Finalizada',
+          'continuing': 'En emisión', 'returning series': 'En emisión', 'ended': 'Finalizada',
           'canceled': 'Cancelada', 'cancelled': 'Cancelada'}
 
 
@@ -277,10 +279,13 @@ def main():
 
     manual = load_json(OFICIAL, {})
     pls = load_json(PLAYLISTS, {})
+    estados = load_json(ESTADO, {})
     out = []
     for s in sorted(items.values(), key=lambda x: x['title'].lower()):
         s['genres'] = genres_es(s['genres'])
         s['status'] = STATUS.get((s['status'] or '').lower(), s['status'] or '')
+        if estados.get(s['id']):
+            s['status'] = STATUS.get(estados[s['id']].lower(), estados[s['id']])
         s['episodes'].sort(key=lambda e: (e['season'], e['number']))
         if not s['total_episodes']:
             s['total_episodes'] = len(s['episodes'])

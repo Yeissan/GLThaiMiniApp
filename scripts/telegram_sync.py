@@ -283,6 +283,27 @@ def poster_bytes(s):
         return p.read_bytes() if p.suffix.lower() in ('.jpg', '.jpeg', '.png') else None
 
 
+def update_ficha(s, st):
+    """Si cambia la ficha (por ejemplo, la serie pasa a Finalizada), edita el pie del póster."""
+    if not st.get('ficha_msg'):
+        return
+    text = ficha(s)
+    h = hashlib.md5(text.encode()).hexdigest()
+    if st.get('ficha_hash') == h:
+        return
+    try:
+        call('editMessageCaption', chat_id=CHAT, message_id=st['ficha_msg'], caption=text,
+             parse_mode='HTML', reply_markup=buttons(s))
+        print(f' ~ Ficha actualizada: {s["title"]}')
+    except TgError as e:
+        if 'not modified' not in e.desc:
+            print(f'   No pude actualizar la ficha de {s["title"]} ({e.desc})')
+            if 'not found' in e.desc or 'there is no caption' in e.desc:
+                st.pop('ficha_msg', None)
+            return
+    st['ficha_hash'] = h
+
+
 def send_list(s, st, thread):
     text = chapter_list(s, st)
     h = hashlib.md5(text.encode()).hexdigest()
@@ -360,7 +381,9 @@ def main():
                     msg = call('sendMessage', chat_id=CHAT, message_thread_id=thread, text=ficha(s),
                                parse_mode='HTML', reply_markup=buttons(s))
                 st['ficha_msg'] = msg['message_id']
+                st['ficha_hash'] = hashlib.md5(ficha(s).encode()).hexdigest()
                 time.sleep(3)
+            update_ficha(s, st)
             send_list(s, st, thread)
             time.sleep(1)
     except TgError as e:

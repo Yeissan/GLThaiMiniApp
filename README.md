@@ -34,3 +34,11 @@ Al subir un vídeo a un tema, se detecta el número si el pie o el nombre del ar
 
 - `series/<NOMBRE>/` con `tvshow.nfo`, imágenes, `serie.json` y `episodes.json` (formato anterior) sigue funcionando.
 - `data/telegram.json` lo escribe GitHub solo: no hace falta tocarlo.
+
+## Cuando una serie termina
+
+- Desde el PC: en `titulos.txt` de la carpeta de la serie, añade `estado: finalizada`
+  (o `estado: en emisión`), ejecuta CREAR CATALOGO.bat y sube la carpeta `pc`.
+- O directamente en GitHub: en `data/estado.json` pon `{"id-de-la-serie": "Finalizada"}`.
+
+La página, la lista de capítulos y el pie del póster de cada tema se actualizan solos.
