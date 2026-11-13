@@ -4,7 +4,7 @@
       "thread_id": 4,
       "topic_url": "https://t.me/c/3974971985/4",
       "list_msg": 196,
-      "list_hash": "45c217f424cab311fd02b56f1cdcdc5c"
+      "list_hash": "1cc258135eeb62ce0c0c58d08f97c8d4"
     },
     "24-horus-love": {
       "thread_id": 92,
@@ -20,7 +20,7 @@
       "created_by_bot": true,
       "ficha_msg": 97,
       "list_msg": 200,
-      "list_hash": "c8df3c66ae8ff5b0a60a3931354b8a65"
+      "list_hash": "72a5e4ebe24f1a0d990f6a24057297d1"
     },
     "ai-girl-series": {
       "thread_id": 100,
@@ -28,7 +28,7 @@
       "created_by_bot": true,
       "ficha_msg": 101,
       "list_msg": 202,
-      "list_hash": "8986800806ccc1c34ebf10b43cedb0fb"
+      "list_hash": "5337e1be68f54603a12636961eeda83b"
     },
     "apple-my-love": {
       "thread_id": 104,
@@ -36,7 +36,7 @@
       "created_by_bot": true,
       "ficha_msg": 105,
       "list_msg": 204,
-      "list_hash": "53f487ca409758492f95bac13d2346b2"
+      "list_hash": "080a5b395ea1eebb75a7571bfbf17c47"
     },
     "b-friend": {
       "thread_id": 108,
@@ -44,7 +44,7 @@
       "created_by_bot": true,
       "ficha_msg": 109,
       "list_msg": 206,
-      "list_hash": "6ce2c76edf94a3ca98cab64d35c6e63f"
+      "list_hash": "c14a2934d7f0703eefcc1ca1e65ade3c"
     },
     "be-my-angel": {
       "thread_id": 112,
@@ -52,7 +52,7 @@
       "created_by_bot": true,
       "ficha_msg": 113,
       "list_msg": 208,
-      "list_hash": "e24fe4b3065f0f9de7a2cec2e2023657"
+      "list_hash": "d8912cb7962ba9b6e51c1776b5fbfeda"
     },
     "blank-the-series": {
       "thread_id": 116,
@@ -60,7 +60,7 @@
       "created_by_bot": true,
       "ficha_msg": 117,
       "list_msg": 210,
-      "list_hash": "8f984f684b2a02bad82821561da5aa7c"
+      "list_hash": "152de3e4dce83e130804a6928496f041"
     },
     "broken-of-love": {
       "thread_id": 120,
@@ -68,7 +68,7 @@
       "created_by_bot": true,
       "ficha_msg": 121,
       "list_msg": 212,
-      "list_hash": "d8a243dc7b6f45adb51d1cfc44ceab29"
+      "list_hash": "71b9eaa3173a09a2b7a30f74975a6b67"
     },
     "built-in-love-series": {
       "thread_id": 124,
@@ -76,7 +76,7 @@
       "created_by_bot": true,
       "ficha_msg": 125,
       "list_msg": 214,
-      "list_hash": "d6b812588a108fab5770170f32b93109"
+      "list_hash": "e846d5120b69c67ff35c58ae5e698683"
     },
     "candy": {
       "thread_id": 128,
@@ -84,7 +84,7 @@
       "created_by_bot": true,
       "ficha_msg": 129,
       "list_msg": 216,
-      "list_hash": "7ca9b2be6617e0542e6bc3805c795b35"
+      "list_hash": "5d74da3892929c9dc3d34e86b723938e"
     },
     "chaser-game-w1": {
       "thread_id": 132,
@@ -100,7 +100,7 @@
       "created_by_bot": true,
       "ficha_msg": 137,
       "list_msg": 220,
-      "list_hash": "1dbc97f6be4417ab3872aba4e1ca36f4"
+      "list_hash": "f0a25fbc5969be90951bab4bba5e4580"
     },
     "clairebell": {
       "thread_id": 140,
@@ -108,7 +108,7 @@
       "created_by_bot": true,
       "ficha_msg": 141,
       "list_msg": 222,
-      "list_hash": "ecd92f3f147bfd4d0fd8a57edb8e1f22"
+      "list_hash": "1498c68c73fc002aa79fe20a7a3069b2"
     },
     "club-friday-17-the-theory-of-love": {
       "thread_id": 144,
@@ -116,7 +116,7 @@
       "created_by_bot": true,
       "ficha_msg": 145,
       "list_msg": 224,
-      "list_hash": "5cdf7f2d7555df2e5051abec1825adb6"
+      "list_hash": "732692915c33b0b89b2cf9404f0977aa"
     },
     "denied-love": {
       "thread_id": 148,
@@ -124,7 +124,15 @@
       "created_by_bot": true,
       "ficha_msg": 149,
       "list_msg": 226,
-      "list_hash": "f67dc904dbc669954020012d738ec5ad"
+      "list_hash": "2f5cad30bf97ece9652cce465dfab8aa",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 367,
+          "url": "https://t.me/c/3974971985/148/367"
+        }
+      ]
     },
     "el-otro-yo": {
       "thread_id": 152,
@@ -140,7 +148,7 @@
       "created_by_bot": true,
       "ficha_msg": 157,
       "list_msg": 231,
-      "list_hash": "fd47e7801c891442c62d31004c4f43f8"
+      "list_hash": "f75e4291b6a150328dbe5d0c6f4a9831"
     },
     "fairway-del-amor": {
       "thread_id": 160,
@@ -148,7 +156,7 @@
       "created_by_bot": true,
       "ficha_msg": 161,
       "list_msg": 233,
-      "list_hash": "b84e78ea2b26ae99725757322808e485"
+      "list_hash": "e16ca0514616adb965a91696ef4669e6"
     },
     "falling-for-my-hater": {
       "thread_id": 164,
@@ -156,7 +164,7 @@
       "created_by_bot": true,
       "ficha_msg": 165,
       "list_msg": 235,
-      "list_hash": "aa313c54bd7654f4e84a26b51dd925e5"
+      "list_hash": "9a00cc16f8fb11d1a070c66520a06b3d"
     },
     "frozen-valentine": {
       "thread_id": 168,
@@ -164,7 +172,7 @@
       "created_by_bot": true,
       "ficha_msg": 169,
       "list_msg": 237,
-      "list_hash": "67263c405fc3d59962e19095734de4ca"
+      "list_hash": "0dd7bd188724590f8ac94d88da56b571"
     },
     "fulfill": {
       "thread_id": 172,
@@ -172,19 +180,19 @@
       "created_by_bot": true,
       "ficha_msg": 173,
       "list_msg": 239,
-      "list_hash": "4e0d820a5e1b1a06f3abd38984294a82"
+      "list_hash": "e8ad4e3cda40290b73fd2a13f2f6fc92"
     },
     "gap-the-series": {
       "thread_id": 33,
       "topic_url": "https://t.me/c/3974971985/33",
       "list_msg": 241,
-      "list_hash": "729048a9850d08803ec133beb4c196ee"
+      "list_hash": "6e3485d2a812016813e13f20589f75a1"
     },
     "girl-rules": {
       "thread_id": 71,
       "topic_url": "https://t.me/c/3974971985/71",
       "list_msg": 243,
-      "list_hash": "f862d2dd425e09fa3df836a6f8f8d72a"
+      "list_hash": "f91b659ef392dd56a70f15d9d1f20127"
     },
     "harmony-secret": {
       "thread_id": 180,
@@ -192,7 +200,7 @@
       "created_by_bot": true,
       "ficha_msg": 181,
       "list_msg": 245,
-      "list_hash": "55233ae249aabbe02fb6e2d40c490d5a",
+      "list_hash": "064876e7b14e2e7084e2088d9d07f738",
       "episodes": [
         {
           "season": 1,
@@ -208,7 +216,7 @@
       "created_by_bot": true,
       "ficha_msg": 185,
       "list_msg": 247,
-      "list_hash": "0538043f683576559847a8a33c74cf35"
+      "list_hash": "d933d6bca46deaa8d840ecfd74a03771"
     },
     "heart-code": {
       "thread_id": 188,
@@ -230,13 +238,13 @@
       "thread_id": 253,
       "topic_url": "https://t.me/c/3974971985/253",
       "list_msg": 255,
-      "list_hash": "30c7aa74fb9a1c0a0f97599113ab9d89"
+      "list_hash": "dcf02ad8cda2ea0366ab353223f95432"
     },
     "hometown-romance": {
       "thread_id": 257,
       "topic_url": "https://t.me/c/3974971985/257",
       "list_msg": 259,
-      "list_hash": "2b0d74799f4c81a59fe06d41b1b25a17"
+      "list_hash": "b98d81d46c5a436f4ce0d2c6a3906e8d"
     },
     "how-do-we-relationship": {
       "thread_id": 261,
@@ -254,7 +262,7 @@
       "thread_id": 269,
       "topic_url": "https://t.me/c/3974971985/269",
       "list_msg": 271,
-      "list_hash": "62aa5d4e969dfe72e677fd5e16249b77"
+      "list_hash": "e5a531b6d2e5acdee7f8d13b1a6cc772"
     },
     "i-m-your-moon": {
       "thread_id": 273,
@@ -272,79 +280,79 @@
       "thread_id": 281,
       "topic_url": "https://t.me/c/3974971985/281",
       "list_msg": 283,
-      "list_hash": "fe972ab04f48b52eab976359a14de707"
+      "list_hash": "81a96e31dea6c695f5060c75978b3f0d"
     },
     "juliet-juliet": {
       "thread_id": 285,
       "topic_url": "https://t.me/c/3974971985/285",
       "list_msg": 287,
-      "list_hash": "2b508f6ddc4207c911ae60a8a625139c"
+      "list_hash": "ea10259a989e68bbd231d7b8acf1d5b7"
     },
     "khom-khlang-the-series": {
       "thread_id": 289,
       "topic_url": "https://t.me/c/3974971985/289",
       "list_msg": 291,
-      "list_hash": "4df75ac1829d5f567d692ae0010c309d"
+      "list_hash": "3e8415e42cae2ddaee63e6e493c24459"
     },
     "la-fragancia-del-primer-amor": {
       "thread_id": 293,
       "topic_url": "https://t.me/c/3974971985/293",
       "list_msg": 295,
-      "list_hash": "756f00bc5f94e7cdf06cc234feb6af88"
+      "list_hash": "c8dee4c50757fb0c4b650e5ac20a5b4e"
     },
     "like-a-palette": {
       "thread_id": 297,
       "topic_url": "https://t.me/c/3974971985/297",
       "list_msg": 299,
-      "list_hash": "1c79627b5fd0113abd1038a3b5d635e6"
+      "list_hash": "cbb1cb5f64dafe01e92f59e34e9ec310"
     },
     "love-beyond-dreams": {
       "thread_id": 301,
       "topic_url": "https://t.me/c/3974971985/301",
       "list_msg": 303,
-      "list_hash": "9b1949c70c98477b0db0fadab4741174"
+      "list_hash": "266161b82b14e59a131348a1cc69acef"
     },
     "love-bully": {
       "thread_id": 305,
       "topic_url": "https://t.me/c/3974971985/305",
       "list_msg": 307,
-      "list_hash": "21966151243801e81a5c0e1bbe5247d7"
+      "list_hash": "1d6f9e74454379da271469ab136be7ec"
     },
     "love-design": {
       "thread_id": 309,
       "topic_url": "https://t.me/c/3974971985/309",
       "list_msg": 311,
-      "list_hash": "e0f83ed94b50e6f31d0e7f73fd9e16b3"
+      "list_hash": "ec58a3f1421cdeb5d3a079f68cb73fa0"
     },
     "love-me-to-hurt-me": {
       "thread_id": 313,
       "topic_url": "https://t.me/c/3974971985/313",
       "list_msg": 315,
-      "list_hash": "c1a0f821ae2fb9e2dd2a63134fa7de4e"
+      "list_hash": "65691b9abf9999144dce7db0dae5ae6f"
     },
     "love-moment": {
       "thread_id": 317,
       "topic_url": "https://t.me/c/3974971985/317",
       "list_msg": 319,
-      "list_hash": "a4f4f7fd2eaf117428535afde9e5eef7"
+      "list_hash": "28ed5b84938dd366e4e1e4428e0725f7"
     },
     "love-on-hire": {
       "thread_id": 321,
       "topic_url": "https://t.me/c/3974971985/321",
       "list_msg": 323,
-      "list_hash": "6d6aa50a682ce60512eb8f07d77e264e"
+      "list_hash": "6f580e46559fa4caa4d0be343fa35dcd"
     },
     "love-senior-the-series": {
       "thread_id": 325,
       "topic_url": "https://t.me/c/3974971985/325",
       "list_msg": 327,
-      "list_hash": "4fc7168f38de2f4683cf7930fe94cfac"
+      "list_hash": "f28845c66e2ab690f46ce8d7c8937092"
     },
     "lucky-my-love": {
       "thread_id": 329,
       "topic_url": "https://t.me/c/3974971985/329",
       "list_msg": 331,
-      "list_hash": "cd0bb2d538a069066bdc7f1863e26b96"
+      "list_hash": "45b819d26677abbd0ada162deb064705"
     },
     "mate": {
       "thread_id": 333,
@@ -362,19 +370,19 @@
       "thread_id": 341,
       "topic_url": "https://t.me/c/3974971985/341",
       "list_msg": 343,
-      "list_hash": "3003313569a404590ef08ae6d7e1f926"
+      "list_hash": "1d0b6e7168c0ae82de6c82cf96e04b65"
     },
     "moonshadow": {
       "thread_id": 345,
       "topic_url": "https://t.me/c/3974971985/345",
       "list_msg": 347,
-      "list_hash": "66a0020b6a2b9c5ffe85fc55711b5841"
+      "list_hash": "d42ddcc68bbe17af970c4e3022a154ae"
     },
     "music-story-losing-control": {
       "thread_id": 349,
       "topic_url": "https://t.me/c/3974971985/349",
       "list_msg": 351,
-      "list_hash": "56407b4845e3576c9166f8fd6cd6bec4"
+      "list_hash": "1ff50e01b46dfda7dc06e69eaa4bb099"
     },
     "my-lady-s-bodyguard": {
       "thread_id": 353,
@@ -382,7 +390,7 @@
       "created_by_bot": true,
       "ficha_msg": 354,
       "list_msg": 355,
-      "list_hash": "d07c92d4208153a85d4fcb9d53312b65"
+      "list_hash": "fea8da6a59008a154755f04b04fb1408"
     },
     "my-marvellous-dream-is-you": {
       "thread_id": 357,
@@ -390,7 +398,7 @@
       "created_by_bot": true,
       "ficha_msg": 358,
       "list_msg": 359,
-      "list_hash": "ded282d3b0011f43ee49a9f7eab8107b"
+      "list_hash": "7e93ed17ea980beee37ae0f3bcab5f4e"
     },
     "my-only-sunshine-the-series": {
       "thread_id": 361,
@@ -398,7 +406,7 @@
       "created_by_bot": true,
       "ficha_msg": 362,
       "list_msg": 363,
-      "list_hash": "4250d6f386b47480bda3e5f3426bd9ae"
+      "list_hash": "e4ae2d60c73709dfba81cb21020f87e6"
     },
     "my-safe-zone": {
       "thread_id": 365,
@@ -406,7 +414,7 @@
       "created_by_bot": true,
       "ficha_msg": 366,
       "list_msg": 368,
-      "list_hash": "95cde786bba57fd76a5aa73f947ac0ca"
+      "list_hash": "9577fbdb871240fe01ff375c854462b7"
     },
     "my-secret-tutor": {
       "thread_id": 370,
@@ -414,7 +422,7 @@
       "created_by_bot": true,
       "ficha_msg": 371,
       "list_msg": 372,
-      "list_hash": "d70dfb4b84bef136212826f42ea95226"
+      "list_hash": "8af05cd0f796457d747732b4da2a9a51"
     },
     "my-wednesday": {
       "thread_id": 374,
@@ -422,7 +430,7 @@
       "created_by_bot": true,
       "ficha_msg": 375,
       "list_msg": 376,
-      "list_hash": "43ae3da4e87f583bb645c5fd72176e01"
+      "list_hash": "50ce0a70686dfcad311895ce8e391958"
     },
     "now-it-s-my-turn": {
       "thread_id": 378,
@@ -430,7 +438,7 @@
       "created_by_bot": true,
       "ficha_msg": 379,
       "list_msg": 380,
-      "list_hash": "32e4dcc618c4a421f832fb96a9aa600e"
+      "list_hash": "fa2827589cdf83087299825bb9b5b313"
     },
     "only-you": {
       "thread_id": 382,
@@ -438,7 +446,7 @@
       "created_by_bot": true,
       "ficha_msg": 383,
       "list_msg": 384,
-      "list_hash": "5be75c065fb9d28bf849ae47ad0db5e1"
+      "list_hash": "c1df20eb8aab616f086cc8488e1133f5"
     },
     "oxytoxin": {
       "thread_id": 386,
@@ -446,7 +454,7 @@
       "created_by_bot": true,
       "ficha_msg": 387,
       "list_msg": 388,
-      "list_hash": "b42e92d178c54284363902d45bfe043a"
+      "list_hash": "1f5a1b96f9248bdd5d30665bc11bf9a1"
     },
     "petrichor-the-series": {
       "thread_id": 390,
@@ -454,7 +462,7 @@
       "created_by_bot": true,
       "ficha_msg": 391,
       "list_msg": 392,
-      "list_hash": "ea5ff1f27f1287cc2de0033d2884e7e1"
+      "list_hash": "c2b3d454f5ea20431813dc8ac9140c59"
     },
     "play-park-series": {
       "thread_id": 394,
@@ -462,7 +470,7 @@
       "created_by_bot": true,
       "ficha_msg": 395,
       "list_msg": 396,
-      "list_hash": "0cfe34edf82c1b1008da7499f0f53a83"
+      "list_hash": "93f853fe6e7cdced174ccacc4b0f78fc"
     },
     "pls-love": {
       "thread_id": 398,
@@ -470,7 +478,7 @@
       "created_by_bot": true,
       "ficha_msg": 399,
       "list_msg": 400,
-      "list_hash": "56a32426207c5d3c2bfc20fbd1146e2c"
+      "list_hash": "0e58d7d9efee382f93b4f8de9c97e8ba"
     },
     "pluto": {
       "thread_id": 402,
@@ -478,7 +486,7 @@
       "created_by_bot": true,
       "ficha_msg": 403,
       "list_msg": 404,
-      "list_hash": "d160d2a45c6a5d11f6df5a298fe8f191"
+      "list_hash": "ef0d03a4db0651bd87b33bd0df9f1cc1"
     },
     "poisonous-love-the-series": {
       "thread_id": 406,
@@ -486,7 +494,7 @@
       "created_by_bot": true,
       "ficha_msg": 407,
       "list_msg": 408,
-      "list_hash": "a4eac66afb1cbb9c51b9c974e67912ea"
+      "list_hash": "ad83207d29ea1a8f3865a25230b8751c"
     },
     "por-m-s-que-pase-el-tiempo": {
       "thread_id": 410,
@@ -510,7 +518,7 @@
       "created_by_bot": true,
       "ficha_msg": 419,
       "list_msg": 420,
-      "list_hash": "a1ec578ffc24d27cfb84b1ec2f28b321"
+      "list_hash": "8d1fed7fab40c918d81f62e5f34f1102"
     },
     "remind": {
       "thread_id": 422,
@@ -518,7 +526,7 @@
       "created_by_bot": true,
       "ficha_msg": 423,
       "list_msg": 424,
-      "list_hash": "efc698d2194e615e6360200175642a0a"
+      "list_hash": "ca1c59266a2fdbcba1a3e52abf7a3ba5"
     },
     "rental-love-lab": {
       "thread_id": 426,
@@ -526,7 +534,7 @@
       "created_by_bot": true,
       "ficha_msg": 427,
       "list_msg": 428,
-      "list_hash": "b6636296dfeb98342bae18478efaf22f"
+      "list_hash": "95073b61838b408c05e93f2b1a7c9521"
     },
     "reset-to-remember": {
       "thread_id": 430,
@@ -534,7 +542,7 @@
       "created_by_bot": true,
       "ficha_msg": 431,
       "list_msg": 432,
-      "list_hash": "5400322806b4750ba24b5ec2aaa77320"
+      "list_hash": "825ded4a3dcf5a0800e46a26e1632f11"
     },
     "reverse-with-me-the-series": {
       "thread_id": 434,
@@ -542,7 +550,7 @@
       "created_by_bot": true,
       "ficha_msg": 435,
       "list_msg": 436,
-      "list_hash": "2ecd91ca43f30bde095f3ab7591e3b6c"
+      "list_hash": "20b96f4569ef7372e6913dd3dcc0b048"
     },
     "rivalidad-amistosa": {
       "thread_id": 438,
@@ -558,7 +566,7 @@
       "created_by_bot": true,
       "ficha_msg": 443,
       "list_msg": 444,
-      "list_hash": "4d522711f4104025e253f8c898f96d45"
+      "list_hash": "3c54a4b9c5cfe4f4b4a62b4e4f7a54c8"
     },
     "runaway-the-series": {
       "thread_id": 446,
@@ -566,7 +574,7 @@
       "created_by_bot": true,
       "ficha_msg": 447,
       "list_msg": 448,
-      "list_hash": "caf729cf3bf1e6ce3798c1eb1ddd987b"
+      "list_hash": "1cc4ae7686e5fc723e95a6617c5b778e"
     },
     "sassy-season": {
       "thread_id": 450,
@@ -574,34 +582,209 @@
       "created_by_bot": true,
       "ficha_msg": 451,
       "list_msg": 452,
-      "list_hash": "2897a9b426bb7a1eb0f552ed4d42770f"
+      "list_hash": "2d20231b5921e56c3bca1e7308254a44"
     },
-    "scandal-love": {},
-    "sea-you-soon": {},
-    "shades": {},
-    "shadow-of-love": {},
-    "show-me-love": {},
-    "somewhere-somehow": {},
-    "susurros-del-destino": {},
-    "the-air": {},
-    "the-earth": {},
-    "the-end": {},
-    "the-fire": {},
-    "the-loyal-pin": {},
-    "the-player": {},
-    "the-secret-of-girls": {},
-    "the-secret-of-us": {},
-    "the-water": {},
-    "the-way-back-to-you": {},
-    "third-person": {},
-    "under-her-rules": {},
-    "unlimited-love": {},
-    "us": {},
-    "visi-n-de-amor": {},
-    "whale-store-xoxo": {},
-    "you-are-my-star": {},
-    "you-are-the-cream-in-my-coffee": {},
+    "scandal-love": {
+      "thread_id": 454,
+      "topic_url": "https://t.me/c/3974971985/454",
+      "created_by_bot": true,
+      "ficha_msg": 455,
+      "list_msg": 456,
+      "list_hash": "172a0b12edc7646590a1a73914e995b5"
+    },
+    "sea-you-soon": {
+      "thread_id": 458,
+      "topic_url": "https://t.me/c/3974971985/458",
+      "created_by_bot": true,
+      "ficha_msg": 459,
+      "list_msg": 460,
+      "list_hash": "a94b7bbbe39f0bc560359c4687b0706a"
+    },
+    "shades": {
+      "thread_id": 462,
+      "topic_url": "https://t.me/c/3974971985/462",
+      "created_by_bot": true,
+      "ficha_msg": 463,
+      "list_msg": 464,
+      "list_hash": "5b925804e83371b1a62e5173373a49f1"
+    },
+    "shadow-of-love": {
+      "thread_id": 466,
+      "topic_url": "https://t.me/c/3974971985/466",
+      "created_by_bot": true,
+      "ficha_msg": 467,
+      "list_msg": 468,
+      "list_hash": "3ab9fccc2be3882486a4cfeac5d59e05"
+    },
+    "show-me-love": {
+      "thread_id": 470,
+      "topic_url": "https://t.me/c/3974971985/470",
+      "created_by_bot": true,
+      "ficha_msg": 471,
+      "list_msg": 472,
+      "list_hash": "594e5c5d70d2db2e41e3d2d185cd79a7"
+    },
+    "somewhere-somehow": {
+      "thread_id": 474,
+      "topic_url": "https://t.me/c/3974971985/474",
+      "created_by_bot": true,
+      "ficha_msg": 475,
+      "list_msg": 476,
+      "list_hash": "90fabae05b43a2b44af33c3f980f082e"
+    },
+    "susurros-del-destino": {
+      "thread_id": 478,
+      "topic_url": "https://t.me/c/3974971985/478",
+      "created_by_bot": true,
+      "ficha_msg": 479,
+      "list_msg": 480,
+      "list_hash": "3e62a01f5badafd27b35bfc3360f203e"
+    },
+    "the-air": {
+      "thread_id": 482,
+      "topic_url": "https://t.me/c/3974971985/482",
+      "created_by_bot": true,
+      "ficha_msg": 483,
+      "list_msg": 484,
+      "list_hash": "0f550d2379fe05f07f4e8b6b892602a0"
+    },
+    "the-earth": {
+      "thread_id": 486,
+      "topic_url": "https://t.me/c/3974971985/486",
+      "created_by_bot": true,
+      "ficha_msg": 487,
+      "list_msg": 488,
+      "list_hash": "5840f9af1aeb7be3f46a996039aa234b"
+    },
+    "the-end": {
+      "thread_id": 490,
+      "topic_url": "https://t.me/c/3974971985/490",
+      "created_by_bot": true,
+      "ficha_msg": 491,
+      "list_msg": 492,
+      "list_hash": "1518cd40008fa97b144ced7a816ab313"
+    },
+    "the-fire": {
+      "thread_id": 494,
+      "topic_url": "https://t.me/c/3974971985/494",
+      "created_by_bot": true,
+      "ficha_msg": 495,
+      "list_msg": 496,
+      "list_hash": "ec35412e260b4c6fd4ec695f3d664c2b"
+    },
+    "the-loyal-pin": {
+      "thread_id": 498,
+      "topic_url": "https://t.me/c/3974971985/498",
+      "created_by_bot": true,
+      "ficha_msg": 499,
+      "list_msg": 500,
+      "list_hash": "7dce4d8455b02ffbaf04a274c07b8afc"
+    },
+    "the-player": {
+      "thread_id": 502,
+      "topic_url": "https://t.me/c/3974971985/502",
+      "created_by_bot": true,
+      "ficha_msg": 503,
+      "list_msg": 504,
+      "list_hash": "b6d680805bc5fad69924535eb9513d1a"
+    },
+    "the-secret-of-girls": {
+      "thread_id": 506,
+      "topic_url": "https://t.me/c/3974971985/506",
+      "created_by_bot": true,
+      "ficha_msg": 507,
+      "list_msg": 508,
+      "list_hash": "fd1b65d0d8af05ba2abff6b876e6d5fb"
+    },
+    "the-secret-of-us": {
+      "thread_id": 510,
+      "topic_url": "https://t.me/c/3974971985/510",
+      "created_by_bot": true,
+      "ficha_msg": 511,
+      "list_msg": 512,
+      "list_hash": "7f3975339580f23078bb54252aec7bbd"
+    },
+    "the-water": {
+      "thread_id": 514,
+      "topic_url": "https://t.me/c/3974971985/514",
+      "created_by_bot": true,
+      "ficha_msg": 515,
+      "list_msg": 516,
+      "list_hash": "d80b5b40b5bf061a59a5ace4d3e0bf63"
+    },
+    "the-way-back-to-you": {
+      "thread_id": 518,
+      "topic_url": "https://t.me/c/3974971985/518",
+      "created_by_bot": true,
+      "ficha_msg": 519,
+      "list_msg": 520,
+      "list_hash": "f38201262fe2521899a97aec7105e6e4"
+    },
+    "third-person": {
+      "thread_id": 522,
+      "topic_url": "https://t.me/c/3974971985/522",
+      "created_by_bot": true,
+      "ficha_msg": 523,
+      "list_msg": 524,
+      "list_hash": "6692168a8985f2cb073d02252c446304"
+    },
+    "under-her-rules": {
+      "thread_id": 526,
+      "topic_url": "https://t.me/c/3974971985/526",
+      "created_by_bot": true,
+      "ficha_msg": 527,
+      "list_msg": 528,
+      "list_hash": "1815845f820f4d80f690e7d9e18e1442"
+    },
+    "unlimited-love": {
+      "thread_id": 530,
+      "topic_url": "https://t.me/c/3974971985/530",
+      "created_by_bot": true,
+      "ficha_msg": 531,
+      "list_msg": 532,
+      "list_hash": "77027c60e8a4a8a58af6fc7129637a46"
+    },
+    "us": {
+      "thread_id": 534,
+      "topic_url": "https://t.me/c/3974971985/534",
+      "created_by_bot": true,
+      "ficha_msg": 535,
+      "list_msg": 536,
+      "list_hash": "ff7ea22b97b1a3b5b7ada1e59f70f152"
+    },
+    "visi-n-de-amor": {
+      "thread_id": 538,
+      "topic_url": "https://t.me/c/3974971985/538",
+      "created_by_bot": true,
+      "ficha_msg": 539,
+      "list_msg": 540,
+      "list_hash": "1264b2885bed7d41e1045024cd8e0ab0"
+    },
+    "whale-store-xoxo": {
+      "thread_id": 542,
+      "topic_url": "https://t.me/c/3974971985/542",
+      "created_by_bot": true,
+      "ficha_msg": 543,
+      "list_msg": 544,
+      "list_hash": "d7a29bbb5763b94051c7d97139acec98"
+    },
+    "you-are-my-star": {
+      "thread_id": 546,
+      "topic_url": "https://t.me/c/3974971985/546",
+      "created_by_bot": true,
+      "ficha_msg": 547,
+      "list_msg": 548,
+      "list_hash": "1119a2ba855bb9c1ba1e34205f284310"
+    },
+    "you-are-the-cream-in-my-coffee": {
+      "thread_id": 550,
+      "topic_url": "https://t.me/c/3974971985/550",
+      "created_by_bot": true,
+      "ficha_msg": 551,
+      "list_msg": 552,
+      "list_hash": "b570051ebbd0a5a674d7b05666e75fba"
+    },
     "ayaka-est-enamorada-de-hiroko": {}
   },
-  "offset": 259608825
+  "offset": 259608876
 }
