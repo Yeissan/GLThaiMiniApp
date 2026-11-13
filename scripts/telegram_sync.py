@@ -138,6 +138,22 @@ def read_updates(state, by_thread, by_name):
             if (m.get('chat') or {}).get('id') != CHAT or not m.get('message_thread_id'):
                 continue
             thread = m['message_thread_id']
+            pinned = m.get('pinned_message') or {}
+            if pinned and (pinned.get('text') or '').startswith('📋'):
+                # Lista de capítulos fijada por el bot: nos quedamos con la última y borramos la repetida
+                sid = by_thread.get(thread)
+                if sid:
+                    st = state['series'].setdefault(sid, {})
+                    old = st.get('list_msg')
+                    if old and old != pinned['message_id']:
+                        try:
+                            call('deleteMessage', chat_id=CHAT, message_id=old)
+                            print(f' - Lista repetida borrada en {sid}')
+                        except TgError:
+                            pass
+                    st['list_msg'] = pinned['message_id']
+                    st['list_hash'] = None
+                continue
             created = m.get('forum_topic_created')
             if created:
                 sid = by_name.get(norm(created.get('name')))
