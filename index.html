@@ -11,13 +11,16 @@
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-  <div class="app">
+  <div class="app" id="app" data-view="grid">
     <header>
+      <button class="back" id="back" type="button" aria-label="Volver a las series">←</button>
       <div class="brand"><h1>GL Thai</h1><span>Series</span></div>
       <input id="q" class="search" type="search" placeholder="Buscar serie…" autocomplete="off" aria-label="Buscar serie">
       <div class="count" id="count"></div>
     </header>
-    <nav class="shelf" id="shelf" aria-label="Series"></nav>
+    <main class="grid-wrap" id="gridWrap">
+      <div class="grid" id="grid" aria-label="Series"></div>
+    </main>
     <section class="detail" id="detail" aria-live="polite">
       <div class="loading">Cargando catálogo…</div>
     </section>

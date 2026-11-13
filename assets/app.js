@@ -7,7 +7,7 @@ if (tg) {
 }
 
 const $ = id => document.getElementById(id);
-const shelf = $('shelf'), detail = $('detail'), q = $('q');
+const grid = $('grid'), gridWrap = $('gridWrap'), detail = $('detail'), q = $('q'), appEl = $('app');
 let catalog = [];
 let current = null;
 
@@ -29,30 +29,41 @@ function openTelegram(url) {
   else window.open(url, '_blank');
 }
 
-// ---------- estante de pósters
+// ---------- cuadrícula de pósters
 
-function paintShelf() {
+function paintGrid() {
   const x = q.value.trim().toLowerCase();
   const rows = catalog.filter(s =>
     [s.title, s.title_en, s.originaltitle, (s.genres || []).join(' ')].join(' ').toLowerCase().includes(x));
-  shelf.innerHTML = rows.length
-    ? rows.map(s => `
-      <button class="card" type="button" data-id="${esc(s.id)}" aria-pressed="${s.id === current}">
-        <div class="pic">${s.poster ? `<img src="${esc(s.poster)}" alt="" loading="lazy">` : ''}</div>
+  grid.innerHTML = rows.length
+    ? rows.map(s => {
+        const caps = (s.episodes || []).filter(e => e.telegram_url).length;
+        const live = s.status === 'En emisión';
+        return `
+      <button class="card" type="button" data-id="${esc(s.id)}">
+        <div class="pic">
+          ${s.poster ? `<img src="${esc(s.poster)}" alt="" loading="lazy">` : `<div class="noimg">${esc(s.title.slice(0, 2))}</div>`}
+          ${live ? '<span class="badge">En emisión</span>' : ''}
+        </div>
         <div class="t">${esc(s.title)}</div>
-      </button>`).join('')
+        <div class="s">${[s.year, caps ? caps + ' caps' : ''].filter(Boolean).map(esc).join(' · ')}</div>
+      </button>`;
+      }).join('')
     : '<div class="empty">No encontré ninguna serie con ese nombre.</div>';
+}
+
+function setView(v) {
+  appEl.dataset.view = v;
+  if (tg?.BackButton) { v === 'ficha' ? tg.BackButton.show() : tg.BackButton.hide(); }
 }
 
 // ---------- ficha
 
-function show(id, scroll) {
-  const s = catalog.find(x => x.id === id) || catalog[0];
-  if (!s) return;
+function show(id) {
+  const s = catalog.find(x => x.id === id);
+  if (!s) { setView('grid'); return; }
   current = s.id;
-  shelf.querySelectorAll('.card').forEach(b => b.setAttribute('aria-pressed', b.dataset.id === s.id));
-  if (scroll) shelf.querySelector(`[data-id="${CSS.escape(s.id)}"]`)?.scrollIntoView({ inline: 'center', block: 'nearest' });
-  if (location.hash !== '#serie=' + encodeURIComponent(s.id)) history.replaceState(null, '', '#serie=' + encodeURIComponent(s.id));
+  setView('ficha');
 
   detail.style.setProperty('--bk', s.banner ? `url("${s.banner}")` : 'none');
 
@@ -122,18 +133,30 @@ function show(id, scroll) {
 
 // ---------- arranque
 
-function wanted() {
+let fromGrid = false;
+
+function route() {
   const m = location.hash.match(/^#serie=(.+)$/);
-  if (m) return decodeURIComponent(m[1]);
-  return tg?.initDataUnsafe?.start_param || new URLSearchParams(location.search).get('serie') || '';
+  if (m) show(decodeURIComponent(m[1]));
+  else { current = null; setView('grid'); }
 }
 
-shelf.addEventListener('click', e => {
+function goBack() {
+  if (fromGrid) history.back();
+  else location.hash = '';
+  fromGrid = false;
+}
+
+grid.addEventListener('click', e => {
   const b = e.target.closest('.card');
-  if (b) show(b.dataset.id);
+  if (!b) return;
+  fromGrid = true;
+  location.hash = 'serie=' + encodeURIComponent(b.dataset.id);
 });
-q.addEventListener('input', paintShelf);
-window.addEventListener('hashchange', () => { const id = wanted(); if (id && id !== current) show(id, true); });
+$('back').addEventListener('click', goBack);
+tg?.BackButton?.onClick(goBack);
+q.addEventListener('input', () => { paintGrid(); gridWrap.scrollTop = 0; });
+window.addEventListener('hashchange', route);
 
 fetch('data/catalog.json', { cache: 'no-store' })
   .then(r => { if (!r.ok) throw new Error('No se pudo cargar el catálogo.'); return r.json(); })
@@ -141,10 +164,12 @@ fetch('data/catalog.json', { cache: 'no-store' })
     catalog = d.series || [];
     const eps = catalog.reduce((a, s) => a + (s.episodes || []).filter(e => e.telegram_url).length, 0);
     $('count').innerHTML = `<b>${catalog.length}</b> series · <b>${eps}</b> caps`;
-    paintShelf();
-    if (catalog.length) show(wanted(), true);
-    else detail.innerHTML = '<div class="loading">Todavía no hay series en el catálogo.</div>';
+    paintGrid();
+    const start = tg?.initDataUnsafe?.start_param || new URLSearchParams(location.search).get('serie');
+    if (start && !location.hash) history.replaceState(null, '', '#serie=' + encodeURIComponent(start));
+    route();
   })
   .catch(err => {
+    setView('ficha');
     detail.innerHTML = `<div class="loading">No pude cargar el catálogo.<br>${esc(err.message)}</div>`;
   });
