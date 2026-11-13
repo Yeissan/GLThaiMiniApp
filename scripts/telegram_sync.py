@@ -70,6 +70,10 @@ def call(method, files=None, **params):
                 res = json.load(r)
         except urllib.error.HTTPError as e:
             res = json.load(e)
+        except (urllib.error.URLError, ConnectionError, TimeoutError) as e:
+            print(f'   Fallo de conexión ({e}); reintento en 5 s…')
+            time.sleep(5)
+            continue
         if res.get('ok'):
             return res['result']
         wait = (res.get('parameters') or {}).get('retry_after')
