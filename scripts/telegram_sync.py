@@ -251,7 +251,8 @@ def chapter_list(s, st):
     of = s.get('oficial')
     if of and of.get('url'):
         tag = 'gratis' if of.get('gratis') else 'de pago'
-        lines += ['', f'📺 Ver oficial ({tag}): <a href="{esc(of["url"])}">{esc(of["name"])}</a>']
+        what = 'Playlist oficial' if of.get('playlist') else 'Ver oficial'
+        lines += ['', f'📺 {what} ({tag}): <a href="{esc(of["url"])}">{esc(of["name"])}</a>']
     lines += ['', '<i>Toca un capítulo para verlo. Esta lista se actualiza sola.</i>']
     text = '\n'.join(lines)
     if len(text) > 4000:

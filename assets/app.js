@@ -114,7 +114,7 @@ function show(id) {
         <button class="go" type="button" id="go" ${s.topic_url ? '' : 'disabled'}>
           ${s.topic_url ? '💬 Abrir el tema en Telegram' : 'Tema en Telegram · próximamente'}
         </button>
-        ${s.oficial?.url ? `<a class="oficial" href="${esc(s.oficial.url)}" target="_blank" rel="noopener" id="of">📺 Ver oficial · ${esc(s.oficial.name)} <span>${s.oficial.gratis ? 'Gratis' : 'De pago'}</span></a>` : ''}
+        ${s.oficial?.url ? `<a class="oficial" href="${esc(s.oficial.url)}" target="_blank" rel="noopener" id="of">📺 ${s.oficial.playlist ? 'Ver playlist oficial' : 'Ver oficial'} · ${esc(s.oficial.name)} <span>${s.oficial.gratis ? 'Gratis' : 'De pago'}</span></a>` : ''}
         <div class="eps-head"><h3>Capítulos</h3><p>${linked} de ${shown} en Telegram${multi ? ' · ' + seasons.length + ' temporadas' : ''}</p></div>
         <div class="bar"><i style="width:${pct}%"></i></div>
         <div class="eps">${chips || '<div class="empty">Los capítulos aparecerán aquí.</div>'}</div>

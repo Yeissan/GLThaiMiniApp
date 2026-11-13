@@ -34,6 +34,9 @@ jobs:
         run: pip install --quiet pillow
       - name: Generar catálogo
         run: python scripts/build_catalog.py
+      - name: Buscar playlists oficiales en YouTube
+        continue-on-error: true
+        run: python scripts/buscar_playlists.py && python scripts/build_catalog.py
       - name: Crear temas y actualizar listas de capítulos
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}

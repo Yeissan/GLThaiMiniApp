@@ -134,8 +134,9 @@
       "thread_id": 4,
       "oficial": {
         "name": "YouTube GMMTV",
-        "url": "https://www.youtube.com/@gmmtv/search?query=23.5",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PLszepnkojZI7DbooKGnHIy2Zz7BF4fqr-",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -927,9 +928,10 @@
       ],
       "thread_id": 120,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Broken+of+Love+EP1",
-        "gratis": true
+        "name": "YouTube Fabel Entertainment",
+        "url": "https://www.youtube.com/@FabelEntertainment/search?query=Broken%20of%20Love",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -1766,8 +1768,8 @@
       ],
       "thread_id": 160,
       "oficial": {
-        "name": "YouTube one31",
-        "url": "https://www.youtube.com/@one31official/search?query=Fairway+of+Love",
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
         "gratis": true
       }
     },
@@ -2115,8 +2117,8 @@
       ],
       "thread_id": 33,
       "oficial": {
-        "name": "YouTube Ch3Thailand",
-        "url": "https://www.youtube.com/@ch3thailand/search?query=GAP+The+Series",
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=GAP+The+Series+EP1",
         "gratis": true
       }
     },
@@ -2235,8 +2237,9 @@
       "thread_id": 71,
       "oficial": {
         "name": "YouTube GMMTV",
-        "url": "https://www.youtube.com/@gmmtv/search?query=Girl+Rules",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PLszepnkojZI4ZBU4Jc-glRbaPZMfQ84B1",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -2328,8 +2331,8 @@
       ],
       "thread_id": 180,
       "oficial": {
-        "name": "YouTube one31",
-        "url": "https://www.youtube.com/@one31official/search?query=HARMONY+SECRET",
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=HARMONY+SECRET",
         "gratis": true
       }
     },
@@ -3186,8 +3189,9 @@
       "thread_id": 285,
       "oficial": {
         "name": "YouTube one31",
-        "url": "https://www.youtube.com/@one31official/search?query=Juliet+%26+Juliet",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PLMOFl0FLkOWM",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -3528,9 +3532,10 @@
       ],
       "thread_id": 301,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Love+Beyond+Dreams+EP1",
-        "gratis": true
+        "name": "YouTube MeMindY Official",
+        "url": "https://www.youtube.com/playlist?list=PLFnFjT24wVPX7gxcGvZV89N6h7PASbnPc",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -3696,8 +3701,8 @@
       ],
       "thread_id": 309,
       "oficial": {
-        "name": "YouTube Ch3Thailand",
-        "url": "https://www.youtube.com/@ch3thailand/search?query=Love+Design",
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
         "gratis": true
       }
     },
@@ -3732,8 +3737,9 @@
       "thread_id": 313,
       "oficial": {
         "name": "YouTube Ch3Thailand",
-        "url": "https://www.youtube.com/@ch3thailand/search?query=Love+Me+to+Hurt+Me",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PL0VVVtBqsouqpuRUtFHz_v0pkiURtBBOS",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -3841,8 +3847,8 @@
       ],
       "thread_id": 317,
       "oficial": {
-        "name": "YouTube Ch3Thailand",
-        "url": "https://www.youtube.com/@ch3thailand/search?query=Love+Moment",
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Love+Moment+EP1",
         "gratis": true
       }
     },
@@ -4012,8 +4018,8 @@
       ],
       "thread_id": 325,
       "oficial": {
-        "name": "YouTube GMMTV",
-        "url": "https://www.youtube.com/@gmmtv/search?query=Love+Senior+The+Series",
+        "name": "WeTV",
+        "url": "https://wetv.vip/",
         "gratis": true
       }
     },
@@ -4074,9 +4080,10 @@
       ],
       "thread_id": 329,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Lucky+My+Love+EP1",
-        "gratis": true
+        "name": "YouTube K11D HOUSE",
+        "url": "https://www.youtube.com/@K11D_HOUSE/search?query=Lucky%20My%20Love",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -4453,9 +4460,10 @@
       ],
       "thread_id": 349,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Losing+Control+EP1",
-        "gratis": true
+        "name": "YouTube K11D HOUSE",
+        "url": "https://www.youtube.com/@K11D_HOUSE/search?query=Losing%20Control",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -4850,8 +4858,9 @@
       "thread_id": 365,
       "oficial": {
         "name": "YouTube Ch3Thailand",
-        "url": "https://www.youtube.com/@ch3thailand/search?query=MY+SAFE+ZONE",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PL0VVVtBqsouqcRUauugnyesqmxoRe5Lbc",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -5188,9 +5197,9 @@
       ],
       "thread_id": 386,
       "oficial": {
-        "name": "YouTube GMMTV",
-        "url": "https://www.youtube.com/@gmmtv/search?query=Oxytoxin",
-        "gratis": true
+        "name": "Netflix",
+        "url": "https://www.netflix.com/search?q=Oxytoxin",
+        "gratis": false
       }
     },
     {
@@ -5312,8 +5321,8 @@
       ],
       "thread_id": 390,
       "oficial": {
-        "name": "YouTube one31",
-        "url": "https://www.youtube.com/@one31official/search?query=Petrichor+The+Series",
+        "name": "iQIYI",
+        "url": "https://www.iq.com/search?query=Petrichor+The+Series",
         "gratis": true
       }
     },
@@ -5571,8 +5580,9 @@
       "thread_id": 402,
       "oficial": {
         "name": "YouTube GMMTV",
-        "url": "https://www.youtube.com/@gmmtv/search?query=Pluto",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PLszepnkojZI6L1DHV2vEaGdjo_QkQizF_",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -5677,8 +5687,9 @@
       "thread_id": 406,
       "oficial": {
         "name": "YouTube one31",
-        "url": "https://www.youtube.com/@one31official/search?query=Poisonous+Love",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PLXopbKxiivxrF_EeXNvivFXe0YfMVxBAG",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -6031,9 +6042,10 @@
       ],
       "thread_id": 426,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Rental+Love+lab+EP1",
-        "gratis": true
+        "name": "YouTube K11D HOUSE",
+        "url": "https://www.youtube.com/playlist?list=PLZqIjfvyGXxaiugfpTCOEtm_KR0q-9_zG",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -6511,8 +6523,8 @@
       ],
       "thread_id": 446,
       "oficial": {
-        "name": "YouTube Ch3Thailand",
-        "url": "https://www.youtube.com/@ch3thailand/search?query=RUNAWAY",
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=RUNAWAY+EP1",
         "gratis": true
       }
     },
@@ -6692,9 +6704,10 @@
       "episodes": [],
       "thread_id": 458,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Sea+You+Soon+EP1",
-        "gratis": true
+        "name": "YouTube JPC Media",
+        "url": "https://www.youtube.com/@JPCMedia24/search?query=Sea%20You%20Soon",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -6990,9 +7003,10 @@
       ],
       "thread_id": 470,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Show+Me+Love+EP1",
-        "gratis": true
+        "name": "YouTube GrandTV",
+        "url": "https://www.youtube.com/@GrandTVCH/search?query=Show%20Me%20Love",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -7119,9 +7133,10 @@
       ],
       "thread_id": 474,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Somewhere+Somehow+EP1",
-        "gratis": true
+        "name": "YouTube IDOLFACTORY OFFICIAL",
+        "url": "https://www.youtube.com/@IDOLFACTORY/search?query=Somewhere%20Somehow",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -7674,9 +7689,10 @@
       ],
       "thread_id": 498,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=The+Loyal+Pin+EP1",
-        "gratis": true
+        "name": "YouTube IDOLFACTORY OFFICIAL",
+        "url": "https://www.youtube.com/playlist?list=PL4D0KlUVq4IyqMr7kszWIINegVFFrztUD",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -8239,8 +8255,8 @@
       ],
       "thread_id": 522,
       "oficial": {
-        "name": "YouTube Ch3Thailand",
-        "url": "https://www.youtube.com/@ch3thailand/search?query=Third+Person",
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Third+Person+EP1",
         "gratis": true
       }
     },
@@ -8393,8 +8409,8 @@
       ],
       "thread_id": 530,
       "oficial": {
-        "name": "YouTube one31",
-        "url": "https://www.youtube.com/@one31official/search?query=Unlimited+Love",
+        "name": "Buscar en YouTube",
+        "url": "https://www.youtube.com/results?search_query=Unlimited+Love+EP1",
         "gratis": true
       }
     },
@@ -8508,8 +8524,9 @@
       "thread_id": 534,
       "oficial": {
         "name": "YouTube GMMTV",
-        "url": "https://www.youtube.com/@gmmtv/search?query=Us+The+Series",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PLszepnkojZI7mOWtISfvxWVPikIM6yiXE",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -8707,8 +8724,9 @@
       "thread_id": 542,
       "oficial": {
         "name": "YouTube GMMTV",
-        "url": "https://www.youtube.com/@gmmtv/search?query=Whale+Store+XOXO",
-        "gratis": true
+        "url": "https://www.youtube.com/playlist?list=PLszepnkojZI4qpSumzOHRdNa79JRiC-cE",
+        "gratis": true,
+        "playlist": true
       }
     },
     {

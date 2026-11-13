@@ -18,6 +18,7 @@ PC = ROOT / 'pc' / 'series.json'
 TG = ROOT / 'data' / 'telegram.json'
 OUT = ROOT / 'data' / 'catalog.json'
 OFICIAL = ROOT / 'data' / 'oficial.json'   # enlaces exactos puestos a mano (tienen prioridad)
+PLAYLISTS = ROOT / 'data' / 'playlists.json'   # playlists oficiales encontradas en YouTube
 
 THAI = re.compile(r'[฀-๿]+')
 GENRES = {
@@ -94,7 +95,7 @@ def q(t):
     return quote_plus(t)
 
 
-def official(s, manual):
+def official(s, manual, pls=None):
     """Dónde verla oficialmente. Primero lo gratis, luego lo de pago."""
     if s['id'] in manual:
         return manual[s['id']]
@@ -110,10 +111,21 @@ def official(s, manual):
         (('gagaoolala',), 'GagaOOLala', 'https://www.gagaoolala.com/', False),
         (('netflix',), 'Netflix', f'https://www.netflix.com/search?q={q(t)}', False),
     ]
+    found = (pls or {}).get(s['id'], {})
+    youtube = {'YouTube GMMTV', 'YouTube one31', 'YouTube Ch3Thailand', 'Buscar en YouTube'}
+    backup = None
     for keys, name, url, free in rules:
-        if any(k in st for k in keys):
-            return {'name': name, 'url': url, 'gratis': free}
-    return None
+        if not any(k in st for k in keys):
+            continue
+        if name in youtube and found:
+            if found.get('url'):
+                return {'name': found.get('name') or name, 'url': found['url'], 'gratis': True,
+                        'playlist': bool(found.get('playlist'))}
+            if name != 'Buscar en YouTube':
+                backup = backup or {'name': name, 'url': url, 'gratis': free}
+                continue          # ese canal no tiene la serie completa: probar la siguiente opción
+        return {'name': name, 'url': url, 'gratis': free}
+    return backup
 
 
 def thread_of(url):
@@ -264,6 +276,7 @@ def main():
             for e in t.get('episodes', [])]})
 
     manual = load_json(OFICIAL, {})
+    pls = load_json(PLAYLISTS, {})
     out = []
     for s in sorted(items.values(), key=lambda x: x['title'].lower()):
         s['genres'] = genres_es(s['genres'])
@@ -272,7 +285,7 @@ def main():
         if not s['total_episodes']:
             s['total_episodes'] = len(s['episodes'])
         s['thread_id'] = thread_of(s['topic_url'])
-        s['oficial'] = official(s, manual)
+        s['oficial'] = official(s, manual, pls)
         out.append(s)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
