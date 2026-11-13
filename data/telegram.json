@@ -784,7 +784,14 @@
       "list_msg": 552,
       "list_hash": "b570051ebbd0a5a674d7b05666e75fba"
     },
-    "ayaka-est-enamorada-de-hiroko": {}
+    "ayaka-est-enamorada-de-hiroko": {
+      "thread_id": 554,
+      "topic_url": "https://t.me/c/3974971985/554",
+      "created_by_bot": true,
+      "ficha_msg": 555,
+      "list_msg": 556,
+      "list_hash": "e0d6975a50cb057122dbcfeea0a757a4"
+    }
   },
-  "offset": 259608876
+  "offset": 259608926
 }
