@@ -8226,7 +8226,7 @@
       "poster": "pc/img/third-person-poster.jpg",
       "banner": "pc/img/third-person-fondo.jpg",
       "topic_url": "https://t.me/c/3974971985/522",
-      "total_episodes": 7,
+      "total_episodes": 10,
       "episodes": [
         {
           "season": 1,
@@ -8255,6 +8255,18 @@
         {
           "season": 1,
           "number": 7
+        },
+        {
+          "season": 1,
+          "number": 8
+        },
+        {
+          "season": 1,
+          "number": 9
+        },
+        {
+          "season": 1,
+          "number": 10
         }
       ],
       "thread_id": 522,
@@ -8291,7 +8303,8 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/526/622"
         }
       ],
       "thread_id": 526,
@@ -8372,43 +8385,53 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/530/612"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/530/613"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/530/614"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/530/615"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/530/616"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/530/617"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/530/618"
         },
         {
           "season": 1,
-          "number": 8
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/530/619"
         },
         {
           "season": 1,
-          "number": 9
+          "number": 9,
+          "telegram_url": "https://t.me/c/3974971985/530/620"
         },
         {
           "season": 1,
-          "number": 10
+          "number": 10,
+          "telegram_url": "https://t.me/c/3974971985/530/621"
         }
       ],
       "thread_id": 530,
@@ -8771,7 +8794,7 @@
       "year": "2024",
       "rating": "0",
       "plot": "Una historia de amor entre una chica estudiosa con pocos amigos y una estrella universitaria que todos adoran. ¿Cómo terminará su historia? Ayudémonos mutuamente.",
-      "runtime": "3",
+      "runtime": "33",
       "status": "Finalizada",
       "genres": [
         "Romance",
