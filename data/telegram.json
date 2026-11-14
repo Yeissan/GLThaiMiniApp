@@ -13,7 +13,7 @@
       "ficha_msg": 93,
       "list_msg": 198,
       "list_hash": "b47e75d63356c3afc78b7c6e261205fe",
-      "ficha_hash": "cbf34f64c74fdafbe2ad827d47c3b130"
+      "ficha_hash": "5666fa533a2dc8beadfece568c8d77de"
     },
     "affair": {
       "thread_id": 96,
@@ -31,7 +31,7 @@
       "ficha_msg": 101,
       "list_msg": 202,
       "list_hash": "5337e1be68f54603a12636961eeda83b",
-      "ficha_hash": "d8b7f4859ad5d13f065b3769995e820f"
+      "ficha_hash": "13be0b224d61b33c45c24041291ea4fe"
     },
     "apple-my-love": {
       "thread_id": 104,
@@ -76,7 +76,7 @@
       "ficha_msg": 121,
       "list_msg": 212,
       "list_hash": "7f6638edf8afd637daf47ee6a0e9b4b3",
-      "ficha_hash": "0d0907a056fb9c0b53e6773f16036138"
+      "ficha_hash": "bb8d6d6a94c7bcbf1348bd5072546bab"
     },
     "built-in-love-series": {
       "thread_id": 124,
@@ -94,7 +94,7 @@
       "ficha_msg": 129,
       "list_msg": 216,
       "list_hash": "5d74da3892929c9dc3d34e86b723938e",
-      "ficha_hash": "831b7d28fce54ddf795f4afbad0dc4bc"
+      "ficha_hash": "d0b28b943664d4bfd7d03b2af4ac1698"
     },
     "chaser-game-w1": {
       "thread_id": 132,
@@ -112,7 +112,7 @@
       "ficha_msg": 137,
       "list_msg": 220,
       "list_hash": "f0a25fbc5969be90951bab4bba5e4580",
-      "ficha_hash": "d8abfa8dd0c86f677d0b8b8f6f5dc5d6"
+      "ficha_hash": "508c1e9f7c6ef4733312c0365449a4cc"
     },
     "clairebell": {
       "thread_id": 140,
@@ -130,7 +130,7 @@
       "ficha_msg": 145,
       "list_msg": 224,
       "list_hash": "732692915c33b0b89b2cf9404f0977aa",
-      "ficha_hash": "42479e57ac113188554151ba2b7eafbd"
+      "ficha_hash": "1ffa5c36a40a82b831a48244c8db71a5"
     },
     "denied-love": {
       "thread_id": 148,
@@ -165,7 +165,7 @@
       "ficha_msg": 157,
       "list_msg": 231,
       "list_hash": "f75e4291b6a150328dbe5d0c6f4a9831",
-      "ficha_hash": "a795b5ae4b8a1717a82573d96c781d9b"
+      "ficha_hash": "609f3acdd98500ee7c3fe8215b682ea6"
     },
     "fairway-del-amor": {
       "thread_id": 160,
@@ -174,7 +174,7 @@
       "ficha_msg": 161,
       "list_msg": 233,
       "list_hash": "ae70e728d39e4c45c50690017f1ef8c7",
-      "ficha_hash": "e7309d0ad5a677214252e22ddfe502c2"
+      "ficha_hash": "221c5fc7beb544266604a988266b3fbb"
     },
     "falling-for-my-hater": {
       "thread_id": 164,
@@ -183,7 +183,7 @@
       "ficha_msg": 165,
       "list_msg": 235,
       "list_hash": "9a00cc16f8fb11d1a070c66520a06b3d",
-      "ficha_hash": "c2ddd9a8376756abc5184a44d1197d51"
+      "ficha_hash": "afaa9b7bda07117a52cac67efd0b0fc5"
     },
     "frozen-valentine": {
       "thread_id": 168,
@@ -192,7 +192,7 @@
       "ficha_msg": 169,
       "list_msg": 237,
       "list_hash": "0dd7bd188724590f8ac94d88da56b571",
-      "ficha_hash": "4eaff6d0ea5ada37938e70d5ec7193f0"
+      "ficha_hash": "ac4029f6aa05c11606bdc7f399069325"
     },
     "fulfill": {
       "thread_id": 172,
@@ -201,7 +201,7 @@
       "ficha_msg": 173,
       "list_msg": 239,
       "list_hash": "e8ad4e3cda40290b73fd2a13f2f6fc92",
-      "ficha_hash": "4aec1145dee260d7688f567c6042f384"
+      "ficha_hash": "a9ebe3c072e64b14aedeefe030504b0e"
     },
     "gap-the-series": {
       "thread_id": 33,
@@ -248,7 +248,7 @@
       "ficha_msg": 189,
       "list_msg": 249,
       "list_hash": "d92ed7f6294f12e7643d37828aa2ecd8",
-      "ficha_hash": "de840bf5d708d8a94468bed0a693ee98"
+      "ficha_hash": "32905d2b1e1dd97d0e57d0a0931fed88"
     },
     "hello-is-this-luck": {
       "thread_id": 192,
@@ -820,8 +820,28 @@
       "created_by_bot": true,
       "ficha_msg": 535,
       "list_msg": 536,
-      "list_hash": "c7eda5912be1d1a00dc4202a5aa282ae",
-      "ficha_hash": "a283f29ac2e10a871999dceeff3e1b90"
+      "list_hash": "23dc69b54df36e58d91407e877372256",
+      "ficha_hash": "a283f29ac2e10a871999dceeff3e1b90",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 600,
+          "url": "https://t.me/c/3974971985/534/600"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 601,
+          "url": "https://t.me/c/3974971985/534/601"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 602,
+          "url": "https://t.me/c/3974971985/534/602"
+        }
+      ]
     },
     "visi-n-de-amor": {
       "thread_id": 538,
@@ -829,7 +849,7 @@
       "created_by_bot": true,
       "ficha_msg": 539,
       "list_msg": 540,
-      "list_hash": "016fb00893f2974ca35562aa98eacfa7",
+      "list_hash": "9e1df5d9bff5e2ca28101012d9b2b159",
       "ficha_hash": "d4b8478e85318fceb9150626e8bc5d73",
       "episodes": [
         {
@@ -855,6 +875,30 @@
           "number": 4,
           "msg_id": 595,
           "url": "https://t.me/c/3974971985/538/595"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 596,
+          "url": "https://t.me/c/3974971985/538/596"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 597,
+          "url": "https://t.me/c/3974971985/538/597"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 598,
+          "url": "https://t.me/c/3974971985/538/598"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 599,
+          "url": "https://t.me/c/3974971985/538/599"
         }
       ]
     },
@@ -1107,5 +1151,5 @@
       ]
     }
   },
-  "offset": 259608966
+  "offset": 259608973
 }
