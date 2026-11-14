@@ -739,8 +739,106 @@
       "created_by_bot": true,
       "ficha_msg": 499,
       "list_msg": 500,
-      "list_hash": "2d9caed03bf17eb07e4c0b70d3556026",
-      "ficha_hash": "450a69e348a4bccd69f188a327d1c454"
+      "list_hash": "1791e0fd3eae2abb14997d71ffb52b4b",
+      "ficha_hash": "450a69e348a4bccd69f188a327d1c454",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 680,
+          "url": "https://t.me/c/3974971985/498/680"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 681,
+          "url": "https://t.me/c/3974971985/498/681"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 682,
+          "url": "https://t.me/c/3974971985/498/682"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 683,
+          "url": "https://t.me/c/3974971985/498/683"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 684,
+          "url": "https://t.me/c/3974971985/498/684"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 685,
+          "url": "https://t.me/c/3974971985/498/685"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 686,
+          "url": "https://t.me/c/3974971985/498/686"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 687,
+          "url": "https://t.me/c/3974971985/498/687"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 688,
+          "url": "https://t.me/c/3974971985/498/688"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 689,
+          "url": "https://t.me/c/3974971985/498/689"
+        },
+        {
+          "season": 1,
+          "number": 11,
+          "msg_id": 690,
+          "url": "https://t.me/c/3974971985/498/690"
+        },
+        {
+          "season": 1,
+          "number": 12,
+          "msg_id": 691,
+          "url": "https://t.me/c/3974971985/498/691"
+        },
+        {
+          "season": 1,
+          "number": 13,
+          "msg_id": 692,
+          "url": "https://t.me/c/3974971985/498/692"
+        },
+        {
+          "season": 1,
+          "number": 14,
+          "msg_id": 693,
+          "url": "https://t.me/c/3974971985/498/693"
+        },
+        {
+          "season": 1,
+          "number": 15,
+          "msg_id": 694,
+          "url": "https://t.me/c/3974971985/498/694"
+        },
+        {
+          "season": 1,
+          "number": 16,
+          "msg_id": 695,
+          "url": "https://t.me/c/3974971985/498/695"
+        }
+      ]
     },
     "the-player": {
       "thread_id": 502,
@@ -748,8 +846,82 @@
       "created_by_bot": true,
       "ficha_msg": 503,
       "list_msg": 504,
-      "list_hash": "b6d680805bc5fad69924535eb9513d1a",
-      "ficha_hash": "0667d61f9aa5285576b51db6c8c5d051"
+      "list_hash": "869c32a528e034a5d1e162e68f9bfc35",
+      "ficha_hash": "0667d61f9aa5285576b51db6c8c5d051",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 668,
+          "url": "https://t.me/c/3974971985/502/668"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 669,
+          "url": "https://t.me/c/3974971985/502/669"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 670,
+          "url": "https://t.me/c/3974971985/502/670"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 671,
+          "url": "https://t.me/c/3974971985/502/671"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 672,
+          "url": "https://t.me/c/3974971985/502/672"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 673,
+          "url": "https://t.me/c/3974971985/502/673"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 674,
+          "url": "https://t.me/c/3974971985/502/674"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 675,
+          "url": "https://t.me/c/3974971985/502/675"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 676,
+          "url": "https://t.me/c/3974971985/502/676"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 677,
+          "url": "https://t.me/c/3974971985/502/677"
+        },
+        {
+          "season": 1,
+          "number": 11,
+          "msg_id": 678,
+          "url": "https://t.me/c/3974971985/502/678"
+        },
+        {
+          "season": 1,
+          "number": 12,
+          "msg_id": 679,
+          "url": "https://t.me/c/3974971985/502/679"
+        }
+      ]
     },
     "the-secret-of-girls": {
       "thread_id": 506,
@@ -757,8 +929,106 @@
       "created_by_bot": true,
       "ficha_msg": 507,
       "list_msg": 508,
-      "list_hash": "fd1b65d0d8af05ba2abff6b876e6d5fb",
-      "ficha_hash": "092be4e5e8813fa9751c5a99cad39b8b"
+      "list_hash": "b7010b2f0548a1e5342cfd4d7f8f5522",
+      "ficha_hash": "092be4e5e8813fa9751c5a99cad39b8b",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 652,
+          "url": "https://t.me/c/3974971985/506/652"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 653,
+          "url": "https://t.me/c/3974971985/506/653"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 654,
+          "url": "https://t.me/c/3974971985/506/654"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 655,
+          "url": "https://t.me/c/3974971985/506/655"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 656,
+          "url": "https://t.me/c/3974971985/506/656"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 657,
+          "url": "https://t.me/c/3974971985/506/657"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 658,
+          "url": "https://t.me/c/3974971985/506/658"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 659,
+          "url": "https://t.me/c/3974971985/506/659"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 660,
+          "url": "https://t.me/c/3974971985/506/660"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 661,
+          "url": "https://t.me/c/3974971985/506/661"
+        },
+        {
+          "season": 1,
+          "number": 11,
+          "msg_id": 662,
+          "url": "https://t.me/c/3974971985/506/662"
+        },
+        {
+          "season": 1,
+          "number": 12,
+          "msg_id": 663,
+          "url": "https://t.me/c/3974971985/506/663"
+        },
+        {
+          "season": 1,
+          "number": 13,
+          "msg_id": 664,
+          "url": "https://t.me/c/3974971985/506/664"
+        },
+        {
+          "season": 1,
+          "number": 14,
+          "msg_id": 665,
+          "url": "https://t.me/c/3974971985/506/665"
+        },
+        {
+          "season": 1,
+          "number": 15,
+          "msg_id": 666,
+          "url": "https://t.me/c/3974971985/506/666"
+        },
+        {
+          "season": 1,
+          "number": 16,
+          "msg_id": 667,
+          "url": "https://t.me/c/3974971985/506/667"
+        }
+      ]
     },
     "the-secret-of-us": {
       "thread_id": 510,
@@ -766,8 +1036,58 @@
       "created_by_bot": true,
       "ficha_msg": 511,
       "list_msg": 512,
-      "list_hash": "7f3975339580f23078bb54252aec7bbd",
-      "ficha_hash": "cc7ebcb75029c4e9c99fd48f9d11fba8"
+      "list_hash": "c34a041f67f94f2bf9acbda158c6cd19",
+      "ficha_hash": "cc7ebcb75029c4e9c99fd48f9d11fba8",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 644,
+          "url": "https://t.me/c/3974971985/510/644"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 645,
+          "url": "https://t.me/c/3974971985/510/645"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 646,
+          "url": "https://t.me/c/3974971985/510/646"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 647,
+          "url": "https://t.me/c/3974971985/510/647"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 648,
+          "url": "https://t.me/c/3974971985/510/648"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 649,
+          "url": "https://t.me/c/3974971985/510/649"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 650,
+          "url": "https://t.me/c/3974971985/510/650"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 651,
+          "url": "https://t.me/c/3974971985/510/651"
+        }
+      ]
     },
     "the-water": {
       "thread_id": 514,
@@ -775,8 +1095,58 @@
       "created_by_bot": true,
       "ficha_msg": 515,
       "list_msg": 516,
-      "list_hash": "d80b5b40b5bf061a59a5ace4d3e0bf63",
-      "ficha_hash": "095da551da06b62edab24f3a6c5e4544"
+      "list_hash": "bf91443bd7c716a4dad0a710d80c251d",
+      "ficha_hash": "095da551da06b62edab24f3a6c5e4544",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 636,
+          "url": "https://t.me/c/3974971985/514/636"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 637,
+          "url": "https://t.me/c/3974971985/514/637"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 638,
+          "url": "https://t.me/c/3974971985/514/638"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 639,
+          "url": "https://t.me/c/3974971985/514/639"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 640,
+          "url": "https://t.me/c/3974971985/514/640"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 641,
+          "url": "https://t.me/c/3974971985/514/641"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 642,
+          "url": "https://t.me/c/3974971985/514/642"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 643,
+          "url": "https://t.me/c/3974971985/514/643"
+        }
+      ]
     },
     "the-way-back-to-you": {
       "thread_id": 518,
@@ -784,8 +1154,46 @@
       "created_by_bot": true,
       "ficha_msg": 519,
       "list_msg": 520,
-      "list_hash": "f38201262fe2521899a97aec7105e6e4",
-      "ficha_hash": "b3f279c2944fbe2bb9694aec2ef7540c"
+      "list_hash": "e2c66e950162481b5e2a6b74e014e0ec",
+      "ficha_hash": "b3f279c2944fbe2bb9694aec2ef7540c",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 630,
+          "url": "https://t.me/c/3974971985/518/630"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 631,
+          "url": "https://t.me/c/3974971985/518/631"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 632,
+          "url": "https://t.me/c/3974971985/518/632"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 633,
+          "url": "https://t.me/c/3974971985/518/633"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 634,
+          "url": "https://t.me/c/3974971985/518/634"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 635,
+          "url": "https://t.me/c/3974971985/518/635"
+        }
+      ]
     },
     "third-person": {
       "thread_id": 522,
@@ -793,7 +1201,7 @@
       "created_by_bot": true,
       "ficha_msg": 523,
       "list_msg": 524,
-      "list_hash": "68ac94f80485a6f9ff5dbd9e09933f20",
+      "list_hash": "d2d9b858ba3270a3dd266706b738c1e2",
       "ficha_hash": "9880cac04baa61a747b4698a9d019f0b",
       "episodes": [
         {
@@ -831,6 +1239,12 @@
           "number": 6,
           "msg_id": 628,
           "url": "https://t.me/c/3974971985/522/628"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 629,
+          "url": "https://t.me/c/3974971985/522/629"
         }
       ]
     },
@@ -1313,5 +1727,5 @@
       ]
     }
   },
-  "offset": 259608999
+  "offset": 259609066
 }
