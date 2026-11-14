@@ -3874,7 +3874,7 @@
       "poster": "pc/img/love-on-hire-poster.jpg",
       "banner": "pc/img/love-on-hire-poster.jpg",
       "topic_url": "https://t.me/c/3974971985/321",
-      "total_episodes": 4,
+      "total_episodes": 5,
       "episodes": [
         {
           "season": 1,
@@ -3891,6 +3891,10 @@
         {
           "season": 1,
           "number": 4
+        },
+        {
+          "season": 1,
+          "number": 5
         }
       ],
       "thread_id": 321,
@@ -8588,19 +8592,23 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/538/592"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/538/593"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/538/594"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/538/595"
         },
         {
           "season": 1,
@@ -8682,43 +8690,53 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/542/582"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/542/583"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/542/584"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/542/585"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/542/586"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/542/587"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/542/588"
         },
         {
           "season": 1,
-          "number": 8
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/542/589"
         },
         {
           "season": 1,
-          "number": 9
+          "number": 9,
+          "telegram_url": "https://t.me/c/3974971985/542/590"
         },
         {
           "season": 1,
-          "number": 10
+          "number": 10,
+          "telegram_url": "https://t.me/c/3974971985/542/591"
         }
       ],
       "thread_id": 542,
@@ -8761,6 +8779,21 @@
       "topic_url": "https://t.me/c/3974971985/546",
       "total_episodes": 33,
       "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/546/579"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/546/580"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/546/581"
+        },
         {
           "season": 1,
           "number": 13
@@ -8812,31 +8845,38 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/550/572"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/550/573"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/550/574"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/550/575"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/550/576"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/550/577"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/550/578"
         }
       ],
       "thread_id": 550,
@@ -8922,59 +8962,73 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/554/558"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/554/559"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/554/560"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/554/561"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/554/562"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/554/563"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/554/564"
         },
         {
           "season": 1,
-          "number": 8
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/554/565"
         },
         {
           "season": 2,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/554/566"
         },
         {
           "season": 2,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/554/567"
         },
         {
           "season": 2,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/554/568"
         },
         {
           "season": 2,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/554/569"
         },
         {
           "season": 2,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/554/570"
         },
         {
           "season": 2,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/554/571"
         }
       ],
       "thread_id": 554,

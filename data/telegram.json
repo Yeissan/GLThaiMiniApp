@@ -365,7 +365,7 @@
       "thread_id": 321,
       "topic_url": "https://t.me/c/3974971985/321",
       "list_msg": 323,
-      "list_hash": "6f580e46559fa4caa4d0be343fa35dcd"
+      "list_hash": "96085af0d4044270fc15804a32e9a2dc"
     },
     "love-senior-the-series": {
       "thread_id": 325,
@@ -829,8 +829,34 @@
       "created_by_bot": true,
       "ficha_msg": 539,
       "list_msg": 540,
-      "list_hash": "1264b2885bed7d41e1045024cd8e0ab0",
-      "ficha_hash": "d4b8478e85318fceb9150626e8bc5d73"
+      "list_hash": "016fb00893f2974ca35562aa98eacfa7",
+      "ficha_hash": "d4b8478e85318fceb9150626e8bc5d73",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 592,
+          "url": "https://t.me/c/3974971985/538/592"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 593,
+          "url": "https://t.me/c/3974971985/538/593"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 594,
+          "url": "https://t.me/c/3974971985/538/594"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 595,
+          "url": "https://t.me/c/3974971985/538/595"
+        }
+      ]
     },
     "whale-store-xoxo": {
       "thread_id": 542,
@@ -838,8 +864,70 @@
       "created_by_bot": true,
       "ficha_msg": 543,
       "list_msg": 544,
-      "list_hash": "97f416a05ccd7f718cbe37e12bccacf2",
-      "ficha_hash": "4899eb5da3ef5b272048012d8fadb897"
+      "list_hash": "0715f65e605f86ce013deea4ae1ba2e2",
+      "ficha_hash": "4899eb5da3ef5b272048012d8fadb897",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 582,
+          "url": "https://t.me/c/3974971985/542/582"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 583,
+          "url": "https://t.me/c/3974971985/542/583"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 584,
+          "url": "https://t.me/c/3974971985/542/584"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 585,
+          "url": "https://t.me/c/3974971985/542/585"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 586,
+          "url": "https://t.me/c/3974971985/542/586"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 587,
+          "url": "https://t.me/c/3974971985/542/587"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 588,
+          "url": "https://t.me/c/3974971985/542/588"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 589,
+          "url": "https://t.me/c/3974971985/542/589"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 590,
+          "url": "https://t.me/c/3974971985/542/590"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 591,
+          "url": "https://t.me/c/3974971985/542/591"
+        }
+      ]
     },
     "you-are-my-star": {
       "thread_id": 546,
@@ -847,8 +935,28 @@
       "created_by_bot": true,
       "ficha_msg": 547,
       "list_msg": 548,
-      "list_hash": "1119a2ba855bb9c1ba1e34205f284310",
-      "ficha_hash": "bd555009b87396aab16c3c2d1ce4d445"
+      "list_hash": "2fea400e387e132673dd445edd67de44",
+      "ficha_hash": "bd555009b87396aab16c3c2d1ce4d445",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 579,
+          "url": "https://t.me/c/3974971985/546/579"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 580,
+          "url": "https://t.me/c/3974971985/546/580"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 581,
+          "url": "https://t.me/c/3974971985/546/581"
+        }
+      ]
     },
     "you-are-the-cream-in-my-coffee": {
       "thread_id": 550,
@@ -856,8 +964,52 @@
       "created_by_bot": true,
       "ficha_msg": 551,
       "list_msg": 552,
-      "list_hash": "b570051ebbd0a5a674d7b05666e75fba",
-      "ficha_hash": "2b9705c6cd4cf8c42c244197a5f4b81b"
+      "list_hash": "823f65b3c6ad8652bd66821819af48d7",
+      "ficha_hash": "2b9705c6cd4cf8c42c244197a5f4b81b",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 572,
+          "url": "https://t.me/c/3974971985/550/572"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 573,
+          "url": "https://t.me/c/3974971985/550/573"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 574,
+          "url": "https://t.me/c/3974971985/550/574"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 575,
+          "url": "https://t.me/c/3974971985/550/575"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 576,
+          "url": "https://t.me/c/3974971985/550/576"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 577,
+          "url": "https://t.me/c/3974971985/550/577"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 578,
+          "url": "https://t.me/c/3974971985/550/578"
+        }
+      ]
     },
     "ayaka-est-enamorada-de-hiroko": {
       "thread_id": 554,
@@ -865,9 +1017,95 @@
       "created_by_bot": true,
       "ficha_msg": 555,
       "list_msg": 556,
-      "list_hash": "e0d6975a50cb057122dbcfeea0a757a4",
-      "ficha_hash": "edb54de4b95f5718215cb531c70265ca"
+      "list_hash": "fa644c16864382c9798edb2abf925772",
+      "ficha_hash": "edb54de4b95f5718215cb531c70265ca",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 558,
+          "url": "https://t.me/c/3974971985/554/558"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 559,
+          "url": "https://t.me/c/3974971985/554/559"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 560,
+          "url": "https://t.me/c/3974971985/554/560"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 561,
+          "url": "https://t.me/c/3974971985/554/561"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 562,
+          "url": "https://t.me/c/3974971985/554/562"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 563,
+          "url": "https://t.me/c/3974971985/554/563"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 564,
+          "url": "https://t.me/c/3974971985/554/564"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 565,
+          "url": "https://t.me/c/3974971985/554/565"
+        },
+        {
+          "season": 2,
+          "number": 1,
+          "msg_id": 566,
+          "url": "https://t.me/c/3974971985/554/566"
+        },
+        {
+          "season": 2,
+          "number": 2,
+          "msg_id": 567,
+          "url": "https://t.me/c/3974971985/554/567"
+        },
+        {
+          "season": 2,
+          "number": 3,
+          "msg_id": 568,
+          "url": "https://t.me/c/3974971985/554/568"
+        },
+        {
+          "season": 2,
+          "number": 4,
+          "msg_id": 569,
+          "url": "https://t.me/c/3974971985/554/569"
+        },
+        {
+          "season": 2,
+          "number": 5,
+          "msg_id": 570,
+          "url": "https://t.me/c/3974971985/554/570"
+        },
+        {
+          "season": 2,
+          "number": 6,
+          "msg_id": 571,
+          "url": "https://t.me/c/3974971985/554/571"
+        }
+      ]
     }
   },
-  "offset": 259608928
+  "offset": 259608966
 }
