@@ -8493,23 +8493,28 @@
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/534/603"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/534/604"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/534/605"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/534/606"
         },
         {
           "season": 1,
-          "number": 8
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/534/607"
         },
         {
           "season": 1,
@@ -8762,7 +8767,7 @@
       "year": "2024",
       "rating": "0",
       "plot": "Una historia de amor entre una chica estudiosa con pocos amigos y una estrella universitaria que todos adoran. ¿Cómo terminará su historia? Ayudémonos mutuamente.",
-      "runtime": "13",
+      "runtime": "3",
       "status": "Finalizada",
       "genres": [
         "Romance",
@@ -8784,7 +8789,7 @@
       "poster": "pc/img/you-are-my-star-poster.webp",
       "banner": "pc/img/you-are-my-star-fondo.jpg",
       "topic_url": "https://t.me/c/3974971985/546",
-      "total_episodes": 33,
+      "total_episodes": 3,
       "episodes": [
         {
           "season": 1,
@@ -8800,18 +8805,6 @@
           "season": 1,
           "number": 3,
           "telegram_url": "https://t.me/c/3974971985/546/581"
-        },
-        {
-          "season": 1,
-          "number": 13
-        },
-        {
-          "season": 1,
-          "number": 23
-        },
-        {
-          "season": 1,
-          "number": 33
         }
       ],
       "thread_id": 546,
