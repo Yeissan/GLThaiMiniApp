@@ -6348,7 +6348,7 @@
                        "year":  "2024",
                        "rating":  "0",
                        "plot":  "Una historia de amor entre una chica estudiosa con pocos amigos y una estrella universitaria que todos adoran. ¿Cómo terminará su historia? Ayudémonos mutuamente.",
-                       "runtime":  "13",
+                       "runtime":  "3",
                        "status":  "Ended",
                        "genres":  [
                                       "Romance",
@@ -6370,11 +6370,11 @@
                        "seasons":  [
                                        {
                                            "n":  1,
-                                           "total":  33,
+                                           "total":  3,
                                            "have":  [
-                                                        13,
-                                                        23,
-                                                        33
+                                                        1,
+                                                        2,
+                                                        3
                                                     ]
                                        }
                                    ],
