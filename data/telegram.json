@@ -102,8 +102,52 @@
       "created_by_bot": true,
       "ficha_msg": 133,
       "list_msg": 218,
-      "list_hash": "7b5e57f46dd5c0a46520636ba75ddd0b",
-      "ficha_hash": "975fe9f435ea188b98357743cc5cc78e"
+      "list_hash": "eee4d6962a2db7f1b595e1a99c16fa49",
+      "ficha_hash": "975fe9f435ea188b98357743cc5cc78e",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 1240,
+          "url": "https://t.me/c/3974971985/132/1240"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1241,
+          "url": "https://t.me/c/3974971985/132/1241"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1242,
+          "url": "https://t.me/c/3974971985/132/1242"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 1243,
+          "url": "https://t.me/c/3974971985/132/1243"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 1244,
+          "url": "https://t.me/c/3974971985/132/1244"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 1245,
+          "url": "https://t.me/c/3974971985/132/1245"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 1246,
+          "url": "https://t.me/c/3974971985/132/1246"
+        }
+      ]
     },
     "chasing-love": {
       "thread_id": 136,
@@ -120,8 +164,58 @@
       "created_by_bot": true,
       "ficha_msg": 141,
       "list_msg": 222,
-      "list_hash": "1498c68c73fc002aa79fe20a7a3069b2",
-      "ficha_hash": "ef37256f468d57429904cee98cb49945"
+      "list_hash": "1bf824cd539731713004b1fff8871bed",
+      "ficha_hash": "ef37256f468d57429904cee98cb49945",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 1232,
+          "url": "https://t.me/c/3974971985/140/1232"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1233,
+          "url": "https://t.me/c/3974971985/140/1233"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1234,
+          "url": "https://t.me/c/3974971985/140/1234"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 1235,
+          "url": "https://t.me/c/3974971985/140/1235"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 1236,
+          "url": "https://t.me/c/3974971985/140/1236"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 1237,
+          "url": "https://t.me/c/3974971985/140/1237"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 1238,
+          "url": "https://t.me/c/3974971985/140/1238"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 1239,
+          "url": "https://t.me/c/3974971985/140/1239"
+        }
+      ]
     },
     "club-friday-17-the-theory-of-love": {
       "thread_id": 144,
@@ -209,8 +303,34 @@
       "created_by_bot": true,
       "ficha_msg": 153,
       "list_msg": 228,
-      "list_hash": "a8200032f6dbfd11923b0dcc85429f76",
-      "ficha_hash": "81356148dedf97ce604d5c4e3ba15699"
+      "list_hash": "570b85ef5018dd1ce075377b62d182a0",
+      "ficha_hash": "81356148dedf97ce604d5c4e3ba15699",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 1228,
+          "url": "https://t.me/c/3974971985/152/1228"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1229,
+          "url": "https://t.me/c/3974971985/152/1229"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1230,
+          "url": "https://t.me/c/3974971985/152/1230"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 1231,
+          "url": "https://t.me/c/3974971985/152/1231"
+        }
+      ]
     },
     "enemies-with-benefits": {
       "thread_id": 156,
@@ -218,8 +338,70 @@
       "created_by_bot": true,
       "ficha_msg": 157,
       "list_msg": 231,
-      "list_hash": "f75e4291b6a150328dbe5d0c6f4a9831",
-      "ficha_hash": "609f3acdd98500ee7c3fe8215b682ea6"
+      "list_hash": "3661adc2b3df80fdc25f893661d05366",
+      "ficha_hash": "609f3acdd98500ee7c3fe8215b682ea6",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 1218,
+          "url": "https://t.me/c/3974971985/156/1218"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1219,
+          "url": "https://t.me/c/3974971985/156/1219"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1220,
+          "url": "https://t.me/c/3974971985/156/1220"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 1221,
+          "url": "https://t.me/c/3974971985/156/1221"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 1222,
+          "url": "https://t.me/c/3974971985/156/1222"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 1223,
+          "url": "https://t.me/c/3974971985/156/1223"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 1224,
+          "url": "https://t.me/c/3974971985/156/1224"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 1225,
+          "url": "https://t.me/c/3974971985/156/1225"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 1226,
+          "url": "https://t.me/c/3974971985/156/1226"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 1227,
+          "url": "https://t.me/c/3974971985/156/1227"
+        }
+      ]
     },
     "fairway-del-amor": {
       "thread_id": 160,
@@ -4957,5 +5139,5 @@
       ]
     }
   },
-  "offset": 259609588
+  "offset": 259609617
 }
