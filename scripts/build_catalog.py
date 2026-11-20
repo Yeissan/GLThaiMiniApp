@@ -266,7 +266,16 @@ def main():
             print(f'ERROR pc {item.get("folder")}: {e}')
 
     # Telegram: temas creados y capítulos detectados
-    tg = load_json(TG, {}).get('series', {})
+    tgall = load_json(TG, {})
+    tg = tgall.get('series', {})
+    dead = set(tgall.get('deleted_threads', []))
+    for s in items.values():
+        # temas borrados del grupo: quitar su enlace y los de sus capítulos
+        if thread_of(s['topic_url']) in dead:
+            s['topic_url'] = ''
+        for e in s['episodes']:
+            if thread_of(e.get('telegram_url')) in dead:
+                e.pop('telegram_url', None)
     for sid, t in tg.items():
         if sid not in items:
             continue

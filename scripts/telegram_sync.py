@@ -331,6 +331,44 @@ def send_list(s, st, thread):
     print(f' + Lista publicada y fijada: {s["title"]}')
 
 
+GONE = ('thread not found', 'topic_deleted', 'topic_id_invalid', 'topic not found', 'thread_id_invalid')
+
+
+def topic_gone(err):
+    return any(g in (err.desc or '').lower() for g in GONE)
+
+
+def forget_topic(state, sid, why=''):
+    """El tema ya no existe en el grupo: lo olvidamos para volver a crearlo."""
+    st = state['series'].setdefault(sid, {})
+    thread = st.get('thread_id')
+    if thread:
+        dead = state.setdefault('deleted_threads', [])
+        if thread not in dead:
+            dead.append(thread)
+    for k in ('thread_id', 'topic_url', 'list_msg', 'list_hash', 'ficha_msg', 'ficha_hash', 'episodes',
+              'created_by_bot'):
+        st.pop(k, None)
+    print(f' - Tema borrado en el grupo{why}: {sid} (lo vuelvo a crear)')
+
+
+def check_topics(state):
+    """Comprueba que cada tema sigue existiendo (sin escribir nada en el grupo)."""
+    gone = 0
+    for sid, st in list(state['series'].items()):
+        thread = st.get('thread_id')
+        if not thread:
+            continue
+        try:
+            call('reopenForumTopic', chat_id=CHAT, message_thread_id=thread)
+        except TgError as e:
+            if topic_gone(e):
+                forget_topic(state, sid)
+                gone += 1
+        time.sleep(0.3)
+    print(f'Temas borrados encontrados: {gone}')
+
+
 def main():
     if not TOKEN:
         print('Falta la clave del bot (Secret TG_BOT_TOKEN). No hago nada con Telegram.')
@@ -340,9 +378,10 @@ def main():
     state.setdefault('series', {})
 
     # Temas que ya existen (puestos a mano en serie.json)
+    dead = set(state.get('deleted_threads', []))
     for s in catalog:
         st = state['series'].setdefault(s['id'], {})
-        if s.get('thread_id') and not st.get('thread_id'):
+        if s.get('thread_id') and not st.get('thread_id') and s['thread_id'] not in dead:
             st.update(thread_id=s['thread_id'], topic_url=link(s['thread_id']))
     by_thread = {st['thread_id']: sid for sid, st in state['series'].items() if st.get('thread_id')}
     by_name = {}
@@ -355,36 +394,53 @@ def main():
     print(f'Bot: @{me.get("username")}')
     try:
         read_updates(state, by_thread, by_name)
+        check_topics(state)
     finally:
         STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding='utf-8')
 
     created = 0
+
+    def process(i, s):
+        nonlocal created
+        st = state['series'].setdefault(s['id'], {})
+        dead = set(state.get('deleted_threads', []))
+        for e in s.get('episodes', []):
+            m = re.search(r't\.me/c/\d+/(\d+)', e.get('telegram_url') or '')
+            if m and int(m.group(1)) in dead:
+                e.pop('telegram_url', None)
+        thread = st.get('thread_id')
+        if not thread:
+            if created >= MAX_NEW:
+                return
+            topic = call('createForumTopic', chat_id=CHAT, name=s['title'][:128],
+                         icon_color=COLORS[i % len(COLORS)])
+            thread = topic['message_thread_id']
+            st.update(thread_id=thread, topic_url=link(thread), created_by_bot=True)
+            created += 1
+            print(f' + Tema creado: {s["title"]}')
+            photo = poster_bytes(s)
+            if photo:
+                msg = call('sendPhoto', files={'photo': ('poster.jpg', photo)}, chat_id=CHAT,
+                           message_thread_id=thread, caption=ficha(s), parse_mode='HTML',
+                           reply_markup=buttons(s))
+            else:
+                msg = call('sendMessage', chat_id=CHAT, message_thread_id=thread, text=ficha(s),
+                           parse_mode='HTML', reply_markup=buttons(s))
+            st['ficha_msg'] = msg['message_id']
+            st['ficha_hash'] = hashlib.md5(ficha(s).encode()).hexdigest()
+            time.sleep(3)
+        update_ficha(s, st)
+        send_list(s, st, thread)
+
     try:
         for i, s in enumerate(catalog):
-            st = state['series'].setdefault(s['id'], {})
-            thread = st.get('thread_id')
-            if not thread:
-                if created >= MAX_NEW:
-                    continue
-                topic = call('createForumTopic', chat_id=CHAT, name=s['title'][:128],
-                             icon_color=COLORS[i % len(COLORS)])
-                thread = topic['message_thread_id']
-                st.update(thread_id=thread, topic_url=link(thread), created_by_bot=True)
-                created += 1
-                print(f' + Tema creado: {s["title"]}')
-                photo = poster_bytes(s)
-                if photo:
-                    msg = call('sendPhoto', files={'photo': ('poster.jpg', photo)}, chat_id=CHAT,
-                               message_thread_id=thread, caption=ficha(s), parse_mode='HTML',
-                               reply_markup=buttons(s))
-                else:
-                    msg = call('sendMessage', chat_id=CHAT, message_thread_id=thread, text=ficha(s),
-                               parse_mode='HTML', reply_markup=buttons(s))
-                st['ficha_msg'] = msg['message_id']
-                st['ficha_hash'] = hashlib.md5(ficha(s).encode()).hexdigest()
-                time.sleep(3)
-            update_ficha(s, st)
-            send_list(s, st, thread)
+            try:
+                process(i, s)
+            except TgError as e:
+                if not topic_gone(e):
+                    raise
+                forget_topic(state, s['id'], ' al escribir')
+                process(i, s)
             time.sleep(1)
     except TgError as e:
         print(f'\nERROR de Telegram: {e.desc}')
