@@ -146,7 +146,7 @@
       "originaltitle": "สัญญารัก 24 ชั่วโมง",
       "year": "2024",
       "rating": "0",
-      "plot": "",
+      "plot": "La historia de Ice, una hermosa empleada de una empresa a quien le acaban de romper el corazón. Decide contratar a una amiga —con aires de novia— para que la acompañe durante veinticuatro horas. Sin embargo, la contratación da lugar a una relación inesperada. ",
       "runtime": "47",
       "status": "Finalizada",
       "genres": [
@@ -158,62 +158,22 @@
       ],
       "cast": [
         {
-          "name": "Ayako Yoshitani",
-          "role": "津田結子"
+          "name": "Ice Chutikan Siangdee",
+          "role": "Ice"
         },
         {
-          "name": "Haruna Matsui",
-          "role": "髙石みのり"
-        },
-        {
-          "name": "Hikaru Iwamoto",
-          "role": "北沢辰之助"
-        },
-        {
-          "name": "Hinako Sakurai",
-          "role": "原香"
-        },
-        {
-          "name": "Hiroki Konno",
-          "role": "椎谷厚徳"
-        },
-        {
-          "name": "Itsuji Itao",
-          "role": "梶原昌司"
-        },
-        {
-          "name": "Joichiro Fujiwara",
-          "role": "原湊"
-        },
-        {
-          "name": "Junpei Mizobata",
-          "role": "漆原透吾"
-        },
-        {
-          "name": "Keigo Kitamura",
-          "role": "村田耕太"
-        },
-        {
-          "name": "Natsumi Okamoto",
-          "role": "戸口美央"
-        },
-        {
-          "name": "Nobunaga Daichi",
-          "role": "五十嵐聖"
-        },
-        {
-          "name": "Omi Natsuki",
-          "role": "久我一刀"
+          "name": "Irada Langkapin",
+          "role": "Rada"
         }
       ],
       "poster": "pc/img/24-horus-love-poster.jpg",
       "banner": "pc/img/24-horus-love-poster.jpg",
       "topic_url": "https://t.me/c/3974971985/92",
-      "total_episodes": 24,
+      "total_episodes": 1,
       "episodes": [
         {
           "season": 1,
-          "number": 24
+          "number": 1
         }
       ],
       "thread_id": 92,
@@ -1744,19 +1704,23 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/160/1210"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/160/1211"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/160/1212"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/160/1213"
         },
         {
           "season": 1,
@@ -1812,8 +1776,14 @@
       "poster": "pc/img/falling-for-my-hater-poster.jpg",
       "banner": "pc/img/falling-for-my-hater-fondo.webp",
       "topic_url": "https://t.me/c/3974971985/164",
-      "total_episodes": 0,
-      "episodes": [],
+      "total_episodes": 1,
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/164/1209"
+        }
+      ],
       "thread_id": 164,
       "oficial": {
         "name": "iQIYI",
@@ -1860,43 +1830,53 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/168/1199"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/168/1200"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/168/1201"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/168/1202"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/168/1203"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/168/1204"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/168/1205"
         },
         {
           "season": 1,
-          "number": 8
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/168/1206"
         },
         {
           "season": 1,
-          "number": 9
+          "number": 9,
+          "telegram_url": "https://t.me/c/3974971985/168/1207"
         },
         {
           "season": 1,
-          "number": 10
+          "number": 10,
+          "telegram_url": "https://t.me/c/3974971985/168/1208"
         }
       ],
       "thread_id": 168,
@@ -1955,35 +1935,43 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/172/1191"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/172/1192"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/172/1193"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/172/1194"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/172/1195"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/172/1196"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/172/1197"
         },
         {
           "season": 1,
-          "number": 8
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/172/1198"
         }
       ],
       "thread_id": 172,
@@ -2307,35 +2295,42 @@
         {
           "season": 1,
           "number": 1,
-          "telegram_url": "https://t.me/c/3974971985/180/230"
+          "telegram_url": "https://t.me/c/3974971985/180/1183"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/180/1184"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/180/1185"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/180/1186"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/180/1187"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/180/1188"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/180/1189"
         },
         {
           "season": 1,
-          "number": 8
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/180/1190"
         }
       ],
       "thread_id": 180,
@@ -2385,8 +2380,14 @@
       "poster": "pc/img/hate-you-love-you-poster.jpg",
       "banner": "pc/img/hate-you-love-you-fondo.jpg",
       "topic_url": "https://t.me/c/3974971985/184",
-      "total_episodes": 0,
-      "episodes": [],
+      "total_episodes": 1,
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/184/1182"
+        }
+      ],
       "thread_id": 184,
       "oficial": {
         "name": "Buscar en YouTube",
@@ -2434,31 +2435,38 @@
       "episodes": [
         {
           "season": 1,
-          "number": 1
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/188/1175"
         },
         {
           "season": 1,
-          "number": 2
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/188/1176"
         },
         {
           "season": 1,
-          "number": 3
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/188/1177"
         },
         {
           "season": 1,
-          "number": 4
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/188/1178"
         },
         {
           "season": 1,
-          "number": 5
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/188/1179"
         },
         {
           "season": 1,
-          "number": 6
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/188/1180"
         },
         {
           "season": 1,
-          "number": 7
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/188/1181"
         }
       ],
       "thread_id": 188,
