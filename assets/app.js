@@ -131,6 +131,22 @@ function show(id) {
     b.addEventListener('click', () => toast('Este capítulo todavía no está en Telegram.')));
 }
 
+// ---------- icono en la pantalla de inicio (Telegram 8.0+)
+
+function setupInstall() {
+  const btn = $('instalar');
+  if (!tg?.addToHomeScreen || !tg.isVersionAtLeast?.('8.0')) return;
+  const hide = () => { btn.hidden = true; };
+  btn.addEventListener('click', () => tg.addToHomeScreen());
+  tg.onEvent?.('homeScreenAdded', () => { hide(); toast('¡Listo! Ya tienes GL Thai en tu pantalla de inicio.'); });
+  if (tg.checkHomeScreenStatus) {
+    tg.checkHomeScreenStatus(status => { btn.hidden = !(status === 'missed' || status === 'unknown'); });
+  } else {
+    btn.hidden = false;
+  }
+}
+setupInstall();
+
 // ---------- arranque
 
 let fromGrid = false;

@@ -26,6 +26,10 @@ header{display:flex;align-items:center;gap:12px}
 .search:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #4ef3ff22}
 .count{font-family:var(--display);font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:7px 12px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .count b{color:var(--cyan)}
+.install{flex:0 0 auto;border:0;border-radius:999px;padding:8px 14px;cursor:pointer;font-family:var(--display);font-weight:700;font-size:13px;
+  color:#12061e;background:linear-gradient(90deg,var(--pink),var(--cyan));box-shadow:0 0 16px #ff4fd866;white-space:nowrap}
+.install:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.app[data-view="ficha"] .install{display:none}
 
 .back{display:none;flex:0 0 auto;width:40px;height:40px;border-radius:14px;border:1px solid var(--line);background:#140c22cc;
   font-size:20px;cursor:pointer;color:var(--cyan)}
@@ -107,6 +111,9 @@ header{display:flex;align-items:center;gap:12px}
   .card .t{font-size:12.5px}
   .card .pic{border-radius:14px}
   .count{margin-left:auto}
+  .install{padding:8px 12px;font-size:12px}
+  .count{padding:6px 10px;font-size:12px}
+  .brand span{display:none}
   .detail{grid-template-columns:96px 1fr;gap:12px 14px;padding:16px;align-content:start;grid-template-rows:auto 1fr;border-radius:24px}
   .info{display:contents}
   .top{grid-column:2;gap:7px}
