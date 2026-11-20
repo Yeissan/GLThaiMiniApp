@@ -715,7 +715,7 @@
       "ficha_msg": 129,
       "list_msg": 216,
       "list_hash": "073b26ea6bfb69bbba92741fa8bc64a3",
-      "ficha_hash": "d0b28b943664d4bfd7d03b2af4ac1698",
+      "ficha_hash": "1d272cedc0d9aa7c3730e59fd04f7bd8",
       "episodes": [
         {
           "season": 1,
@@ -1423,7 +1423,81 @@
       "ficha_msg": 1387,
       "ficha_hash": "c5d2342353866c9989f6dd37cac6ee23",
       "list_msg": 1388,
-      "list_hash": "9b082eea26b3c35d3296e5170887c8bc"
+      "list_hash": "27f2f4788d8ef27154fd99b4a2b983c7",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 1406,
+          "url": "https://t.me/c/3974971985/1386/1406"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1407,
+          "url": "https://t.me/c/3974971985/1386/1407"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1408,
+          "url": "https://t.me/c/3974971985/1386/1408"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 1409,
+          "url": "https://t.me/c/3974971985/1386/1409"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 1410,
+          "url": "https://t.me/c/3974971985/1386/1410"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 1411,
+          "url": "https://t.me/c/3974971985/1386/1411"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 1412,
+          "url": "https://t.me/c/3974971985/1386/1412"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 1413,
+          "url": "https://t.me/c/3974971985/1386/1413"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 1414,
+          "url": "https://t.me/c/3974971985/1386/1414"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 1415,
+          "url": "https://t.me/c/3974971985/1386/1415"
+        },
+        {
+          "season": 1,
+          "number": 11,
+          "msg_id": 1416,
+          "url": "https://t.me/c/3974971985/1386/1416"
+        },
+        {
+          "season": 1,
+          "number": 12,
+          "msg_id": 1417,
+          "url": "https://t.me/c/3974971985/1386/1417"
+        }
+      ]
     },
     "girl-rules": {
       "thread_id": 1390,
@@ -1432,7 +1506,81 @@
       "ficha_msg": 1391,
       "ficha_hash": "2f7629e4394d888ffd964e03db05e793",
       "list_msg": 1392,
-      "list_hash": "aefbfcf223203b6f0ca079c293ba16e2"
+      "list_hash": "8262030dca80af3a43f9f9cff2106619",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 1394,
+          "url": "https://t.me/c/3974971985/1390/1394"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1395,
+          "url": "https://t.me/c/3974971985/1390/1395"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1396,
+          "url": "https://t.me/c/3974971985/1390/1396"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 1397,
+          "url": "https://t.me/c/3974971985/1390/1397"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 1398,
+          "url": "https://t.me/c/3974971985/1390/1398"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 1399,
+          "url": "https://t.me/c/3974971985/1390/1399"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 1400,
+          "url": "https://t.me/c/3974971985/1390/1400"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 1401,
+          "url": "https://t.me/c/3974971985/1390/1401"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 1402,
+          "url": "https://t.me/c/3974971985/1390/1402"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 1403,
+          "url": "https://t.me/c/3974971985/1390/1403"
+        },
+        {
+          "season": 1,
+          "number": 11,
+          "msg_id": 1404,
+          "url": "https://t.me/c/3974971985/1390/1404"
+        },
+        {
+          "season": 1,
+          "number": 12,
+          "msg_id": 1405,
+          "url": "https://t.me/c/3974971985/1390/1405"
+        }
+      ]
     },
     "harmony-secret": {
       "thread_id": 180,
@@ -5952,7 +6100,7 @@
       ]
     }
   },
-  "offset": 259609752,
+  "offset": 259609782,
   "deleted_threads": [
     4,
     33,
