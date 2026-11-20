@@ -95,7 +95,7 @@
                        "orig":  "สัญญารัก 24 ชั่วโมง",
                        "year":  "2024",
                        "rating":  "0",
-                       "plot":  "",
+                       "plot":  "La historia de Ice, una hermosa empleada de una empresa a quien le acaban de romper el corazón. Decide contratar a una amiga —con aires de novia— para que la acompañe durante veinticuatro horas. Sin embargo, la contratación da lugar a una relación inesperada. ",
                        "runtime":  "47",
                        "status":  "Ended",
                        "genres":  [
@@ -107,60 +107,21 @@
                                    ],
                        "cast":  [
                                     {
-                                        "name":  "Ayako Yoshitani",
-                                        "role":  "津田結子"
+                                        "name":  "Ice Chutikan Siangdee", 
+                                        "role":  "Ice"
                                     },
                                     {
-                                        "name":  "Haruna Matsui",
-                                        "role":  "髙石みのり"
-                                    },
-                                    {
-                                        "name":  "Hikaru Iwamoto",
-                                        "role":  "北沢辰之助"
-                                    },
-                                    {
-                                        "name":  "Hinako Sakurai",
-                                        "role":  "原香"
-                                    },
-                                    {
-                                        "name":  "Hiroki Konno",
-                                        "role":  "椎谷厚徳"
-                                    },
-                                    {
-                                        "name":  "Itsuji Itao",
-                                        "role":  "梶原昌司"
-                                    },
-                                    {
-                                        "name":  "Joichiro Fujiwara",
-                                        "role":  "原湊"
-                                    },
-                                    {
-                                        "name":  "Junpei Mizobata",
-                                        "role":  "漆原透吾"
-                                    },
-                                    {
-                                        "name":  "Keigo Kitamura",
-                                        "role":  "村田耕太"
-                                    },
-                                    {
-                                        "name":  "Natsumi Okamoto",
-                                        "role":  "戸口美央"
-                                    },
-                                    {
-                                        "name":  "Nobunaga Daichi",
-                                        "role":  "五十嵐聖"
-                                    },
-                                    {
-                                        "name":  "Omi Natsuki",
-                                        "role":  "久我一刀"
+                                        
+                                        "name":  "Irada Langkapin",
+                                        "role":  "Rada"
                                     }
                                 ],
                        "seasons":  [
                                        {
                                            "n":  1,
-                                           "total":  24,
+                                           "total":  1,
                                            "have":  [
-                                                        24
+                                                       1
                                                     ]
                                        }
                                    ],
