@@ -2315,9 +2315,10 @@
       ],
       "thread_id": 1386,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=GAP+The+Series+EP1",
-        "gratis": true
+        "name": "YouTube IDOLFACTORY OFFICIAL",
+        "url": "https://www.youtube.com/playlist?list=PL4D0KlUVq4IzJslrn8ilKnXV7B3U6DBqO",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -5107,9 +5108,10 @@
       ],
       "thread_id": 357,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=My+Marvellous+Dream+Is+You+EP1",
-        "gratis": true
+        "name": "YouTube IDOLFACTORY OFFICIAL",
+        "url": "https://www.youtube.com/playlist?list=PL4D0KlUVq4IxVB-flF0y2Ci-ZlTYPhBkE",
+        "gratis": true,
+        "playlist": true
       }
     },
     {
@@ -6568,9 +6570,10 @@
       ],
       "thread_id": 422,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Remind+EP1",
-        "gratis": true
+        "name": "YouTube Still Watching Netflix",
+        "url": "https://www.youtube.com/@stillwatchingnetflix/search?query=Remind",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -7144,9 +7147,10 @@
       ],
       "thread_id": 446,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=RUNAWAY+EP1",
-        "gratis": true
+        "name": "YouTube Runaway Brides - Kaçak Gelinler",
+        "url": "https://www.youtube.com/@runawaybrides/search?query=RUNAWAY",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
@@ -9231,9 +9235,10 @@
       ],
       "thread_id": 530,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Unlimited+Love+EP1",
-        "gratis": true
+        "name": "YouTube underscores",
+        "url": "https://www.youtube.com/channel/UC7Dr19bFdqkkfREMITgY9Vg/search?query=Unlimited%20Love",
+        "gratis": true,
+        "playlist": false
       }
     },
     {

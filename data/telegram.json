@@ -1423,7 +1423,7 @@
       "ficha_msg": 1387,
       "ficha_hash": "c5d2342353866c9989f6dd37cac6ee23",
       "list_msg": 1388,
-      "list_hash": "27f2f4788d8ef27154fd99b4a2b983c7",
+      "list_hash": "c76b48d6330fabfe60219b07fbf35ed9",
       "episodes": [
         {
           "season": 1,
@@ -3075,7 +3075,7 @@
       "created_by_bot": true,
       "ficha_msg": 358,
       "list_msg": 359,
-      "list_hash": "b95ddba7d19c25531fbab0c938a0a059",
+      "list_hash": "b4b91214f31db1643e2e3af2f778b613",
       "ficha_hash": "aaa92870493031f750d39853548c5dbe",
       "episodes": [
         {
@@ -4019,7 +4019,7 @@
       "created_by_bot": true,
       "ficha_msg": 423,
       "list_msg": 424,
-      "list_hash": "2f8e72bedfcfc87ddc2bb3a53f1065db",
+      "list_hash": "00cc66aa5d86243b20a23fbca7f7435b",
       "ficha_hash": "262f181b8d2a43a2c44dd78a0035cee3",
       "episodes": [
         {
@@ -4323,7 +4323,7 @@
       "created_by_bot": true,
       "ficha_msg": 447,
       "list_msg": 448,
-      "list_hash": "3766f40389c4fb6a99c3459caf80e4cd",
+      "list_hash": "8900f60b1e43dba7036e9f437248f258",
       "ficha_hash": "3d086e928f39b246c392b6e58b0b534b",
       "episodes": [
         {
@@ -5644,7 +5644,7 @@
       "created_by_bot": true,
       "ficha_msg": 531,
       "list_msg": 532,
-      "list_hash": "1adb9bd8751545698d4617d75ee4fc76",
+      "list_hash": "6369af1a0eb7bebee219cd9dd7a7569d",
       "ficha_hash": "5585b3b640e4016731538ae1b55c3656",
       "episodes": [
         {
@@ -6100,7 +6100,7 @@
       ]
     }
   },
-  "offset": 259609782,
+  "offset": 259609785,
   "deleted_threads": [
     4,
     33,
