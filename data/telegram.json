@@ -1,10 +1,13 @@
 {
   "series": {
     "23-5": {
-      "thread_id": 4,
-      "topic_url": "https://t.me/c/3974971985/4",
-      "list_msg": 196,
-      "list_hash": "b305fe367cc20317e1abdb78f992b399"
+      "thread_id": 1382,
+      "topic_url": "https://t.me/c/3974971985/1382",
+      "created_by_bot": true,
+      "ficha_msg": 1383,
+      "ficha_hash": "06f4a668a3292dc204a71d869f76c66b",
+      "list_msg": 1384,
+      "list_hash": "10ef79271126f77b770c82d643d83e4b"
     },
     "24-horus-love": {
       "thread_id": 92,
@@ -711,8 +714,58 @@
       "created_by_bot": true,
       "ficha_msg": 129,
       "list_msg": 216,
-      "list_hash": "5d74da3892929c9dc3d34e86b723938e",
-      "ficha_hash": "d0b28b943664d4bfd7d03b2af4ac1698"
+      "list_hash": "073b26ea6bfb69bbba92741fa8bc64a3",
+      "ficha_hash": "d0b28b943664d4bfd7d03b2af4ac1698",
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "msg_id": 1378,
+          "url": "https://t.me/c/3974971985/128/1378"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1379,
+          "url": "https://t.me/c/3974971985/128/1379"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1372,
+          "url": "https://t.me/c/3974971985/128/1372"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "msg_id": 1373,
+          "url": "https://t.me/c/3974971985/128/1373"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "msg_id": 1374,
+          "url": "https://t.me/c/3974971985/128/1374"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 1375,
+          "url": "https://t.me/c/3974971985/128/1375"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 1376,
+          "url": "https://t.me/c/3974971985/128/1376"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 1377,
+          "url": "https://t.me/c/3974971985/128/1377"
+        }
+      ]
     },
     "chaser-game-w1": {
       "thread_id": 132,
@@ -1364,16 +1417,22 @@
       ]
     },
     "gap-the-series": {
-      "thread_id": 33,
-      "topic_url": "https://t.me/c/3974971985/33",
-      "list_msg": 241,
-      "list_hash": "b0c4cd1bf89e6c141c82004d2dfd4422"
+      "thread_id": 1386,
+      "topic_url": "https://t.me/c/3974971985/1386",
+      "created_by_bot": true,
+      "ficha_msg": 1387,
+      "ficha_hash": "c5d2342353866c9989f6dd37cac6ee23",
+      "list_msg": 1388,
+      "list_hash": "9b082eea26b3c35d3296e5170887c8bc"
     },
     "girl-rules": {
-      "thread_id": 71,
-      "topic_url": "https://t.me/c/3974971985/71",
-      "list_msg": 243,
-      "list_hash": "20cf0c62ede61e4d2bd537fc87b5a277"
+      "thread_id": 1390,
+      "topic_url": "https://t.me/c/3974971985/1390",
+      "created_by_bot": true,
+      "ficha_msg": 1391,
+      "ficha_hash": "2f7629e4394d888ffd964e03db05e793",
+      "list_msg": 1392,
+      "list_hash": "aefbfcf223203b6f0ca079c293ba16e2"
     },
     "harmony-secret": {
       "thread_id": 180,
@@ -5893,5 +5952,10 @@
       ]
     }
   },
-  "offset": 259609740
+  "offset": 259609752,
+  "deleted_threads": [
+    4,
+    33,
+    71
+  ]
 }

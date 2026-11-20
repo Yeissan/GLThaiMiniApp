@@ -67,71 +67,59 @@
       ],
       "poster": "series/23.5/folder.jpg",
       "banner": "series/23.5/backdrop.jpg",
-      "topic_url": "https://t.me/c/3974971985/4",
+      "topic_url": "https://t.me/c/3974971985/1382",
       "total_episodes": 12,
       "episodes": [
         {
           "season": 1,
-          "number": 1,
-          "telegram_url": "https://t.me/c/3974971985/4/24"
+          "number": 1
         },
         {
           "season": 1,
-          "number": 2,
-          "telegram_url": "https://t.me/c/3974971985/4/46"
+          "number": 2
         },
         {
           "season": 1,
-          "number": 3,
-          "telegram_url": "https://t.me/c/3974971985/4/47"
+          "number": 3
         },
         {
           "season": 1,
-          "number": 4,
-          "telegram_url": "https://t.me/c/3974971985/4/48"
+          "number": 4
         },
         {
           "season": 1,
-          "number": 5,
-          "telegram_url": "https://t.me/c/3974971985/4/49"
+          "number": 5
         },
         {
           "season": 1,
-          "number": 6,
-          "telegram_url": "https://t.me/c/3974971985/4/50"
+          "number": 6
         },
         {
           "season": 1,
-          "number": 7,
-          "telegram_url": "https://t.me/c/3974971985/4/51"
+          "number": 7
         },
         {
           "season": 1,
-          "number": 8,
-          "telegram_url": "https://t.me/c/3974971985/4/52"
+          "number": 8
         },
         {
           "season": 1,
-          "number": 9,
-          "telegram_url": "https://t.me/c/3974971985/4/53"
+          "number": 9
         },
         {
           "season": 1,
-          "number": 10,
-          "telegram_url": "https://t.me/c/3974971985/4/54"
+          "number": 10
         },
         {
           "season": 1,
-          "number": 11,
-          "telegram_url": "https://t.me/c/3974971985/4/55"
+          "number": 11
         },
         {
           "season": 1,
-          "number": 12,
-          "telegram_url": "https://t.me/c/3974971985/4/56"
+          "number": 12
         }
       ],
-      "thread_id": 4,
+      "thread_id": 1382,
       "oficial": {
         "name": "YouTube GMMTV",
         "url": "https://www.youtube.com/playlist?list=PLszepnkojZI7DbooKGnHIy2Zz7BF4fqr-",
@@ -1090,8 +1078,49 @@
       "poster": "pc/img/candy-poster.jpg",
       "banner": "pc/img/candy-poster.jpg",
       "topic_url": "https://t.me/c/3974971985/128",
-      "total_episodes": 0,
-      "episodes": [],
+      "total_episodes": 8,
+      "episodes": [
+        {
+          "season": 1,
+          "number": 1,
+          "telegram_url": "https://t.me/c/3974971985/128/1378"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "telegram_url": "https://t.me/c/3974971985/128/1379"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "telegram_url": "https://t.me/c/3974971985/128/1372"
+        },
+        {
+          "season": 1,
+          "number": 4,
+          "telegram_url": "https://t.me/c/3974971985/128/1373"
+        },
+        {
+          "season": 1,
+          "number": 5,
+          "telegram_url": "https://t.me/c/3974971985/128/1374"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "telegram_url": "https://t.me/c/3974971985/128/1375"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "telegram_url": "https://t.me/c/3974971985/128/1376"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "telegram_url": "https://t.me/c/3974971985/128/1377"
+        }
+      ],
       "thread_id": 128,
       "oficial": {
         "name": "GagaOOLala",
@@ -2220,53 +2249,44 @@
       ],
       "poster": "series/GAP The Series/folder.jpg",
       "banner": "series/GAP The Series/backdrop.jpg",
-      "topic_url": "https://t.me/c/3974971985/33",
+      "topic_url": "https://t.me/c/3974971985/1386",
       "total_episodes": 12,
       "episodes": [
         {
           "season": 1,
-          "number": 1,
-          "telegram_url": "https://t.me/c/3974971985/33/37"
+          "number": 1
         },
         {
           "season": 1,
-          "number": 2,
-          "telegram_url": "https://t.me/c/3974971985/33/38"
+          "number": 2
         },
         {
           "season": 1,
-          "number": 3,
-          "telegram_url": "https://t.me/c/3974971985/33/39"
+          "number": 3
         },
         {
           "season": 1,
-          "number": 4,
-          "telegram_url": "https://t.me/c/3974971985/33/57"
+          "number": 4
         },
         {
           "season": 1,
-          "number": 5,
-          "telegram_url": "https://t.me/c/3974971985/33/58"
+          "number": 5
         },
         {
           "season": 1,
-          "number": 6,
-          "telegram_url": "https://t.me/c/3974971985/33/59"
+          "number": 6
         },
         {
           "season": 1,
-          "number": 7,
-          "telegram_url": "https://t.me/c/3974971985/33/60"
+          "number": 7
         },
         {
           "season": 1,
-          "number": 8,
-          "telegram_url": "https://t.me/c/3974971985/33/61"
+          "number": 8
         },
         {
           "season": 1,
-          "number": 9,
-          "telegram_url": "https://t.me/c/3974971985/33/62"
+          "number": 9
         },
         {
           "season": 1,
@@ -2274,16 +2294,14 @@
         },
         {
           "season": 1,
-          "number": 11,
-          "telegram_url": "https://t.me/c/3974971985/33/64"
+          "number": 11
         },
         {
           "season": 1,
-          "number": 12,
-          "telegram_url": "https://t.me/c/3974971985/33/65"
+          "number": 12
         }
       ],
-      "thread_id": 33,
+      "thread_id": 1386,
       "oficial": {
         "name": "Buscar en YouTube",
         "url": "https://www.youtube.com/results?search_query=GAP+The+Series+EP1",
@@ -2338,71 +2356,59 @@
       ],
       "poster": "series/Girl Rules/folder.jpg",
       "banner": "series/Girl Rules/backdrop.jpg",
-      "topic_url": "https://t.me/c/3974971985/71",
+      "topic_url": "https://t.me/c/3974971985/1390",
       "total_episodes": 12,
       "episodes": [
         {
           "season": 1,
-          "number": 1,
-          "telegram_url": "https://t.me/c/3974971985/71/78"
+          "number": 1
         },
         {
           "season": 1,
-          "number": 2,
-          "telegram_url": "https://t.me/c/3974971985/71/79"
+          "number": 2
         },
         {
           "season": 1,
-          "number": 3,
-          "telegram_url": "https://t.me/c/3974971985/71/80"
+          "number": 3
         },
         {
           "season": 1,
-          "number": 4,
-          "telegram_url": "https://t.me/c/3974971985/71/81"
+          "number": 4
         },
         {
           "season": 1,
-          "number": 5,
-          "telegram_url": "https://t.me/c/3974971985/71/82"
+          "number": 5
         },
         {
           "season": 1,
-          "number": 6,
-          "telegram_url": "https://t.me/c/3974971985/71/83"
+          "number": 6
         },
         {
           "season": 1,
-          "number": 7,
-          "telegram_url": "https://t.me/c/3974971985/71/84"
+          "number": 7
         },
         {
           "season": 1,
-          "number": 8,
-          "telegram_url": "https://t.me/c/3974971985/71/85"
+          "number": 8
         },
         {
           "season": 1,
-          "number": 9,
-          "telegram_url": "https://t.me/c/3974971985/71/86"
+          "number": 9
         },
         {
           "season": 1,
-          "number": 10,
-          "telegram_url": "https://t.me/c/3974971985/71/87"
+          "number": 10
         },
         {
           "season": 1,
-          "number": 11,
-          "telegram_url": "https://t.me/c/3974971985/71/88"
+          "number": 11
         },
         {
           "season": 1,
-          "number": 12,
-          "telegram_url": "https://t.me/c/3974971985/71/89"
+          "number": 12
         }
       ],
-      "thread_id": 71,
+      "thread_id": 1390,
       "oficial": {
         "name": "YouTube GMMTV",
         "url": "https://www.youtube.com/playlist?list=PLszepnkojZI4ZBU4Jc-glRbaPZMfQ84B1",
