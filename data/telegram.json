@@ -3470,7 +3470,7 @@
       "created_by_bot": true,
       "ficha_msg": 387,
       "list_msg": 388,
-      "list_hash": "d713d875a891f65f09b364b10e18b1f1",
+      "list_hash": "55d51c026388b46fde802acff023ffb1",
       "ficha_hash": "52716443d645e88bfb17cda5dc699804",
       "episodes": [
         {
@@ -3478,6 +3478,12 @@
           "number": 1,
           "msg_id": 928,
           "url": "https://t.me/c/3974971985/386/928"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 1423,
+          "url": "https://t.me/c/3974971985/386/1423"
         }
       ]
     },
@@ -6100,7 +6106,7 @@
       ]
     }
   },
-  "offset": 259609792,
+  "offset": 259609803,
   "deleted_threads": [
     4,
     33,
