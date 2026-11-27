@@ -2538,7 +2538,7 @@
       "thread_id": 313,
       "topic_url": "https://t.me/c/3974971985/313",
       "list_msg": 315,
-      "list_hash": "5506820590a249674f9d5160aaba74e3",
+      "list_hash": "dc6d69e9fc40481710727ae53d5050a7",
       "episodes": [
         {
           "season": 1,
@@ -2551,6 +2551,12 @@
           "number": 2,
           "msg_id": 1079,
           "url": "https://t.me/c/3974971985/313/1079"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1424,
+          "url": "https://t.me/c/3974971985/313/1424"
         }
       ]
     },
@@ -2614,7 +2620,7 @@
       "thread_id": 321,
       "topic_url": "https://t.me/c/3974971985/321",
       "list_msg": 323,
-      "list_hash": "0966e89271622608892811aa4f372819",
+      "list_hash": "51bb12e62f555ce9166ffcbb87e12325",
       "episodes": [
         {
           "season": 1,
@@ -2645,6 +2651,18 @@
           "number": 5,
           "msg_id": 1048,
           "url": "https://t.me/c/3974971985/321/1048"
+        },
+        {
+          "season": 1,
+          "number": 6,
+          "msg_id": 1427,
+          "url": "https://t.me/c/3974971985/321/1427"
+        },
+        {
+          "season": 1,
+          "number": 7,
+          "msg_id": 1428,
+          "url": "https://t.me/c/3974971985/321/1428"
         }
       ]
     },
@@ -5580,7 +5598,7 @@
       "created_by_bot": true,
       "ficha_msg": 523,
       "list_msg": 524,
-      "list_hash": "d2d9b858ba3270a3dd266706b738c1e2",
+      "list_hash": "1c3a8ccc750c2f75286e27a0f022b1a9",
       "ficha_hash": "9880cac04baa61a747b4698a9d019f0b",
       "episodes": [
         {
@@ -5624,6 +5642,24 @@
           "number": 7,
           "msg_id": 629,
           "url": "https://t.me/c/3974971985/522/629"
+        },
+        {
+          "season": 1,
+          "number": 8,
+          "msg_id": 1429,
+          "url": "https://t.me/c/3974971985/522/1429"
+        },
+        {
+          "season": 1,
+          "number": 9,
+          "msg_id": 1430,
+          "url": "https://t.me/c/3974971985/522/1430"
+        },
+        {
+          "season": 1,
+          "number": 10,
+          "msg_id": 1431,
+          "url": "https://t.me/c/3974971985/522/1431"
         }
       ]
     },
@@ -5633,7 +5669,7 @@
       "created_by_bot": true,
       "ficha_msg": 527,
       "list_msg": 528,
-      "list_hash": "02794c107199c8bd30ddeda9a479b5aa",
+      "list_hash": "eb790b4d50019be384af3c871f52b049",
       "ficha_hash": "057b954650a0eadb1e3509a7adc32a40",
       "episodes": [
         {
@@ -5641,6 +5677,18 @@
           "number": 1,
           "msg_id": 622,
           "url": "https://t.me/c/3974971985/526/622"
+        },
+        {
+          "season": 1,
+          "number": 2,
+          "msg_id": 1425,
+          "url": "https://t.me/c/3974971985/526/1425"
+        },
+        {
+          "season": 1,
+          "number": 3,
+          "msg_id": 1426,
+          "url": "https://t.me/c/3974971985/526/1426"
         }
       ]
     },
@@ -6106,7 +6154,7 @@
       ]
     }
   },
-  "offset": 259609814,
+  "offset": 259609823,
   "deleted_threads": [
     4,
     33,
