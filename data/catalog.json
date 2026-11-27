@@ -9093,9 +9093,10 @@
       ],
       "thread_id": 522,
       "oficial": {
-        "name": "Buscar en YouTube",
-        "url": "https://www.youtube.com/results?search_query=Third+Person+EP1",
-        "gratis": true
+        "name": "YouTube OfficialInvictus",
+        "url": "https://www.youtube.com/@OfficialInvictus/search?query=Third%20Person",
+        "gratis": true,
+        "playlist": false
       }
     },
     {
